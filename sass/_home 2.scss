@@ -1,0 +1,268 @@
+.home-slogan-container {
+  text-align: center;
+}
+
+.home-slogan {
+  margin: 40px auto;
+  padding: 25px 25px 0;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 500;
+  max-width: 650px;
+}
+
+.home-slogan-logos {
+  margin: 25px 0;
+}
+
+.home-join-us-container {
+  margin: 25px 0;
+  padding: 25px;
+  font-size: 15px;
+  line-height: 23px;
+  width: 100%;
+
+  .home-campus-logo {
+    margin: 25px 0;
+    width: 100%;
+    max-width: 491px;
+    max-height: 428px;
+  }
+
+  .excursions-img {
+    margin: 25px 0;
+    width: 100%;
+    max-width: 300px!important;
+    max-height: 400px!important;
+  }
+
+  .home-campus-text {
+    margin-left: 50px;
+    max-width: 550px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .home-join-us-learn-more {
+    margin-top: 25px;
+    color: $light-gray-text;
+    font-weight: bold;
+  }
+
+  .home-join-us-learn-more-icon {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 960px) {
+  .home-join-us-container {
+    .home-campus-text {
+      margin: 0;
+    }
+  }
+}
+
+@media (max-width: 431px) {
+  .home-join-us-container {
+    .home-campus-logo {
+      width: 100%;
+    }
+  }
+}
+
+.home-join-us-title {
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: bold;
+  margin: 25px 0;
+  text-align: left;
+}
+
+.home-campus-img {
+  width: 100%;
+}
+
+.home-section-why-join-avatar {
+  margin-bottom: 35px;
+
+  img {
+    height: 118px;
+  }
+}
+
+.home-section-why-join-title {
+  font-size: 22px;
+  line-height: 29px;
+  font-weight: 500;
+  text-align: left;
+  max-width: 550px;
+  margin: 5px auto;
+}
+
+.home-section-why-join-description {
+  max-width: 550px;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.home-section-why-join-container {
+  text-align: center;
+}
+
+.home-section-why-join-disclaimer {
+  margin: 50px 0 0;
+  font-size: 12px;
+  line-height: 16px;
+  color: #787878;
+text-align: center;
+}
+
+.home-section-slogan {
+  font-size: 30px;
+  line-height: 40px;
+  margin: 25px 0;
+  padding: 0 25px;
+}
+
+@media (max-width: 431px) {
+  .home-section-why-join-description {
+    display: none;
+  }
+
+  .home-section-slogan {
+    font-size: 22px;
+    line-height: 29px;
+  }
+}
+
+.home-eligible-container {
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 23px;
+  max-width: 1440px;
+  text-align: left;
+
+  .home-eligible-img-container {
+    text-align: center;
+
+    img {
+      width: 100%;
+      max-width: 622px;
+      max-height: 423px;
+    }
+  }
+
+  .home-eligible-text {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+  }
+
+  .home-eligible-wrapper {
+    max-width: 622px;
+    margin: 0 auto;
+    text-align: left;
+    padding-right: 25px;
+  }
+}
+
+.home-about-us-title {
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.home-about-us-subtext {
+  font-size: 22px;
+  line-height: 29px;
+  font-style: normal;
+
+  &.text-center {
+    text-align: center;
+  }
+}
+
+.home-section-info {
+  padding: 25px;
+  text-align: center;
+
+  .home-section-info-wrapper {
+    max-width: 1440px;
+    margin: auto;
+    text-align: left;
+  }
+
+  &.section-why-list {
+    background-color: #f7f5ff;
+    text-align: center;
+  }
+
+  &.logos {
+    background-color: #f9f9f9;
+  }
+
+  &.footer {
+    background-color: #A19E9E;
+  }
+
+  &.program-overview-2 {
+    background-image: url('../public/assets/images/program-overview-intro-bg-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.footer-menu-title {
+  color: #e5e5e5;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer-menu-links {
+  a {
+    font-size: 13px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+.footer-contact-us {
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.spacer {
+  height: 1px;
+  border: none;
+  background-color: #787878;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  line-height: 20px;
+  color: #e5e5e5;
+}
+
+.section-container {
+  margin: 10px;
+}
+
+@media (min-width: 1025px) {
+  .section-container {
+    margin: 50px 100px;
+  }
+}
+
+
+@media (min-width: 1025px) {
+  .excursions-section-container {
+
+    margin-bottom:1px;
+    margin-top: -50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}

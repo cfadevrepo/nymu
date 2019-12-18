@@ -1,0 +1,20 @@
+version: '3'
+services:
+  taipei-dev:
+    tty: true
+    build: .
+    ports:
+      - "4000:4000"
+      - "4001:4001"
+    command: ["npm", "run", "start:dev"]
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+  taipei:
+      build: .
+      ports:
+        - "4000:4000"
+      command: ["npm", "run", "start"]
+      volumes:
+        - .:/usr/src/app
+        - /usr/src/app/node_modules

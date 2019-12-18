@@ -1,0 +1,6 @@
+.ReactModal__Content ReactModal__Content--after-open{
+		     textAlign: 'center';
+		     background-color: 'blue';
+		     width: '50%';
+		     left: '25%';
+}
