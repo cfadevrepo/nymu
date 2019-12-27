@@ -233,7 +233,7 @@ class SideNavBar extends React.Component {
                   },
  		  {
                     label: 'INTERNSHIP HANDBOOK',
-                    to: '/assets/resources/Internship_Handbook_FINAL_HIGH.pdf',
+                    to: '#',
                     normalLink: true,
                   },
 
@@ -266,12 +266,12 @@ class SideNavBar extends React.Component {
                   },
                   {
                     label: 'PROGRAM HANDBOOK',
-                    to: '/assets/resources/Program-Handbook_v.4_040919.pdf',
+                    to: '#',
                     normalLink: true,
                   },
                   {
                     label: 'STUDENT LIFE GUIDEBOOK',
-                    to: '/assets/resources/Student-Life-Guidebook-V.7-04.23.19-FINAL.pdf',
+                    to: '#',
                     normalLink: true,
                   },
                 ]}

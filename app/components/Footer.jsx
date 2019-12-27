@@ -16,28 +16,28 @@ export default class Footer extends React.Component {
                 <p className="footer-menu-title">MENU</p>
                 <div className="footer-menu-links">
                   <p>
-                    <a href="/taiwanoverseas/program-overview/introduction">
+                    <a href="/overseasintaipei/program-overview/introduction">
                       Program Overview
 					  </a>
                   </p>
                   <p>
-                    <a  href="/taiwanoverseas/academics/introduction">
+                    <a  href="/overseasintaipei/academics/introduction">
                       Academics
                     </a>
                   </p>
                   <p>
-                    <a  href="/taiwanoverseas/internship/introduction">
+                    <a  href="/overseasintaipei/internship/introduction">
                       Internship
                     </a>
                   </p>
                   <p>
-                    <a href="/taiwanoverseas/student-life">
+                    <a href="/overseasintaipei/student-life">
                       Student Life
                     </a>
                   </p>
                   <p>
-                    <a href="http://overseas.chineseforall.org/taiwan-university/introduction">
-                      National Taiwan University
+                    <a href="https://nymu-e.ym.edu.tw/bin/home.php">
+                      National Yang Ming University
                     </a>
                   </p>
                   <p>

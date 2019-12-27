@@ -6,4 +6,4 @@ COPY . .
 
 RUN npm install && npm run build
 
-EXPOSE 4000
+EXPOSE 3000

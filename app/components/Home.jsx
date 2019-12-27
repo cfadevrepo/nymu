@@ -25,7 +25,7 @@ export default class Home extends React.PureComponent {
               >
                 <img
                   alt="campus"
-                  src={AssetStore.get('assets/images/placeholder.png')}
+                  src={AssetStore.get('assets/images/nymu2.jpg')}
                   className="home-campus-logo"
                 />
                 <Grid
@@ -183,7 +183,7 @@ export default class Home extends React.PureComponent {
                 >
                   <img
                     alt="campus"
-                    src={AssetStore.get('assets/images/placeholder.png')}
+                    src={AssetStore.get('assets/images/nymu4.jpg')}
                     className="home-eligible-logo"
                   />
                 </Grid>

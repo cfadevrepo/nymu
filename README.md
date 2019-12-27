@@ -38,7 +38,7 @@ docker-compose up taipei-dev
 
 Once the application starts, you will be provided the port number the server is listening on. To test:
 1. Open your favorite web browser.
-2. Enter the URL: http://localhost:4000
+2. Enter the URL: http://localhost:3000
 
 ## Deploying
 ### Install Node tools
@@ -56,5 +56,5 @@ Once the application starts, you will be provided the port number the server is 
 - Enable the modules "mod_proxy" and "mod_proxy_http" within the Apache config.
   - Uncomment the line "LoadModule proxy_module lib/httpd/modules/mod_proxy.so"
   - Uncomment the line "LoadModule proxy_http_module lib/httpd/modules/mod_proxy_http.so"
-  - Add the line "ProxyPass /taiwanoverseas http://localhost:4000/taiwanoverseas"
-  - Add the line "ProxyPassReverse /taiwanoverseas http://localhost:4000/taiwanoverseas"
+  - Add the line "ProxyPass /overseasintaipei http://localhost:4000/overseasintaipei"
+  - Add the line "ProxyPassReverse /overseasintaipei http://localhost:4000/overseasintaipei"

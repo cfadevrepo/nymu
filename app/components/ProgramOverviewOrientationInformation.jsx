@@ -83,7 +83,7 @@ export default class ProgramOverviewOrientationInformation extends React.PureCom
               Pledge, where students sign a pledge to speak only Mandarin Chinese for the duration of the program. 
 				
 			  Students will pay their tuition
-              and fees to NTU, settle into their dorm rooms, obtain their Alien Resident Certificate (ARC) cards, set up bank accounts, buy supplies, and ready
+              and fees to NYMU, settle into their dorm rooms, obtain their Alien Resident Certificate (ARC) cards, set up bank accounts, buy supplies, and ready
               themselves for a demanding year of study and immersion in the new environment of Taipei and NYMU.
             </StyledText>
           </div>

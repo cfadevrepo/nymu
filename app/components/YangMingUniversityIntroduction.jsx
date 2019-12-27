@@ -44,10 +44,10 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
               >
                 <div className="home-eligible-wrapper">
                   <StyledSkinnyTitle>
-                    National Taiwan University
+                    National Yang Ming University
                   </StyledSkinnyTitle>
                   <p>
-                  Founded in 1975, <a href="https://nymu-e.ym.edu.tw/bin/home.php"> National Yang-Ming University</a>  (NYMU) was formerly known as National Yang-Ming College of Medicine. In 1994, it became the first medicine-oriented comprehensive university in Taiwan. As time went on, it established its School of Medical Technology and Engineering (renamed as the School of Biomedical Science and Engineering in 2007), as well as the School of Life Sciences, the Center for General Education, the School of Nursing, and the School of Dentistry. In 2007, the School of Humanities and Social Sciences was established, and in 2008, the Center for General Education was folded into this School. In 2015, the School of Pharmaceutical Sciences officially launched its operation. In addition, NYMU has more than 20 research centers with an emphasis on cancer and immunology, brain research, biophotonics, aging and health, and biomedical engineering.		
+                  Founded in 1975, <a href="https://nymu-e.ym.edu.tw/bin/home.php"> National Yang Ming University</a>  (NYMU) was formerly known as National Yang-Ming College of Medicine. In 1994, it became the first medicine-oriented comprehensive university in Taiwan. As time went on, it established its School of Medical Technology and Engineering (renamed as the School of Biomedical Science and Engineering in 2007), as well as the School of Life Sciences, the Center for General Education, the School of Nursing, and the School of Dentistry. In 2007, the School of Humanities and Social Sciences was established, and in 2008, the Center for General Education was folded into this School. In 2015, the School of Pharmaceutical Sciences officially launched its operation. In addition, NYMU has more than 20 research centers with an emphasis on cancer and immunology, brain research, biophotonics, aging and health, and biomedical engineering.		
                   </p>
                   <p>
                   The School of Humanities and Social Sciences offers a wide range of general education courses: politics, economics, social studies, history, philosophy, art, psychology, etc. The central aim of these courses is to ensure that NYMU students, who often are natural science focused, acquire a firm grounding in the humanities and social sciences.	
@@ -73,7 +73,7 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
               >
                 <StyledSectionImage
                   alt="campus"
-                  src={AssetStore.get('assets/images/placeholder.png')}
+                  src={AssetStore.get('assets/images/nymu5.png')}
                   maxWidth="583"
                   maxHeight="459"
                 />
@@ -148,12 +148,7 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
             xs={6}
             sm={4}
           >
-            <StyledLargeNumber>
-              410
-              <StyledLargeNumberSubtext>
-                FULL TIME FACULTY MEMBERS
-              </StyledLargeNumberSubtext>
-            </StyledLargeNumber>
+         <img  src={AssetStore.get('assets/images/nymu1.jpg')} width='300px' height='200px' />
           </Grid>
           <Grid
             item
@@ -174,14 +169,11 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
             item
             xs={6}
             sm={4}
-            style={{
-              backgroundColor: '#f9f9f9',
-            }}
           >
             <StyledLargeNumber>
-              28
+              410
               <StyledLargeNumberSubtext>
-                PhD PROGRAMS
+                FULL TIME FACULTY MEMBERS
               </StyledLargeNumberSubtext>
             </StyledLargeNumber>
           </Grid>
@@ -204,10 +196,14 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
             item
             xs={6}
             sm={4}
-            style={{
-              backgroundColor: '#f9f9f9',
-            }}
-          />
+          >
+            <StyledLargeNumber>
+              28
+              <StyledLargeNumberSubtext>
+                PhD PROGRAMS
+              </StyledLargeNumberSubtext>
+            </StyledLargeNumber>
+          </Grid>
         </Grid>
         <Grid
           container
@@ -222,7 +218,7 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
             }}
           >
             <StyledSectionImage
-              src={AssetStore.get('assets/images/placeholder.png')}
+              src={AssetStore.get('assets/images/nymu-courses.jpg')}
               alignRight
               maxWidth="730"
               maxHeight="469"
@@ -279,133 +275,32 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
             }}
           >
             <StyledSectionImage
-              src={AssetStore.get('assets/images/placeholder.png')}
+              src={AssetStore.get('assets/images/nymu6.jpg')}
               alignRight
               maxWidth="709"
               maxHeight="427"
             />
           </Grid>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            style={{
+              textAlign: 'right',
+            }}
+          >
+            <StyledSectionImage
+              src={AssetStore.get('assets/images/nymu7.jpg')}
+              alignRight
+              maxWidth="730"
+              maxHeight="469"
+            />
+          </Grid>
         </Grid>
         <br />
-        <StyledUserLinksContainer>
-          <StyledSkinnyTitle2>
-            NTU Resources
-          </StyledSkinnyTitle2>
-          <StyledShortUnderline
-            style={{
-              margin: 'auto',
-            }}
-          />
           <br />
           <br />
           <br />
-          <Grid
-            container
-            justify="center"
-            alignContent="center"
-            spacing={40}
-          >
-            <Grid item>
-              <ul
-                style={{
-                  listStyle: 'none',
-                  textAlign: 'left',
-                }}
-              >
-                <StyledListItem>
-                  <LearnMore
-                    text="National Taiwan University (NTU)"
-                    center={false}
-					 href="https://www.ntu.edu.tw/english/index.html" 
-                    style={{
-                      fontSize: '14px',
-                    }}
-                  />
-                </StyledListItem>
-                <StyledListItem>
-                  <LearnMore
-                    text="International Chinese Language Program (ICLP)"
-                    center={false}
-					 href = "https://iclp.ntu.edu.tw/"
-                    style={{
-                      fontSize: '14px',
-                    }}
-                  />
-                </StyledListItem>
-                <StyledListItem>
-                  <LearnMore
-                    text="NTU Campus Map"
-                    center={false}
-					href ="https://www.ntu.edu.tw/english/about/map.html"
-                    style={{
-                      fontSize: '14px',
-                    }}
-                  />
-                </StyledListItem>
-                <StyledListItem>
-                  <LearnMore
-                    text="National Taiwan University Library"
-                    center={false}
-					 href="http://www.lib.ntu.edu.tw/en"
-                    style={{
-                      fontSize: '14px',
-                    }}
-                  />
-                </StyledListItem>
-              </ul>
-            </Grid>
-            <Grid item>
-              <ul
-                style={{
-                  listStyle: 'none',
-                  textAlign: 'left',
-                }}
-              >
-                <StyledListItem>
-                  <LearnMore
-                    text="NTU Computer Center"
-                    center={false}
-					href = "http://www.cc.ntu.edu.tw/english/"
-                    style={{
-                      fontSize: '14px',
-                    }}
-                  />
-                </StyledListItem>
-                <StyledListItem>
-                  <LearnMore
-                    text="NTU Sport Center"
-                    center={false}
-					
-					href= "https://ntusportscenter.ntu.edu.tw/#/"
-                    style={{
-                      fontSize: '14px',
-                    }}
-                  />
-                </StyledListItem>
-                <StyledListItem>
-                  <LearnMore
-                    text="NTU Student Clubs list"
-                    center={false}
-					href = "http://activity.osa.ntu.edu.tw/English/Club"
-                    style={{
-                      fontSize: '14px',
-                    }}
-                  />
-                </StyledListItem>
-                <StyledListItem>
-                  <LearnMore
-                    text="MyNTU (student self-service system)"
-                    center={false}
-					href="https://my.ntu.edu.tw/myntu/Default.aspx?lang=eng"
-                    style={{
-                      fontSize: '14px',
-                    }}
-                  />
-                </StyledListItem>
-              </ul>
-            </Grid>
-          </Grid>
-        </StyledUserLinksContainer>
       </div>
     );
   }

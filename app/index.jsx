@@ -36,7 +36,7 @@ class Main extends React.Component {
 
   render() {
     return (
-      <BrowserRouter basename="/taiwanoverseas">
+      <BrowserRouter basename="/overseasintaipei">
         <App />
       </BrowserRouter>
     );

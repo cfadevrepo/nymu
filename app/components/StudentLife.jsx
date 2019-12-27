@@ -225,8 +225,8 @@ export default class StudentLife extends React.PureComponent {
               <StyledGuideLabel>Program Handbook</StyledGuideLabel>
               <p>
                 <StyledLink
-                  target="_blank"
-                  href="/taiwanoverseas/assets/resources/Program-Handbook_v.4_040919.pdf"
+                  
+                  href="#"
                 >
                   DOWNLOAD
                 </StyledLink>
@@ -249,8 +249,8 @@ export default class StudentLife extends React.PureComponent {
               <StyledGuideLabel>Student Life Guidebook</StyledGuideLabel>
               <p>
                 <StyledLink
-                  target="_blank"
-                  href="/taiwanoverseas/assets/resources/Student-Life-Guidebook-V.7-04.23.19-FINAL.pdf"
+                  
+                  href="#"
                 >
                   DOWNLOAD
                 </StyledLink>

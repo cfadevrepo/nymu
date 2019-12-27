@@ -15,7 +15,7 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
         [ //state is by default an object[
         { id: 'Budget Categories', rate: 'Rate', period: 'Period', frequency: 'Frequency', cost: 'Cost',  notes:'Notes' },
           { id: 'Tuition to Overseas Institution', rate: '500', period: '1st Semester', frequency: 1, cost: 500,  notes:'Tuition for one 3-credit direct enrollment course and access to NYMU facilities' },
-          { id: 'Writing Costs', rate: '50', period: 'N/A', frequency: 4, cost: 200,  notes:'Every time funds are wired to Taiwan, there is a bank charge; your bank fees may vary.' },
+          { id: 'Wiring Costs', rate: '50', period: 'N/A', frequency: 4, cost: 200,  notes:'Every time funds are wired to Taiwan, there is a bank charge; your bank fees may vary.' },
           { id: 'Textbooks, Handouts, Materials', rate: '300', period: 'Academic Year', frequency: 1, cost: 300,  notes:'Paid to Taiwan Center on site' },
           { id: 'Administrative Fees', rate: '300', period: 'Academic Year', frequency: 1, cost: 300,  notes:'Administrative fees to Taiwan Program for facilitation of visas, internship contracts, transcripts, and other required documents.' },
       ], 
@@ -46,29 +46,8 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
           { id: 'Food/Meals', rate: '500', period: 'Month', frequency: 10, cost: 5000,  notes:'Meals in Taipei ($500/month for 10 months)' },
           { id: 'Mobile Phone', rate: '40', period: 'Month', frequency: 10, cost: 400,  notes:"Monthly mobile fees (excluding the purchase of a phone)" },
           { id: 'Checked Bags', rate: '100', period: 'Trip', frequency: 2, cost: 200,  notes:"The first checked bag is free; the estimated cost of each additional bag is $100 per trip." },
-        
-        ]
-      ]
-    }
-}
-
- renderTableData(index) {
-   const cost_list = this.state.items[index];
-  return cost_list.map((item, index) => {
-     const { id, rate, period, frequency, cost, notes } = item //destructuring
-     return (
-        <tr key={id}>
-           <td style={{border:'1px solid gray'}}>{id}</td>
-           <td style={{border:'1px solid gray'}}>{index > 0 ? '$' + rate: rate } </td>
-           <td style={{border:'1px solid gray'}}>{period}</td>
-           <td style={{border:'1px solid gray'}}>{frequency}</td>
-           <td style={{border:'1px solid gray'}}>{index > 0 ? '$' + cost: cost}</td>
-           <td style={{border:'1px solid gray'}}>{notes}</td>
-        </tr>
-     )
-  })
-}
-
+        ]]
+    }}
   render() {
     return (
       <div className="home-section-info">
@@ -77,53 +56,134 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
             <StyledTableTitle>
               1. Tuition and Program Fees
             </StyledTableTitle>
-            <div>
-            <table id='costs1' style={{border:'1px solid gray', borderSpacing: '0px'}}>
-               <tbody>
-                  {this.renderTableData(0)}
-               </tbody>
-            </table>
-         </div>
+            <Table
+              width="75%"
+              rows={[
+                {
+                  label: this.state.items[0][1].id,
+                  value: '$' + this.state.items[0][1].cost,
+                },
+                {
+                  label: this.state.items[0][2].id,
+                  value: '$' + this.state.items[0][2].cost,
+                },
+                {
+                  label: this.state.items[0][3].id,
+                  value: '$' + this.state.items[0][3].cost,
+                },
+                {
+                  label: this.state.items[0][4].id,
+                  value: '$' + this.state.items[0][4].cost,
+                },
+              ]}
+            />
             <br />
             <br />
             <StyledTableTitle>
               2. Taiwanese Visa and Insurance
             </StyledTableTitle>
-            <div>
-            <table id='costs1' style={{border:'1px solid gray', borderSpacing: '0px'}}>
-               <tbody>
-                  {this.renderTableData(1)}
-               </tbody>
-            </table>
-         </div>
+            <Table
+              width="75%"
+              rows={[
+                {
+                  label: this.state.items[1][1].id,
+                  value: '$' + this.state.items[1][1].cost,
+                },
+                {
+                  label: this.state.items[1][2].id,
+                  value: '$' + this.state.items[1][2].cost,
+                },
+                {
+                  label: this.state.items[1][3].id,
+                  value: '$' + this.state.items[1][3].cost,
+                },
+                {
+                  label: this.state.items[1][4].id,
+                  value: '$' + this.state.items[1][4].cost,
+                },
+                {
+                  label: this.state.items[1][5].id,
+                  value: '$' + this.state.items[1][5].cost,
+                },
+                {
+                  label: this.state.items[1][6].id,
+                  value: '$' + this.state.items[1][6].cost,
+                },
+                {
+                  label: this.state.items[1][7].id,
+                  value: '$' + this.state.items[1][7].cost,
+                },
+                {
+                  label: this.state.items[1][8].id,
+                  value: '$' + this.state.items[1][8].cost,
+                },
+              ]}
+            />
             <br />
             <br />
             <StyledTableTitle>
               3. Lodging
             </StyledTableTitle>
-            <div>
-            <table id='costs1' style={{border:'1px solid gray', borderSpacing: '0px'}}>
-               <tbody>
-                  {this.renderTableData(2)}
-               </tbody>
-            </table>
-         </div>
+            <Table
+              width="75%"
+              rows={[
+                {
+                  label: this.state.items[2][1].id,
+                  value: '$' + this.state.items[2][1].cost,
+                },
+                {
+                  label: this.state.items[2][2].id,
+                  value: '$' + this.state.items[2][2].cost,
+                },
+                {
+                  label: this.state.items[2][3].id,
+                  value: '$' + this.state.items[2][3].cost,
+                },
+                {
+                  label: this.state.items[2][4].id,
+                  value: '$' + this.state.items[2][4].cost,
+                },
+                {
+                  label: this.state.items[2][5].id,
+                  value: '$' + this.state.items[2][5].cost,
+                },
+              ]}
+            />
+              
             <br />
             <br />
             <StyledTableTitle>
-              4. Estimated Additional Expenses 
+              4. Estimated Travel and Living Expenses
             </StyledTableTitle>
-            <div>
-            <table id='costs1' style={{border:'1px solid gray', borderSpacing: '0px'}}>
-               <tbody>
-                  {this.renderTableData(3)}
-               </tbody>
-            </table>
-         </div>
-         <center>
-         <b> GRAND TOTAL: $18595 </b>
-         Students receive a maximum of $15,000 scholarship to cover the cost of attendance for the entire year.	
-         </center>
+            <Table
+              width="75%"
+              rows={[
+                {
+                  label: this.state.items[3][1].id,
+                  value: '$' + this.state.items[3][1].cost,
+                },
+                {
+                  label: this.state.items[3][2].id,
+                  value: '$' + this.state.items[3][2].cost,
+                },
+                {
+                  label: this.state.items[3][3].id,
+                  value: '$' + this.state.items[3][3].cost,
+                },
+                {
+                  label: this.state.items[3][4].id,
+                  value: '$' + this.state.items[3][4].cost,
+                },
+                {
+                  label: this.state.items[3][5].id,
+                  value: '$' + this.state.items[3][5].cost,
+                },
+              ]}
+              lastRow={{
+                label: 'Grand Total',
+                value: '$18,595',
+              }}
+            />
           </div>
         </div>
       </div>

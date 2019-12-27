@@ -12,7 +12,7 @@ class HomeHero extends React.Component {
     } = this.props;
 
     return (
-	<LazyBackgroundHome placeholder='/taiwanoverseas/assets/images/home-hero-temp.jpg' src='/taiwanoverseas/assets/images/home-hero.png' >
+	<LazyBackgroundHome placeholder='/overseasintaipei/assets/images/home-hero-temp.jpg' src='/overseasintaipei/assets/images/home-hero.png' >
 	
         <div
           style={{

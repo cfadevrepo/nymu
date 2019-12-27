@@ -1,4 +1,6 @@
 import React from 'react';
+import Grid from '@material-ui/core/Grid';
+import AssetStore from '../../lib/AssetStore';
 import {
   StyledTitle,
   StyledText,
@@ -14,31 +16,45 @@ export default class YangMingUniversityHousingOptions extends React.PureComponen
       <div className="home-section-info">
         <div className="home-section-info-wrapper">
           <div className="section-container">
+          <Grid container spacing={1}>
+            <Grid item xs={6}>
             <StyledTitle>
               Housing Options
             </StyledTitle>
             <StyledTableTitle>
-              On Campus
+              All Flagship Students Will Live on Campus
             </StyledTableTitle>
             <StyledText>
-              For students who decide to live on campus, the Chinese Overseas Flagship in Taiwan Program has coordinated with the
-              Office of Student Affairs at NTU to provide Capstone Program students excellent accommodations in the Shui
-              Yuan Dormitory Suites.
+            The Chinese Overseas Flagship in Taiwan Program has coordinated with the Office of Student Affairs at NYMU to provide Capstone Program students excellent accommodations in Dormitory #5.
             </StyledText>
             <StyledText>
-              The Shui Yuan dorms are conveniently located on campus and provide quick accessibility to classes.
+            Dormitory #5 is conveniently located on campus and provides quick accessibility to classes.
             </StyledText>
             <StyledText>
-              Students that choose to live in a dormitory will have a private bedroom and private bathroom. The dorm arrangement is suite
-              style, with five private rooms that share common space. There is a large common laundry room. Electricity, cable, and internet
-              are not included in rent and must be paid separately.
+            Students will have several dorm options. The most expensive is a private bedroom with a small private bathroom. The least expensive dorm arrangement is a quad, with four students sharing a large bedroom and a bathroom. Dormitory #5 also has common spaces, including very basic kitchens, laundry rooms, lounges, and study and workout spaces. Electricity, cable, and internet are not included in rent and must be paid separately.
             </StyledText>
+            </Grid>
+
+          <Grid item xs={6}>
+            <br/> <br/> <br/> <br/> <br/>
+
+          <img
+                  alt="campus"
+                  src={AssetStore.get('assets/images/dorm.png')} 
+                  width='500px' 
+                  height='400px'
+                  align='right'
+                  className="home-campus-logo"
+                />
+
+          </Grid>
+          </Grid>
             <StyledText>
-              <strong>Shui Yuan dorms include:</strong>
+              <strong>Dormitory #5 rooms include:</strong>
             </StyledText>
             <ul>
               <StyledListItem>
-                Bed Frame (there is no mattress; one can be purchased at NTU or elsewhere)
+                Bed Frame (there is no mattress; one can be purchased at NYMU or elsewhere)
               </StyledListItem>
               <StyledListItem>
                 Desk and chair
@@ -47,57 +63,24 @@ export default class YangMingUniversityHousingOptions extends React.PureComponen
                 Clothing wardrobe
               </StyledListItem>
               <StyledListItem>
-                Refrigerator
+                Bureau
               </StyledListItem>
               <StyledListItem>
-                Central AC
+               Bathroom (either private, shared with one other, or with three others)
               </StyledListItem>
               <StyledListItem>
-                Phone
+              Access to basic kitchen, laundry room, common lounges, study area, workout room
               </StyledListItem>
               <StyledListItem>
-                Small, private bathroom, with sink, toilet, and shower
-              </StyledListItem>
-              <StyledListItem>
-                Common area (including a simple kitchen, tables and chairs, and couches)
+              Students will be expected to abide by the dorm regulations, provide a clean and quiet living space, and, most importantly, respect other students and roommates.
               </StyledListItem>
             </ul>
             <br />
             <StyledText>
-              Students will be expected to abide by the dorm regulations, provide a clean and quiet living space,
-              and, most importantly, respect other students and roommates.
-            </StyledText>
-            <StyledText>
-				Learn more about the <a href={"https://ntudorm.prince.com.tw/Introduction_List.aspx"}> Shui Yuan dorms</a>.
-            </StyledText>
-            <StyledText>
-              For a helpful student's perspective on living in the Shui Yuan dorms, visit <a href={"https://philipchang.org/new-student-guide-ntu-shui-yuan-dormitory/"}>this website</a>.
+				    See photos of Dormitory #5 <a href={"https://dorm.ym.edu.tw/files/15-1208-28051,c31-1.php"}> here </a>.
             </StyledText>
             <br />
-            <StyledUnderline />
             <br />
-            <StyledTableTitle>
-              Off Campus
-            </StyledTableTitle>
-            <StyledText>
-              Students who decide to live off-campus are responsible for finding their own housing. All students living
-              off-campus are expected to respect apartment regulations, as well as abide by all national and local laws.
-              Further, off-campus students must still abide by all Flagship Program rules and regulations. Students who choose to live off-campus must have Taiwan Center staff approve their choice of rental unit and housing contract before signing any rental agreement.
-            </StyledText>
-            <StyledText>
-              Some rental websites:
-            </StyledText>
-            <LearnMore
-              text="Tsuei Ma Ma Foundation (recommended by NTU)"
-			  href = "https://rent.tmm.org.tw/"
-              center={false}
-            />
-            <br />
-            <LearnMore
-              text="591 house rental website"
-			  href="https://www.591.com.tw/"
-              center={false}
-            />
           </div>
         </div>
       </div>

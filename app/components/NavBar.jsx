@@ -47,9 +47,6 @@ class NavBar extends React.Component {
               <Link to="/academics/tutoring-support">
                 TUTORING SUPPORT
               </Link>
-              <Link to="/academics/educational-excursions">
-                EDUCATIONAL EXCURSIONS
-              </Link>
               <Link to="/academics/certifications">
                 CERTIFICATIONS
               </Link>
@@ -74,7 +71,7 @@ class NavBar extends React.Component {
               </Link>
 <a
                target = "_blank"
-                href="/taiwanoverseas/assets/resources/Internship_Handbook_FINAL_HIGH.pdf"
+             
               >
                 INTERNSHIP HANDBOOK
               </a>
@@ -89,14 +86,14 @@ class NavBar extends React.Component {
                 INTRODUCTION
               </Link>
               <a
-                target = "_blank"               
-                href="/taiwanoverseas/assets/resources/Program-Handbook_v.4_040919.pdf"
+                            
+                href="#"
               >
                 PROGRAM HANDBOOK
               </a>
               <a
-               target = "_blank"
-                href="/taiwanoverseas/assets/resources/Student-Life-Guidebook-V.7-04.23.19-FINAL.pdf"
+              
+                href="#"
               >
                 STUDENT LIFE GUIDEBOOK
               </a>

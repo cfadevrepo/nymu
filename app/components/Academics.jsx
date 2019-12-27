@@ -36,10 +36,6 @@ export default class Academics extends React.PureComponent {
               to: '/academics/tutoring-support',
             },
             {
-              label: 'EDUCATIONAL EXCURSIONS',
-              to: '/academics/educational-excursions',
-            },
-            {
               label: 'CERTIFICATIONS',
               to: '/academics/certifications',
             },

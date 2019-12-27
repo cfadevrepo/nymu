@@ -5,11 +5,11 @@ import ssr from './ssr';
 
 const app = express();
 const server = http.createServer(app);
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
 
-app.use('/taiwanoverseas/dist', express.static('./dist/app'));
-app.use('/taiwanoverseas/assets', express.static('./public/assets'));
-app.use('/taiwanoverseas/uploads', express.static('./uploads'));
+app.use('/overseasintaipei/dist', express.static('./dist/app'));
+app.use('/overseasintaipei/assets', express.static('./public/assets'));
+app.use('/overseasintaipei/uploads', express.static('./uploads'));
 app.use(noCache());
 app.use(ssr.router);
 var bodyParser = require('body-parser');
@@ -20,7 +20,7 @@ app.use(express.json());
 
 ssr.get('*', async () => ({}));
 
-app.post('/taiwanoverseas/contact-us', (req, res) => {
+app.post('/overseasintaipei/contact-us', (req, res) => {
         const test = req.body;
         const name = req.body.name;
         const email = req.body.email;
@@ -28,7 +28,7 @@ app.post('/taiwanoverseas/contact-us', (req, res) => {
         const message = req.body.message;
         console.log("running");
         console.log(test);
-        res.redirect('/taiwanoverseas/contact/form');
+        res.redirect('/overseasintaipei/contact/form');
     });
 
 
