@@ -148,7 +148,7 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
             xs={6}
             sm={4}
           >
-         <img  src={AssetStore.get('assets/images/nymu1.jpg')} width='300px' height='200px' />
+         <img  src={AssetStore.get('assets/images/nymu1.png')} width='300px' height='200px' />
           </Grid>
           <Grid
             item
@@ -218,7 +218,7 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
             }}
           >
             <StyledSectionImage
-              src={AssetStore.get('assets/images/nymu-courses.jpg')}
+              src={AssetStore.get('assets/images/nymu-courses.png')}
               alignRight
               maxWidth="730"
               maxHeight="469"
@@ -275,7 +275,7 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
             }}
           >
             <StyledSectionImage
-              src={AssetStore.get('assets/images/nymu6.jpg')}
+              src={AssetStore.get('assets/images/nymu6.png')}
               alignRight
               maxWidth="709"
               maxHeight="427"
@@ -290,7 +290,7 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
             }}
           >
             <StyledSectionImage
-              src={AssetStore.get('assets/images/nymu7.jpg')}
+              src={AssetStore.get('assets/images/nymu7.png')}
               alignRight
               maxWidth="730"
               maxHeight="469"
