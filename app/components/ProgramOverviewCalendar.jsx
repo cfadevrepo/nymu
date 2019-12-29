@@ -17,12 +17,12 @@ export default class ProgramOverviewCalendar extends React.PureComponent {
               Calendar
             </StyledTitle>
             <StyledSubtext>
-              Below you will find a preliminary calendar of Key
+              Below you will find a preliminary calendar of Tentative
               Dates for the Fall 2020-Spring 2021 cohort. (These timelines are subject to change.) 
             </StyledSubtext>
             <br />
             <StyledTableTitle>
-              Key Dates for 2020-2021 Fall - Spring Cohort:
+              Tentative Dates for 2020-2021 Fall - Spring Cohort:
             </StyledTableTitle>
             <Table
               title={[

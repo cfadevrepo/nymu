@@ -28,7 +28,7 @@ export default class YangMingUniversityHousingOptions extends React.PureComponen
             The Chinese Overseas Flagship in Taiwan Program has coordinated with the Office of Student Affairs at NYMU to provide Capstone Program students excellent accommodations in Dormitory #5.
             </StyledText>
             <StyledText>
-            Dormitory #5 is conveniently located on campus and provides quick accessibility to classes.
+            Dormitory #5 -- with one building for male students and one for female students -- is conveniently located on campus and provides quick accessibility to classes.
             </StyledText>
             <StyledText>
             Students will have several dorm options. The most expensive is a private bedroom with a small private bathroom. The least expensive dorm arrangement is a quad, with four students sharing a large bedroom and a bathroom. Dormitory #5 also has common spaces, including very basic kitchens, laundry rooms, lounges, and study and workout spaces. Electricity, cable, and internet are not included in rent and must be paid separately.

@@ -185,10 +185,6 @@ class SideNavBar extends React.Component {
                     label: 'TUTORING SUPPORT',
                   },
                   {
-                    to: '/academics/educational-excursions',
-                    label: 'EDUCATIONAL EXCURSIONS',
-                  },
-                  {
                     to: '/academics/certifications',
                     label: 'CERTIFICATIONS',
                   },
@@ -302,7 +298,7 @@ class SideNavBar extends React.Component {
                     to: '/yang-ming-university/introduction',
                   },
                   {
-                    label: 'HOUSING OPTIONS',
+                    label: 'HOUSING',
                     to: 'yang-ming-university/housing-options',
                   },
                 ]}

@@ -29,7 +29,7 @@ export default class YangMingUniversity extends React.PureComponent {
               to: '/yang-ming-university/introduction',
             },
             {
-              label: 'HOUSING OPTIONS',
+              label: 'HOUSING',
               to: '/yang-ming-university/housing-options',
             },
           ]}

@@ -235,9 +235,7 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
               </StyledSkinnyTitle>
               <StyledShortUnderline />
               <StyledSKinnyDescription>
-                Whether your area of interest is business, art history, computer science, music, psychology, economics,
-                or virtually any other academic area, NYMU provides thousands of courses, beginning with undergraduate
-                level classes through to graduate level. 
+                Whether your area of interest is biology, history, computer science, music, psychology, economics, or virtually any other academic area, NYMU provides thousands of courses, beginning with undergraduate level classes through to graduate level. 
 				</StyledSKinnyDescription>
             </StyledSkinnyText>
           </Grid>
@@ -265,7 +263,7 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
                 groups that Capstone Program participants can — and are encouraged to — join.
               </StyledSKinnyDescription>
             </StyledSkinnyText>
-          </Grid>
+            </Grid>
           <Grid
             item
             xs={12}
@@ -296,12 +294,103 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
               maxHeight="469"
             />
           </Grid>
-        </Grid>
+        <Grid
+            item
+            xs={12}
+            sm={6}
+            style={{
+              textAlign: 'left',
+            }}
+          >
+            <StyledUserLinksContainer>
+          <StyledSkinnyTitle2>
+            NYMU Resources
+          </StyledSkinnyTitle2>
+          <StyledShortUnderline
+            style={{
+              margin: 'auto',
+            }}
+          />
+          <br/><br/>
+          
+            <Grid item>
+              <ul
+                style={{
+                  listStyle: 'none',
+                  textAlign: 'center',
+                }}
+              >
+                <StyledListItem>
+                  <LearnMore
+                    text="National Yang Ming University (NYMU)"
+                    center={false}
+					 href="https://nymu-e.ym.edu.tw/bin/home.php" 
+                    style={{
+                      fontSize: '14px',
+                    }}
+                  />
+                </StyledListItem>
+                <StyledListItem>
+                  <LearnMore
+                    text="NYMU Achievements"
+                    center={false}
+					 href = "https://www.ym.edu.tw/top/english/index.html"
+                    style={{
+                      fontSize: '14px',
+                    }}
+                  />
+                </StyledListItem>
+                <StyledListItem>
+                  <LearnMore
+                    text="NYMU Campus Map"
+                    center={false}
+					href ="https://web.ym.edu.tw/ezfiles/133/1133/img/1538/20190718map.png"
+                    style={{
+                      fontSize: '14px',
+                    }}
+                  />
+                </StyledListItem>
+                <StyledListItem>
+                  <LearnMore
+                    text="National Yang Ming University Library"
+                    center={false}
+					 href="https://libweb-e.ym.edu.tw/files/11-1174-17-1.php"
+                    style={{
+                      fontSize: '14px',
+                    }}
+                  />
+                </StyledListItem>
+                <StyledListItem>
+                  <LearnMore
+                    text="NYMU International"
+                    center={false}
+					href = "https://oia.ym.edu.tw/index.php/en-gb/"
+                    style={{
+                      fontSize: '14px',
+                    }}
+                  />
+                </StyledListItem>
+                <StyledListItem>
+                  <LearnMore
+                    text="NYMU Dormitory Photos"
+                    center={false}
+					
+					href= "https://dorm.ym.edu.tw/files/15-1208-28051,c31-1.php"
+                    style={{
+                      fontSize: '14px',
+                    }}
+                  />
+                </StyledListItem>
+              </ul>
+            </Grid>
+            </StyledUserLinksContainer>
+          </Grid>
+          </Grid>
         <br />
           <br />
           <br />
           <br />
-      </div>
+          </div>
     );
   }
 }
