@@ -19,7 +19,7 @@ export default class YangMingUniversityHousingOptions extends React.PureComponen
           <Grid container spacing={1}>
             <Grid item xs={6}>
             <StyledTitle>
-              Housing Options
+              Housing 
             </StyledTitle>
             <StyledTableTitle>
               All Flagship Students Will Live on Campus

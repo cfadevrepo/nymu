@@ -87,7 +87,7 @@ const HERO_DATA = {
   '/yang-ming-university/housing-options': {
     src: 'assets/images/housing-hero.png',
 	placeholder: 'assets/images/housing-hero.png',
-    text: 'Housing Options',
+    text: 'Housing',
   },
   '/contact/team': {
     src: 'assets/images/meet-team.png',

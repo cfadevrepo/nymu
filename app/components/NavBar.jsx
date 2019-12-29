@@ -109,7 +109,7 @@ class NavBar extends React.Component {
                 INTRODUCTION
               </Link>
               <Link to="/yang-ming-university/housing-options">
-                HOUSING OPTIONS
+                HOUSING
               </Link>
             </div>
           </div>
