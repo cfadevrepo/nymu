@@ -76,9 +76,9 @@ export default class YangMingUniversityHousingOptions extends React.PureComponen
               </StyledListItem>
             </ul>
             <br />
-            <StyledText>
+            <StyledTableTitle>
 				    See photos of Dormitory #5 <a href={"https://dorm.ym.edu.tw/files/15-1208-28051,c31-1.php"}> here </a>.
-            </StyledText>
+            </StyledTableTitle>
             <br />
             <br />
           </div>

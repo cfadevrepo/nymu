@@ -28,13 +28,13 @@ const HERO_DATA = {
     text: 'Estimated Costs',
   },
   '/program-overview/orientation-information': {
-    src: 'assets/images/program-orientation-information-hero.png',
-	placeholder: 'program-orientation-information-hero-temp.jpg',
+    src: 'assets/images/orientation.jpg',
+	placeholder: 'orientation.jpg',
     text: 'Orientation Information',
   },
   '/academics/introduction': {
-    src: 'assets/images/academic-intro-hero.png',
-	placeholder: 'assets/images/academic-intro-hero-temp.jpg',
+    src: 'assets/images/teacher.jpg',
+	placeholder: 'assets/images/teacher.jpg',
     text: 'Academics',
     subtext: 'The structure of the Taiwan Capstone Year has been thoughtfully designed to help Flagship students reach their academic and professional goals.',
   },

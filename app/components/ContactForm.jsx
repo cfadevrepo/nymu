@@ -63,7 +63,7 @@ export default class ContactTeam extends React.PureComponent {
                 xs={12}
                 sm={6}
               >
-                <form noValidate method="POST" action="/overseasintaipei/contact-us" autoComplete="off">
+                <form noValidate method="POST" action="/overseasintaipeifall2020/contact-us" autoComplete="off">
                   <TextField
 		    name="name" 
                     id="name"

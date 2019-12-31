@@ -36,7 +36,7 @@ class Main extends React.Component {
 
   render() {
     return (
-      <BrowserRouter basename="/overseasintaipei">
+      <BrowserRouter basename="/overseasintaipeifall2020">
         <App />
       </BrowserRouter>
     );

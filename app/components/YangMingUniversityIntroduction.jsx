@@ -231,11 +231,14 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
           >
             <StyledSkinnyText>
               <StyledSkinnyTitle>
-                Courses
+                Direct Enrollment Courses
               </StyledSkinnyTitle>
               <StyledShortUnderline />
               <StyledSKinnyDescription>
-                Whether your area of interest is biology, history, computer science, music, psychology, economics, or virtually any other academic area, NYMU provides thousands of courses, beginning with undergraduate level classes through to graduate level. 
+              Students can choose a direct enrollment course from more than 80 excellent interdisciplinary course
+offerings at NYMU, all taught in Chinese. Each course has no more than 30 students to facilitate teacher
+and student discussions. Students will be guided to enroll in a course of choice before they depart for
+Taiwan. Students can add or drop during the first two weeks of the semester. Please check out the courses offered during the 2019-2020 academic year <a href="https://docs.google.com/spreadsheets/d/1RoLxiYgpjLLRrwf4F6LzDAVSBqPlah579dCECkvKWCQ/edit?urp=gmail_link"> here </a>.
 				</StyledSKinnyDescription>
             </StyledSkinnyText>
           </Grid>
@@ -258,9 +261,12 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
               </StyledSkinnyTitle>
               <StyledShortUnderline />
               <StyledSKinnyDescription>
-                NYMU provides plenty of facilities on campus, including a comprehensive sports center (which includes a
-                swimming pool), a computer center, the library and many other resources, and hundreds of student clubs and
-                groups that Capstone Program participants can — and are encouraged to — join.
+              NYMU provides plenty of facilities on campus, including a comprehensive sports center (which includes
+a swimming pool), a computer center, the library and many other resources, and a wide variety of
+student clubs and groups that Capstone Program participants can — and are encouraged to — join.
+Some facilities do require a fee. Flagship students will be paying the same rate as NYMU students. The
+NYMU campus is very close (just a few subway stops away) to the most famous Shi Lin Night Market, as
+well as relaxing hot springs and many other sightseeing spots.
               </StyledSKinnyDescription>
             </StyledSkinnyText>
             </Grid>

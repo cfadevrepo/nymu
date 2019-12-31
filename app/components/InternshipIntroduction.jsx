@@ -82,7 +82,7 @@ export default class InternshipIntroduction extends React.PureComponent {
               <p>
                 <StyledLink
                   target="_blank"
-                  href="/overseasintaipei/assets/resources/Internship_Handbook_FINAL_HIGH.pdf"
+                  href="/overseasintaipeifall2020fall2020/assets/resources/Internship_Handbook_FINAL_HIGH.pdf"
                 >
                   DOWNLOAD
                 </StyledLink>
