@@ -58,10 +58,6 @@ professional environment of their internships.
             </p>
             </StyledText2>
             <br />
-            <StyledText2>
-            Domain tutors will help students acquire both domain terminologies and the phraseology that is used by native Mandarin speakers in their specific field of interest. The goal of domain tutoring is not only to help students to dive more deeply into their domain studies and be successful in their direct enrollment classes, but also to prepare students both linguistically and culturally for their second semester internships in various professional environments.
-
-            </StyledText2>
           </div>
         </div>
       </React.Fragment>
