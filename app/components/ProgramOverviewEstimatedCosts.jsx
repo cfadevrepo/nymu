@@ -25,10 +25,9 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
           { id: 'Visa', rate: '160', period: 'Academic Year', frequency: 1, cost: 160,  notes:'Visa application fee to Taipei Economic and Cultural Office (TECO). There will be additional costs for a physical exam, any vaccinations, and passport photos.' },
           { id: 'Visa Health Certificate Certification', rate: '15', period: 'N/A', frequency: 1, cost: 15,  notes:"TECO charges this fee on top of the visa fee to certify a student's Health Certificate." },
           { id: 'Physician Appointment for Health Assessment/Vaccinations', rate: '150', period: 'N/A', frequency: 1, cost: 150,  notes:'In order to have the required Visa Health Certificate filled out, and to receive any suggested vaccinations students must visit their physician.' },
-          { id: 'Travel to Regional TECO Office for Visa', rate: '50', period: 'N/A', frequency: 1, cost: 50,  notes:'While some of our students have been able to apply for their visas by mail, in some cases it may be necessary for students to travel to their regional TECO office and remain there for five days to obtain their visas.'},
-          { id: 'Alien Resident Certificate (ARC) card', rate: '1,000', period: '5 days', frequency: 1000, cost: 300,  notes:'The ARC card functions as a visa extension, and permits students to travel in and out of Taiwan for a year.'},
+          { id: 'Travel to Regional TECO Office for Visa', rate: '1,000', period: '5 days', frequency: 1, cost: 1000,  notes:'While some of our students have been able to apply for their visas by mail, in some cases it may be necessary for students to travel to their regional TECO office and remain there for five days to obtain their visas.'},
+          { id: 'Alien Resident Certificate (ARC) Card', rate: '50', period: 'N/A', frequency: 1, cost: 50,  notes:'The ARC card functions as a visa extension, and permits students to travel in and out of Taiwan for a year.'},
           { id: 'Photos for ARC/Student ID/Membership Card', rate: '20', period: 'N/A', frequency: 1, cost: 20,  notes:'Taiwanese-sized head & shoulders photos in color with a white background'},
-          { id: 'Updated ARC card for internship', rate: '50', period: 'N/A', frequency: 1, cost: 50,  notes:'It is required that students update their ARC cards to “work” status in order to do take part in the internship phase of the program'},
           { id: 'Insurance', rate: '620', period: 'Academic Year', frequency: 1, cost: 620,  notes:'Required CUNY accident and illness insurance provided by CISI. Includes medevac coverage.'},
         ],
         [
@@ -113,10 +112,6 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
                   label: this.state.items[1][7].id,
                   value: '$' + this.state.items[1][7].cost,
                 },
-                {
-                  label: this.state.items[1][8].id,
-                  value: '$' + this.state.items[1][8].cost,
-                },
               ]}
             />
             <br />
@@ -181,7 +176,7 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
               ]}
               lastRow={{
                 label: 'Grand Total',
-                value: '$18,595',
+                value: '$18,545',
               }}
             />
           </div>
