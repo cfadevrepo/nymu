@@ -31,7 +31,10 @@ export default class YangMingUniversityHousingOptions extends React.PureComponen
             Dormitory #5 -- with one building for male students and one for female students -- is conveniently located on campus and provides quick accessibility to classes.
             </StyledText>
             <StyledText>
-            Students will have several dorm options. The most expensive is a private bedroom with a small private bathroom. The least expensive dorm arrangement is a quad, with four students sharing a large bedroom and a bathroom. Dormitory #5 also has common spaces, including very basic kitchens, laundry rooms, lounges, and study and workout spaces. Electricity, cable, and internet are not included in rent and must be paid separately.
+            Pending availability, students will have several dorm options. The most expensive is a private bedroom with a small private bathroom. The mid-range is a double, with a bathroom shared by two. The least expensive dorm arrangement is a quad, with four students sharing a large bedroom and a bathroom. Dormitory #5 also has common spaces, including very basic kitchens, laundry rooms, lounges, and study and workout spaces. Electricity, cable, and internet are not included in rent and must be paid separately.
+            </StyledText>
+            <StyledText>
+            Students who choose a double or quad room will be rooming with Taiwanese students, which is an excellent way for students to increase their target language fluency, and gain firsthand cultural understanding.
             </StyledText>
             </Grid>
 
