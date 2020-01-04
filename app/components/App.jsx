@@ -15,6 +15,7 @@ import StudentLife from './StudentLife';
 import YangMingUniversity from './YangMingUniversity';
 import Contact from './Contact';
 
+
 class App extends React.Component {
   render() {
     return (
@@ -56,9 +57,6 @@ class App extends React.Component {
             <Route
               path="/contact"
               component={Contact}
-            />
-            <Route
-              component={Home}
             />
           </Switch>
         </main>
