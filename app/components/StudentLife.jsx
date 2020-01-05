@@ -2,6 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Hero from './Hero';
 import Footer from './Footer';
+import LazyBackgroundDimensions from './LazyBackgroundDimensions';
 import {
   StyledSkinnyTitle,
   StyledSkinnyText,
@@ -14,6 +15,7 @@ import {
   StyledUserLinksContainer,
   StyledSkinnyTitle2,
   StyledListItem,
+  StyledLargeNumberSubtext,
 } from './program.styles';
 import {
   StyledSectionImage,
@@ -63,12 +65,7 @@ export default class StudentLife extends React.PureComponent {
               textAlign: 'left',
             }}
           >
-            <StyledSectionImage
-              src={AssetStore.get('assets/images/student-life-2.jpg')}
-              alignRight
-              maxWidth="709"
-              maxHeight="427"
-            />
+            <LazyBackgroundDimensions src={AssetStore.get('assets/images/student-life-2.jpg')} placeholder={AssetStore.get('assets/images/student-life-2-compressed.jpg')} width="709" height="427"/>
           </Grid>
         </Grid>
         <Grid
@@ -83,12 +80,9 @@ export default class StudentLife extends React.PureComponent {
               textAlign: 'right',
             }}
           >
-            <StyledSectionImage
-              src={AssetStore.get('assets/images/student-life-3.jpg')}
-              alignRight
-              maxWidth="730"
-              maxHeight="469"
-            />
+
+<LazyBackgroundDimensions src={AssetStore.get('assets/images/student-life-3.jpg')} placeholder={AssetStore.get('assets/images/student-life-3-compressed.jpg')} width="730" height="469"/>
+
           </Grid>
           <Grid
             item
@@ -143,12 +137,8 @@ export default class StudentLife extends React.PureComponent {
               textAlign: 'left',
             }}
           >
-            <StyledSectionImage
-              src={AssetStore.get('assets/images/student-life-5.jpg')}
-              alignRight
-              maxWidth="709"
-              maxHeight="427"
-            />
+            <LazyBackgroundDimensions src={AssetStore.get('assets/images/student-life-5.jpg')} placeholder={AssetStore.get('assets/images/student-life-5-compressed.jpg')} width="709" height="427"/>
+
           </Grid>
         </Grid>
         <Grid
@@ -164,12 +154,7 @@ export default class StudentLife extends React.PureComponent {
               textAlign: 'right',
             }}
           >
-            <StyledSectionImage
-              src={AssetStore.get('assets/images/student-life-4.jpg')}
-              alignRight
-              maxWidth="730"
-              maxHeight="469"
-            />
+                      <LazyBackgroundDimensions src={AssetStore.get('assets/images/student-life-4.jpg')} placeholder={AssetStore.get('assets/images/student-life-4-compressed.jpg')} width="709" height="600"/>
           </Grid>
           <Grid
             item

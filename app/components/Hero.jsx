@@ -29,7 +29,7 @@ const HERO_DATA = {
   },
   '/program-overview/orientation-information': {
     src: 'assets/images/orientation.jpg',
-	placeholder: 'orientation.jpg',
+	placeholder: 'assets/images/orientation-compressed.jpg',
     text: 'Orientation Information',
   },
   '/academics/introduction': {
@@ -75,28 +75,28 @@ const HERO_DATA = {
     text: 'Placement',
   },
   '/student-life': {
-    src: 'assets/images/student-life.png',
-	placeholder: 'assets/images/student-life.png',
+    src: 'assets/images/student-life-compressed.png',
+	placeholder: 'assets/images/student-life-compressed.png',
     text: 'Student Life',
   },
   '/yang-ming-university/introduction': {
     src: 'assets/images/nymu3.jpg',
-	placeholder: 'assets/images/nymu3-temp.png',
+	placeholder: 'assets/images/nymu3-compressed.jpg',
     text: 'National Yang Ming University',
   },
   '/yang-ming-university/housing-options': {
     src: 'assets/images/housing-hero.png',
-	placeholder: 'assets/images/housing-hero.png',
+	placeholder: 'assets/images/housing-hero-compressed.png',
     text: 'Housing',
   },
   '/contact/team': {
     src: 'assets/images/meet-team.png',
-	placeholder: 'assets/images/meet-team.png',
+	placeholder: 'assets/images/meet-team-compressed.png',
     text: 'Meet Our Team',
   },
   '/contact/form': {
     src: 'assets/images/new-team.png',
-	placeholder: 'assets/images/new-team.png',
+	placeholder: 'assets/images/new-team-compressed.png',
     text: 'Contact Us',
   },
 };

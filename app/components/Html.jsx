@@ -13,37 +13,6 @@ function renderApp(app) {
   };
 }
 
-if(module.hot) {
-  console.log("IN RELOAD");
-  const FILE_NAME = 'bundle.css'
-  let file = ''
-  let el = document.querySelector(`link[href*="${AssetStore.get('dist/styles.css')}"]`)
-  let {href} = el
-
-  function httpGet(url, callback) {
-    let xhr = new XMLHttpRequest()
-
-    xhr.addEventListener('load', () => callback(xhr))
-    xhr.open('GET', url)
-    xhr.send()
-  }
-
-  module.hot.accept()
-  module.hot.dispose(() => {
-    let url = `${href}?d=${new Date().getTime()}`
-
-    httpGet(url, ({responseText}) => {
-      if(responseText == file)
-        window.location.reload() // js was changed
-      else
-        el.href = url
-    })
-  })
-
-  httpGet(href, ({responseText}) => {
-    file = responseText
-  })
-}
 
 export default class HTML extends React.Component {
   render() {

@@ -20,6 +20,7 @@ import {
 } from './core.styles';
 import AssetStore from '../../lib/AssetStore';
 import LearnMore from './LearnMore';
+import LazyBackgroundDimensions from './LazyBackgroundDimensions';
 
 export default class YangMingUniversityIntroduction extends React.PureComponent {
   render() {
@@ -71,12 +72,7 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
                   textAlign: 'center',
                 }}
               >
-                <StyledSectionImage
-                  alt="campus"
-                  src={AssetStore.get('assets/images/nymu5.png')}
-                  maxWidth="583"
-                  maxHeight="459"
-                />
+             <LazyBackgroundDimensions src={AssetStore.get('assets/images/nymu5.png')} placeholder={AssetStore.get('assets/images/nymu5-compressed.jpg')} width="583" height="459"/>
               </Grid>
             </Grid>
           </div>
@@ -148,7 +144,7 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
             xs={6}
             sm={4}
           >
-         <img  src={AssetStore.get('assets/images/nymu1.png')} width='300px' height='200px' />
+          <StyledSectionImage src={AssetStore.get('assets/images/nymu1-compressed.png')} maxWidth="200px" maxHeight="100px"/>  
           </Grid>
           <Grid
             item
@@ -217,12 +213,7 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
               textAlign: 'right',
             }}
           >
-            <StyledSectionImage
-              src={AssetStore.get('assets/images/nymu-courses.png')}
-              alignRight
-              maxWidth="730"
-              maxHeight="469"
-            />
+         <LazyBackgroundDimensions src={AssetStore.get('assets/images/nymu-courses.png')} placeholder={AssetStore.get('assets/images/nymu-courses-compressed.jpg')} width="730" height="469"/>  
           </Grid>
           <Grid
             item
@@ -278,12 +269,8 @@ well as relaxing hot springs and many other sightseeing spots.
               textAlign: 'left',
             }}
           >
-            <StyledSectionImage
-              src={AssetStore.get('assets/images/nymu6.png')}
-              alignRight
-              maxWidth="709"
-              maxHeight="427"
-            />
+          <LazyBackgroundDimensions src={AssetStore.get('assets/images/nymu6.png')} placeholder={AssetStore.get('assets/images/nymu6-compressed.jpg')} width="709" height="427"/>
+ 
           </Grid>
           <Grid
             item
@@ -293,12 +280,7 @@ well as relaxing hot springs and many other sightseeing spots.
               textAlign: 'right',
             }}
           >
-            <StyledSectionImage
-              src={AssetStore.get('assets/images/nymu7.png')}
-              alignRight
-              maxWidth="730"
-              maxHeight="469"
-            />
+           <LazyBackgroundDimensions src={AssetStore.get('assets/images/nymu7.png')} placeholder={AssetStore.get('assets/images/nymu7-compressed.jpg')} width="730" height="469"/>
           </Grid>
         <Grid
             item
