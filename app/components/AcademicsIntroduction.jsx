@@ -23,7 +23,7 @@ export default class AcademicsIntroduction extends React.PureComponent {
             >
               <StyledSectionImage
                 alt="students"
-                src={AssetStore.get('assets/images/academics.jpg')}
+                src={AssetStore.get('assets/images/academics-compressed.jpg')}
                 maxWidth="500"
                 maxHeight="386"
               />
