@@ -15,9 +15,11 @@ export default class Home extends React.PureComponent {
         <Hero
           src={AssetStore.get('assets/images/home-hero.png')}
         />
+
         <div className="home-section-info">
           <div className="home-section-info-wrapper">
             <div className="section-container">
+           
               <Grid
                 container
                 alignItems="flex-start"
@@ -25,7 +27,7 @@ export default class Home extends React.PureComponent {
               >
                 <img
                   alt="campus"
-                  src={AssetStore.get('assets/images/nymu2.png')}
+                  src={AssetStore.get('assets/images/nymu-entrance.png')}
                   className="home-campus-logo"
                 />
                 <Grid

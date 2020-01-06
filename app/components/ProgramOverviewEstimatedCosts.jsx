@@ -15,25 +15,19 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
         [ //state is by default an object[
         { id: 'Budget Categories', rate: 'Rate', period: 'Period', frequency: 'Frequency', cost: 'Cost',  notes:'Notes' },
           { id: 'Tuition to Overseas Institution', rate: '500', period: '1st Semester', frequency: 1, cost: 500,  notes:'Tuition for one 3-credit direct enrollment course and access to NYMU facilities' },
-          { id: 'Wiring Costs', rate: '50', period: 'N/A', frequency: 4, cost: 200,  notes:'Every time funds are wired to Taiwan, there is a bank charge; your bank fees may vary.' },
-          { id: 'Textbooks, Handouts, Materials', rate: '300', period: 'Academic Year', frequency: 1, cost: 300,  notes:'Paid to Taiwan Center on site' },
-          { id: 'Administrative Fees', rate: '300', period: 'Academic Year', frequency: 1, cost: 300,  notes:'Administrative fees to Taiwan Program for facilitation of visas, internship contracts, transcripts, and other required documents.' },
+          { id: 'Administrative Fees and Learning Materials', rate: '300', period: 'Academic Year', frequency: 1, cost: 600,  notes:'Administrative fees to Taiwan Program for facilitation of visas, internship contracts, transcripts, and other required documents.' },
       ], 
 
        [
         { id: 'Budget Categories', rate: 'Rate', period: 'Period', frequency: 'Frequency', cost: 'Cost',  notes:'Notes' },
           { id: 'Visa', rate: '160', period: 'Academic Year', frequency: 1, cost: 160,  notes:'Visa application fee to Taipei Economic and Cultural Office (TECO). There will be additional costs for a physical exam, any vaccinations, and passport photos.' },
           { id: 'Visa Health Certificate Certification', rate: '15', period: 'N/A', frequency: 1, cost: 15,  notes:"TECO charges this fee on top of the visa fee to certify a student's Health Certificate." },
-          { id: 'Physician Appointment for Health Assessment/Vaccinations', rate: '150', period: 'N/A', frequency: 1, cost: 150,  notes:'In order to have the required Visa Health Certificate filled out, and to receive any suggested vaccinations students must visit their physician.' },
-          { id: 'Travel to Regional TECO Office for Visa', rate: '1,000', period: '5 days', frequency: 1, cost: 1000,  notes:'While some of our students have been able to apply for their visas by mail, in some cases it may be necessary for students to travel to their regional TECO office and remain there for five days to obtain their visas.'},
           { id: 'Alien Resident Certificate (ARC) Card', rate: '50', period: 'N/A', frequency: 1, cost: 50,  notes:'The ARC card functions as a visa extension, and permits students to travel in and out of Taiwan for a year.'},
-          { id: 'Photos for ARC/Student ID/Membership Card', rate: '20', period: 'N/A', frequency: 1, cost: 20,  notes:'Taiwanese-sized head & shoulders photos in color with a white background'},
           { id: 'Insurance', rate: '620', period: 'Academic Year', frequency: 1, cost: 620,  notes:'Required CUNY accident and illness insurance provided by CISI. Includes medevac coverage.'},
         ],
         [
           { id: 'Budget Categories', rate: 'Rate', period: 'Period', frequency: 'Frequency', cost: 'Cost',  notes:'Notes' },
           { id: 'NYMU Dormitory', rate: '240', period: 'Month', frequency: '10-12', cost: 2880,  notes:'There are several options for dormitory housing at NYMU. The most expensive is a single room with private bath, for $1,440 per semester, or $240/month.  The least expensive is a room shared by four people, with a shared bath, for $690 per semester, or $160/month.  The dormitory also offers access to a basic kitchen and a laundry room.' },
-            { id: 'NYMU Dormitory Security Deposit', rate: '70', period: '1 Semester', frequency: 2, cost: 140,  notes:'A refundable security deposit of $70 per semester; returned to student if room is in good order.' },
             { id: 'Mattress, Bedding, Pillow', rate: '250', period: 'N/A', frequency: 1, cost: 250,  notes:"Taiwanese dormitories do not come with mattresses or bedding, which must be purchased upon arrival." },
             { id: 'Internet', rate: '35', period: 'Month', frequency: '10-12', cost: 420,  notes:'Local Internet cost'},
             { id: 'Utilities', rate: '45', period: 'Month', frequency: '10-12', cost: 540,  notes:'Water, gas, electricity, air conditioning'},
@@ -66,20 +60,12 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
                   label: this.state.items[0][2].id,
                   value: '$' + this.state.items[0][2].cost,
                 },
-                {
-                  label: this.state.items[0][3].id,
-                  value: '$' + this.state.items[0][3].cost,
-                },
-                {
-                  label: this.state.items[0][4].id,
-                  value: '$' + this.state.items[0][4].cost,
-                },
               ]}
             />
             <br />
             <br />
             <StyledTableTitle>
-              2. Taiwanese Visa and Insurance
+              2. International Travel
             </StyledTableTitle>
             <Table
               width="75%"
@@ -99,18 +85,6 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
                 {
                   label: this.state.items[1][4].id,
                   value: '$' + this.state.items[1][4].cost,
-                },
-                {
-                  label: this.state.items[1][5].id,
-                  value: '$' + this.state.items[1][5].cost,
-                },
-                {
-                  label: this.state.items[1][6].id,
-                  value: '$' + this.state.items[1][6].cost,
-                },
-                {
-                  label: this.state.items[1][7].id,
-                  value: '$' + this.state.items[1][7].cost,
                 },
               ]}
             />
@@ -137,10 +111,6 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
                 {
                   label: this.state.items[2][4].id,
                   value: '$' + this.state.items[2][4].cost,
-                },
-                {
-                  label: this.state.items[2][5].id,
-                  value: '$' + this.state.items[2][5].cost,
                 },
               ]}
             />
@@ -176,7 +146,7 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
               ]}
               lastRow={{
                 label: 'Grand Total',
-                value: '$18,545',
+                value: '$17,035',
               }}
             />
           </div>

@@ -80,8 +80,8 @@ const HERO_DATA = {
     text: 'Student Life',
   },
   '/yang-ming-university/introduction': {
-    src: 'assets/images/nymu3.jpg',
-	placeholder: 'assets/images/nymu3-compressed.jpg',
+    src: 'assets/images/nymu-home.png',
+    placeholder: 'assets/images/nymu-home-compressed.png',
     text: 'National Yang Ming University',
   },
   '/yang-ming-university/housing-options': {
