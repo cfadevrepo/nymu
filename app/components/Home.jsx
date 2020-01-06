@@ -7,6 +7,7 @@ import ArrowRight from '@material-ui/icons/ArrowRight';
 import AssetStore from '../../lib/AssetStore';
 import Hero from './HomeHero';
 import Footer from './Footer';
+import LazyBackgroundDimensions from './LazyBackgroundDimensions';
 
 export default class Home extends React.PureComponent {
   render() {
@@ -25,11 +26,9 @@ export default class Home extends React.PureComponent {
                 alignItems="flex-start"
                 className="home-join-us-container"
               >
-                <img
-                  alt="campus"
-                  src={AssetStore.get('assets/images/nymu-entrance.png')}
-                  className="home-campus-logo"
-                />
+                 <img
+                  src={AssetStore.get('assets/images/nymu-entrance-compressed.png')}
+                  className="home-campus-logo" />
                 <Grid
                   item
                   xs={12}
@@ -183,11 +182,7 @@ export default class Home extends React.PureComponent {
                   lg={6}
                   className="home-eligible-img-container"
                 >
-                  <img
-                    alt="campus"
-                    src={AssetStore.get('assets/images/nymu4.png')}
-                    className="home-eligible-logo"
-                  />
+                   <LazyBackgroundDimensions src={AssetStore.get('assets/images/nymu2.png')} placeholder={AssetStore.get('assets/images/nymu2-compressed.jpg')} width="709" height="600"/>
                 </Grid>
               </Grid>
             </div>
