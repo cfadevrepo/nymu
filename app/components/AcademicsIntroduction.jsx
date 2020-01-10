@@ -78,7 +78,7 @@ export default class AcademicsIntroduction extends React.PureComponent {
             </StyledTableTitle>
             
             <StyledTableTitle>
-             Domain Studies in Chinese (Direct Enrollment) -- <a href={AssetStore.get('assets/NYMU-Courses.pdf')}> Click here to see the list of possible NYMU Direct Enrollment classes </a>
+             Domain Studies in Chinese (Direct Enrollment) -- <a target="blank" href={AssetStore.get('assets/NYMU-Courses.pdf')}> Click here to see the list of possible NYMU Direct Enrollment classes </a>
             </StyledTableTitle>
             
             <StyledTableTitle>
