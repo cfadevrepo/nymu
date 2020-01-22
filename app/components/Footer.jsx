@@ -37,7 +37,7 @@ export default class Footer extends React.Component {
                   </p>
                   <p>
                     <a href="https://nymu-e.ym.edu.tw/bin/home.php">
-                      National Yang Ming University
+                      National Yang-Ming University
                     </a>
                   </p>
                   <p>

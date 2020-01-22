@@ -82,7 +82,7 @@ const HERO_DATA = {
   '/yang-ming-university/introduction': {
     src: 'assets/images/nymu-home.png',
     placeholder: 'assets/images/nymu-home-compressed.png',
-    text: 'National Yang Ming University',
+    text: 'National Yang-Ming University',
   },
   '/yang-ming-university/housing-options': {
     src: 'assets/images/housing-hero.png',

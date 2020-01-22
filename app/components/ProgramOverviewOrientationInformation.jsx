@@ -73,7 +73,7 @@ export default class ProgramOverviewOrientationInformation extends React.PureCom
             </StyledText>
             <StyledText>
               To help students as they transition to the culture and city that will be their home for a year, the Taipei
-              Center staff will run a week-long orientation program. There will be presentations and an opportunity for questions and answers, and students will be taken on walking tours of the National Yang Ming University (NYMU) campus
+              Center staff will run a week-long orientation program. There will be presentations and an opportunity for questions and answers, and students will be taken on walking tours of the National Yang-Ming University (NYMU) campus
               and surrounding neighborhoods. There may be a group trip to a nearby historic site or an outing to a
               popular restaurant, and there will be other events to welcome the students to Taipei.
             </StyledText>

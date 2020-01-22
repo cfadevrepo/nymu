@@ -45,10 +45,10 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
               >
                 <div className="home-eligible-wrapper">
                   <StyledSkinnyTitle>
-                    National Yang Ming University
+                    National Yang-Ming University
                   </StyledSkinnyTitle>
                   <p>
-                  Founded in 1975, <a href="https://nymu-e.ym.edu.tw/bin/home.php"> National Yang Ming University</a>  (NYMU) was formerly known as National Yang-Ming College of Medicine. In 1994, it became the first medicine-oriented comprehensive university in Taiwan. As time went on, it established its School of Medical Technology and Engineering (renamed as the School of Biomedical Science and Engineering in 2007), as well as the School of Life Sciences, the Center for General Education, the School of Nursing, and the School of Dentistry. In 2007, the School of Humanities and Social Sciences was established, and in 2008, the Center for General Education was folded into this School. In 2015, the School of Pharmaceutical Sciences officially launched its operation. In addition, NYMU has more than 20 research centers with an emphasis on cancer and immunology, brain research, biophotonics, aging and health, and biomedical engineering.		
+                  Founded in 1975, <a href="https://nymu-e.ym.edu.tw/bin/home.php"> National Yang-Ming University</a>  (NYMU) was formerly known as National Yang-Ming College of Medicine. In 1994, it became the first medicine-oriented comprehensive university in Taiwan. As time went on, it established its School of Medical Technology and Engineering (renamed as the School of Biomedical Science and Engineering in 2007), as well as the School of Life Sciences, the Center for General Education, the School of Nursing, and the School of Dentistry. In 2007, the School of Humanities and Social Sciences was established, and in 2008, the Center for General Education was folded into this School. In 2015, the School of Pharmaceutical Sciences officially launched its operation. In addition, NYMU has more than 20 research centers with an emphasis on cancer and immunology, brain research, biophotonics, aging and health, and biomedical engineering.		
                   </p>
                   <p>
                   The School of Humanities and Social Sciences offers a wide range of general education courses: politics, economics, social studies, history, philosophy, art, psychology, etc. The central aim of these courses is to ensure that NYMU students, who often are natural science focused, acquire a firm grounding in the humanities and social sciences.	
@@ -310,7 +310,7 @@ well as relaxing hot springs and many other sightseeing spots.
               >
                 <StyledListItem>
                   <LearnMore
-                    text="National Yang Ming University (NYMU)"
+                    text="National Yang-Ming University (NYMU)"
                     center={false}
 					 href="https://nymu-e.ym.edu.tw/bin/home.php" 
                     style={{
@@ -340,7 +340,7 @@ well as relaxing hot springs and many other sightseeing spots.
                 </StyledListItem>
                 <StyledListItem>
                   <LearnMore
-                    text="National Yang Ming University Library"
+                    text="National Yang-Ming University Library"
                     center={false}
 					 href="https://libweb-e.ym.edu.tw/files/11-1174-17-1.php"
                     style={{
