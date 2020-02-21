@@ -7,58 +7,24 @@ import {
 import Table from './Table';
 
 export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
-  constructor(props) {
-    super(props) //since we are extending class Table so we have to use super in order to override Component class constructor
-    this.state = {
-      items: [ 
-        
-        [ //state is by default an object[
-        { id: 'Budget Categories', rate: 'Rate', period: 'Period', frequency: 'Frequency', cost: 'Cost',  notes:'Notes' },
-          { id: 'Tuition to Overseas Institution', rate: '500', period: '1st Semester', frequency: 1, cost: 500,  notes:'Tuition for one 3-credit direct enrollment course and access to NYMU facilities' },
-          { id: 'Administrative Fees and Learning Materials', rate: '300', period: 'Academic Year', frequency: 1, cost: 600,  notes:'Administrative fees to Taiwan Program for facilitation of visas, internship contracts, transcripts, and other required documents.' },
-      ], 
-
-       [
-        { id: 'Budget Categories', rate: 'Rate', period: 'Period', frequency: 'Frequency', cost: 'Cost',  notes:'Notes' },
-          { id: 'Visa', rate: '160', period: 'Academic Year', frequency: 1, cost: 160,  notes:'Visa application fee to Taipei Economic and Cultural Office (TECO). There will be additional costs for a physical exam, any vaccinations, and passport photos.' },
-          { id: 'Visa Health Certificate Certification', rate: '15', period: 'N/A', frequency: 1, cost: 15,  notes:"TECO charges this fee on top of the visa fee to certify a student's Health Certificate." },
-          { id: 'Alien Resident Certificate (ARC) Card', rate: '50', period: 'N/A', frequency: 1, cost: 50,  notes:'The ARC card functions as a visa extension, and permits students to travel in and out of Taiwan for a year.'},
-          { id: 'Insurance', rate: '620', period: 'Academic Year', frequency: 1, cost: 620,  notes:'Required CUNY accident and illness insurance provided by CISI. Includes medevac coverage.'},
-        ],
-        [
-          { id: 'Budget Categories', rate: 'Rate', period: 'Period', frequency: 'Frequency', cost: 'Cost',  notes:'Notes' },
-          { id: 'NYMU Dormitory', rate: '240', period: 'Month', frequency: '10-12', cost: 2880,  notes:'There are several options for dormitory housing at NYMU. The most expensive is a single room with private bath, for $1,440 per semester, or $240/month.  The least expensive is a room shared by four people, with a shared bath, for $690 per semester, or $160/month.  The dormitory also offers access to a basic kitchen and a laundry room.' },
-            { id: 'Mattress, Bedding, Pillow', rate: '250', period: 'N/A', frequency: 1, cost: 250,  notes:"Taiwanese dormitories do not come with mattresses or bedding, which must be purchased upon arrival." },
-            { id: 'Internet', rate: '35', period: 'Month', frequency: '10-12', cost: 420,  notes:'Local Internet cost'},
-            { id: 'Utilities', rate: '45', period: 'Month', frequency: '10-12', cost: 540,  notes:'Water, gas, electricity, air conditioning'},
-          ],
-      [
-        { id: 'Budget Categories', rate: 'Rate', period: 'Period', frequency: 'Frequency', cost: 'Cost',  notes:'Notes' },
-        { id: 'Airfare', rate: '2,400', period: 'Round Trip', frequency: 1, cost: 2400,  notes:'Round-trip airfare: from US to Taiwan and Taiwan to US (must be American  Carrier, based on the current airfare range)' },
-        { id: 'In-country Travel and Local Transportation', rate: '3000', period: 'N/A', frequency: 1, cost: 3000,  notes:'In-country travel ($2,500), local transportation ($50 x 10 months). Students will pay travel cost for program-organized trips or personal independent trips.' },
-          { id: 'Food/Meals', rate: '500', period: 'Month', frequency: 10, cost: 5000,  notes:'Meals in Taipei ($500/month for 10 months)' },
-          { id: 'Mobile Phone', rate: '40', period: 'Month', frequency: 10, cost: 400,  notes:"Monthly mobile fees (excluding the purchase of a phone)" },
-          { id: 'Checked Bags', rate: '100', period: 'Trip', frequency: 2, cost: 200,  notes:"The first checked bag is free; the estimated cost of each additional bag is $100 per trip." },
-        ]]
-    }}
   render() {
     return (
       <div className="home-section-info">
         <div className="home-section-info-wrapper">
           <div className="section-container">
             <StyledTableTitle>
-              1. Tuition and Program Fees
+              1. Tuition and Academic Expenses
             </StyledTableTitle>
             <Table
               width="75%"
               rows={[
                 {
-                  label: this.state.items[0][1].id,
-                  value: '$' + this.state.items[0][1].cost,
+                  label: 'TUITION TO OVERSEAS INSTITUTION',
+                  value: '$500',
                 },
                 {
-                  label: this.state.items[0][2].id,
-                  value: '$' + this.state.items[0][2].cost,
+                  label: 'ADMINISTRATIVE FEES',
+                  value: '$500',
                 },
               ]}
             />
@@ -71,20 +37,20 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
               width="75%"
               rows={[
                 {
-                  label: this.state.items[1][1].id,
-                  value: '$' + this.state.items[1][1].cost,
+                  label: 'VISA',
+                  value: '$160',
                 },
                 {
-                  label: this.state.items[1][2].id,
-                  value: '$' + this.state.items[1][2].cost,
+                  label: 'VISA HEALTH CERTIFICATION',
+                  value: '$15',
                 },
                 {
-                  label: this.state.items[1][3].id,
-                  value: '$' + this.state.items[1][3].cost,
+                  label: 'ALIEN RESIDENT CERTIFICATE (ARC) CARD',
+                  value: '$50',
                 },
                 {
-                  label: this.state.items[1][4].id,
-                  value: '$' + this.state.items[1][4].cost,
+                  label: 'INSURANCE',
+                  value: '$620',
                 },
               ]}
             />
@@ -97,59 +63,65 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
               width="75%"
               rows={[
                 {
-                  label: this.state.items[2][1].id,
-                  value: '$' + this.state.items[2][1].cost,
+                  label: 'NYMU DORMITORY',
+                  value: '$2,200',
                 },
                 {
-                  label: this.state.items[2][2].id,
-                  value: '$' + this.state.items[2][2].cost,
+                  label: 'MATTRESS, BEDDING, PILLOW',
+                  value: '$250',
                 },
                 {
-                  label: this.state.items[2][3].id,
-                  value: '$' + this.state.items[2][3].cost,
+                  label: 'INTERNET',
+                  value: '$50',
                 },
                 {
-                  label: this.state.items[2][4].id,
-                  value: '$' + this.state.items[2][4].cost,
+                  label: 'UTILITIES',
+                  value: '$50',
                 },
               ]}
             />
-              
             <br />
             <br />
             <StyledTableTitle>
-              4. Estimated Travel and Living Expenses
+              4. Estimated Additional Expenses
             </StyledTableTitle>
             <Table
               width="75%"
               rows={[
                 {
-                  label: this.state.items[3][1].id,
-                  value: '$' + this.state.items[3][1].cost,
+                  label: 'AIRFARE',
+                  value: '$2,500',
                 },
                 {
-                  label: this.state.items[3][2].id,
-                  value: '$' + this.state.items[3][2].cost,
+                  label: 'LOCAL TRANSPORTATION',
+                  value: '$1,000',
                 },
                 {
-                  label: this.state.items[3][3].id,
-                  value: '$' + this.state.items[3][3].cost,
+                  label: 'BOOKS AND SUPPLIES',
+                  value: '$200',
                 },
                 {
-                  label: this.state.items[3][4].id,
-                  value: '$' + this.state.items[3][4].cost,
+                  label: 'FOOD/MEALS/INCIDENTALS',
+                  value: '$850',
                 },
                 {
-                  label: this.state.items[3][5].id,
-                  value: '$' + this.state.items[3][5].cost,
+                  label: 'MOBILE PHONE',
+                  value: '$50',
+                },
+                {
+                  label: 'CHECKED BAGS',
+                  value: '$100',
                 },
               ]}
               lastRow={{
                 label: 'Grand Total',
-                value: '$17,035',
+                value: '$18,495',
               }}
             />
           </div>
+
+          <h3 style={{color: 'red'}}> PLEASE NOTE: Students who wish to travel independently during weekends/school breaks should budget at least an additional $1,500 of personal finances for this purpose. </h3>
+
         </div>
       </div>
     );
