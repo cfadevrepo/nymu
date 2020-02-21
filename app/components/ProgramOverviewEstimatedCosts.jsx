@@ -120,7 +120,7 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
             />
           </div>
 
-          <div style={{color: 'red', fontSize:'20px'}}> PLEASE NOTE: Students who wish to travel independently during weekends/school breaks should budget at least an additional $1,500 of personal finances for this purpose. </div>
+          <div style={{color: 'red', fontSize:'20px', textDecoration:'underline'}}> PLEASE NOTE: Students who wish to travel independently during weekends/school breaks should budget at least an additional <b>$1,500</b> of personal finances for this purpose. </div>
          
         </div>
       </div>
