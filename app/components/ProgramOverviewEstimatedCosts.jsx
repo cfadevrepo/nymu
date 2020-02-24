@@ -72,11 +72,11 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
                 },
                 {
                   label: 'INTERNET',
-                  value: '$50',
+                  value: '$500',
                 },
                 {
                   label: 'UTILITIES',
-                  value: '$50',
+                  value: '$500',
                 },
               ]}
             />
@@ -102,15 +102,15 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
                 },
                 {
                   label: 'FOOD/MEALS/INCIDENTALS',
-                  value: '$850',
+                  value: '$8,500',
                 },
                 {
                   label: 'MOBILE PHONE',
-                  value: '$50',
+                  value: '$500',
                 },
                 {
                   label: 'CHECKED BAGS',
-                  value: '$100',
+                  value: '$200',
                 },
               ]}
               lastRow={{
