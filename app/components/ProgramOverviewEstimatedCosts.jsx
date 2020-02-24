@@ -24,7 +24,7 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
                 },
                 {
                   label: 'ADMINISTRATIVE FEES',
-                  value: '$500',
+                  value: '$800',
                 },
               ]}
             />
@@ -41,7 +41,7 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
                   value: '$160',
                 },
                 {
-                  label: 'VISA HEALTH CERTIFICATION',
+                  label: 'VISA HEALTH CERTIFICATE CERTIFICATION',
                   value: '$15',
                 },
                 {
