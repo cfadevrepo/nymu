@@ -31,7 +31,8 @@ const resetModalStyle = {
 	textAlign: 'left',
 	width: '40%',
 	height: '55%',
-	left: '25%',
+  left: '25%',
+  padding: '5%'
   }
 };
 	  
@@ -343,8 +344,86 @@ const Modal6 = ({ onRequestClose,  ...otherProps }) => (
 		
 	   <button  onClick={onRequestClose}>close</button>
 		
-	</Modal> 	
-	  );   	  
+
+  </Modal>
+   );  
+  
+  const Modal21 = ({ onRequestClose,  ...otherProps }) => (
+    <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+     
+      <h1>William A. Stanton, Director of NYMU Flagship Project </h1>
+                <p>
+  
+                National Yang Ming University appointed William A. Stanton as
+a Vice President on August 16, 2019. He earlier served from
+August 2017 to July 2019 as a Professor at the Center for
+General Education at National Taiwan University. Dr. Stanton
+also worked for four years as the George K.C. Yeh Distinguished
+Chair Professor and founding director of the Center for Asia
+Policy at National Tsing Hua University (NTHU). From October
+2014 through January 2016, he was also NTHU’s Senior Vice
+President for Global Affairs.
+  
+                </p>
+
+                <p>
+
+
+                Dr. Stanton previously served for 34 years as a U.S. diplomat. His final posting was as Director of
+the American Institute in Taiwan (2009-2012). During his tenure, AIT achieved significant
+progress on a number of key bilateral issues, including Taiwan's entry into the U.S. Visa Waiver
+Program, two major security assistance agreements, increased high-level visits by U.S.
+Government officials, and resolution of trade disputes, including the re-introduction of U.S. beef
+into Taiwan. For his contributions to U.S. exports to Taiwan, Dr. Stanton won the 2011 Charles
+E. Cobb Award for Initiative and Success in Trade Development. For his overall contributions to
+U.S.-Taiwan relations, Taiwan awarded Dr. Stanton the Order of the Brilliant Star with Grand
+Cordon.
+                </p>
+
+                <p>
+
+                Dr. Stanton’s other senior assignments included Deputy Chief of Mission at the U.S. Embassy in
+Seoul, Korea (2006-09) and at the U.S. Embassy in Canberra, Australia (2003-06). During the
+latter assignment, he held the position of Chargé d'affaires ad interim for some 22 months. His
+other Asia-related experience included: two three-year assignments (1987-90 and 1995-98) at
+the U.S. Embassy in Beijing, the second as Minister Counselor for Political Affairs; Deputy
+Director for the Office of Chinese and Mongolian Affairs; and Special Assistant for East Asia and
+Pacific Affairs for the Under Secretary for Political Affairs.
+                </p>
+
+<p>
+
+
+Dr. Stanton also served as: Director of the Office of Egyptian and North African Affairs; Director
+of the Office of UN Political Affairs; Political-Military Affairs Officer in Embassy Islamabad;
+Country Officer for Lebanon; Staff Assistant for the Assistant Secretary for Near East and South
+Asian Affairs; Watch Officer/Editor in the Department of State’s Operations Center; and
+Consular and Political Officer at Embassy Beirut.
+</p>
+
+
+<p>
+
+Dr. Stanton's State Department awards included the Secretary's Career Achievement Award,
+three Superior Honor Awards, one Superior Group Award, and several performance awards. For
+his contributions to the U.S. Forces Korea Command from 2006 to 2009, the U.S. Department of
+the Army awarded Dr. Stanton the Outstanding Civilian Service Medal.
+</p>
+
+<p>
+
+Dr. Stanton earned a B.A., magna cum laude and Phi Beta Kappa, from Fordham University in
+New York and an M.A. and a Ph.D. (1978) in English literature from the University of North
+Carolina at Chapel Hill, which he attended on a National Defense Education Act Fellowship. He
+also spent a year studying at Albert-Ludwigs University in Freiburg, Germany.
+</p>
+
+       <button  onClick={onRequestClose}>close</button>
+      
+    </Modal> 	
+      );  
+
+	  	  
 //end new
   return (
       <div className="home-section-info" style={{ textAlign: 'center',}} >
@@ -383,8 +462,65 @@ const Modal6 = ({ onRequestClose,  ...otherProps }) => (
             <StyledText>
               <strong>Der-lin Chao</strong>
               <br />
-              PI and Project Director
+              PI, Project Director and Site Director
             </StyledText>
+            <br/>
+            <br/>
+            <StyledTableTitle>
+              Taiwan Office
+            </StyledTableTitle>
+            <StyledShortUnderline style={{ display: 'inline-table', }}/>
+            <br />
+            <Grid
+              container
+              justify="center"
+              alignItems="center"
+              spacing={15}
+            >
+              <Grid
+                item
+                xs={12}
+                sm={4}
+              >
+
+				<button style={box} onClick={() => showModal(Modal21)}>
+          <img
+			src={AssetStore.get('assets/images/headshots/william_stanton.png') }
+			style={{ height: 150, width: 150,}} ></img></button>
+				  
+       
+                <StyledText>
+                  <strong>
+                    William A. Stanton
+                  </strong>
+                  <br />
+                  Director of NYMU Flagship Project
+                </StyledText>
+              </Grid>
+
+              <Grid
+                item
+                xs={12}
+                sm={4}
+              >
+
+				<button style={box} >
+          <img
+			src={AssetStore.get('assets/images/headshots/default.jpg') }
+			style={{ height: 150, width: 150,}} ></img></button>
+				  
+       
+                <StyledText>
+                  <strong>
+                  Lisa Kuo
+                  </strong>
+                  <br />
+                  Resident Director
+                </StyledText>
+              </Grid>
+
+
+				</Grid>
             <br />
             <br />
             <StyledTableTitle>
@@ -474,7 +610,7 @@ const Modal6 = ({ onRequestClose,  ...otherProps }) => (
                     Ming-Ying Li
                   </strong>
                   <br />
-                  Direct Enrollment and Internship
+                  Assistant Project Director and Site Director
                 </StyledText>
               </Grid>
            
