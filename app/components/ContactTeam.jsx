@@ -354,8 +354,10 @@ const Modal6 = ({ onRequestClose,  ...otherProps }) => (
       <h1>William A. Stanton, Director of NYMU Flagship Project </h1>
              
               <p>
-
-                Read about Dr. Stanton <a href="https://nymu-e.ym.edu.tw/files/13-1134-41038.php"> here </a>.
+              National Yang-Ming University appointed William A. Stanton as a Vice President on August 16, 2019. He earlier served from August 2017 to July 2019 as a Professor at the Center for General Education at National Taiwan University. Dr. Stanton
+also worked for four years as the George K.C. Yeh Distinguished Chair Professor and founding director of the Center for Asia Policy at National Tsing Hua University (NTHU). From October 2014 through January 2016, he was also NTHU’s Senior Vice
+President for Global Affairs. Please read his wealth of experience in foreign relations  <a href="https://nymu-e.ym.edu.tw/files/13-1134-41038.php"> here. </a>
+             
 </p>
 
        
