@@ -352,7 +352,7 @@ const Modal6 = ({ onRequestClose,  ...otherProps }) => (
     <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
      
       <h1>William A. Stanton, Director of NYMU Flagship Project </h1>
-              iversity in Freiburg, Germany.
+             
               <p>
 
                 Read about Dr. Stanton <a href="https://nymu-e.ym.edu.tw/files/13-1134-41038.php"> here </a>.
