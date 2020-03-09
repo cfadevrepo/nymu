@@ -31,57 +31,39 @@ export default class ProgramOverviewCalendar extends React.PureComponent {
               ]}
               rows={[
                 {
-                  label: 'August 30, 2020',
+                  label: 'September 6, 2020',
                   value: 'Students arrive in Taiwan',
                 },
                 {
-                  label: 'August 31 - September 4, 2020',
+                  label: 'September 7 - September 11, 2020',
                   value: 'In-country orientation',
                 },
                 {
-                  label: 'September 7, 2020',
-                  value: 'Classes begin',
+                  label: 'September 14, 2020',
+                  value: 'NYMU Semester 1 begins',
                 },
                 {
-                  label: 'November 9-13, 2020',
-                  value: 'Midterm Exams',
+                  label: 'January 15, 2021',
+                  value: 'NYMU Semester 1 ends',
                 },
   
                 {
-                  label: 'January 4-8, 2021',
-                  value: 'Final Exams',
+                  label: 'January 16 - February 21, 2021',
+                  value: 'Winter Break (Chinese New Year)',
                 },
           
                 {
-                  label: 'January 11-31, 2021',
-                  value: 'Winter Break',
+                  label: 'February 22, 2021',
+                  value: 'NYMU Semester 2 begins',
                 },
 					  
                 {
-                  label: 'February 1, 2021',
-                  value: 'Internships begin',
+                  label: 'June 25, 2021',
+                  value: 'NYMU Semester 2 ends',
                 },
                 {
-                  label: 'May 21, 2021',
-                  value: 'Internships end',
-                },
-                {
-                  label: 'May 24 - June 11, 2021',
-                  value: 'Superior-Level Language Practicum',
-                },
-     
-                {
-                  label: 'June 14-18, 2021',
-                  value: 'Exit Proficiency Tests',
-                },
-                {
-                  label: 'June 19, 2021',
-                  value: 'Closing ceremony and farewell party',
-                },
-           
-                {
-                  label: 'June 26, 2021',
-                  value: 'Flagship students return to U.S. on or before June 26',
+                  label: 'Early to Mid-July, 2021',
+                  value: 'Flagship students return to U.S.',
                 },
               ]}
             />
