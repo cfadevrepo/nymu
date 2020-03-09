@@ -35,7 +35,7 @@ export default class ProgramOverviewCalendar extends React.PureComponent {
                   value: 'Students arrive in Taiwan',
                 },
                 {
-                  label: 'September 7 - September 11, 2020',
+                  label: 'September 7 through 11, 2020',
                   value: 'In-country orientation',
                 },
                 {
@@ -48,7 +48,7 @@ export default class ProgramOverviewCalendar extends React.PureComponent {
                 },
   
                 {
-                  label: 'January 16 - February 21, 2021',
+                  label: 'January 16 through 21, 2021',
                   value: 'Winter Break (Chinese New Year)',
                 },
           
