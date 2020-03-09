@@ -48,7 +48,7 @@ export default class ProgramOverviewCalendar extends React.PureComponent {
                 },
   
                 {
-                  label: 'January 16 through 21, 2021',
+                  label: 'January 16 to 21, 2021',
                   value: 'Winter Break (Chinese New Year)',
                 },
           
@@ -58,7 +58,7 @@ export default class ProgramOverviewCalendar extends React.PureComponent {
                 },
 					  
                 {
-                  label: 'June 25, 2021',
+                  label: 'Friday, June 25, 2021',
                   value: 'NYMU Semester 2 ends',
                 },
                 {
