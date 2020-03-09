@@ -48,7 +48,7 @@ export default class ProgramOverviewCalendar extends React.PureComponent {
                 },
   
                 {
-                  label: 'January 16 to 21, 2021',
+                  label: 'January 16 to February 21, 2021',
                   value: 'Winter Break (Chinese New Year)',
                 },
           
