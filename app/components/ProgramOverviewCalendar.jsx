@@ -58,7 +58,7 @@ export default class ProgramOverviewCalendar extends React.PureComponent {
                 },
 					  
                 {
-                  label: 'Friday, June 25, 2021',
+                  label: 'June 25, 2021',
                   value: 'NYMU Semester 2 ends',
                 },
                 {
