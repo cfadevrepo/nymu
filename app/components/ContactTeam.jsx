@@ -624,16 +624,7 @@ Daily News Language Center.
                   Student Life Advisor
                 </StyledText>
               </Grid>	
-              <Grid
-                item
-                xs={12}
-                sm={4}
-              ></Grid>
-              <Grid
-                item
-                xs={12}
-                sm={4}
-              ></Grid>		
+  		
     </Grid>
           
             <br />
@@ -727,15 +718,7 @@ Daily News Language Center.
                   University of Hawaii at Manoa
                 </StyledText>
               </Grid>
-				 <Grid
-                item
-                xs={12}
-                sm={4}
-             / ><Grid
-                item
-                xs={12}
-                sm={4}
-             / >
+	
 				
 				</Grid>
             <br />
@@ -834,11 +817,7 @@ Daily News Language Center.
                   Professor Emeritus at National Taiwan Normal University
                 </StyledText>
               </Grid>
-              <Grid
-                item
-                xs={12}
-                sm={8}
-              />
+        
 				  </Grid>
             <StyledCenteredActionButton>
               <strong>Have questions?</strong>
