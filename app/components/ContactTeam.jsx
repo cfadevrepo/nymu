@@ -412,7 +412,7 @@ Daily News Language Center.
 			
 			<br/>  
             <StyledTableTitle>
-              Project Director
+              Project Directors
             </StyledTableTitle>
             <StyledShortUnderline  style={{ display: 'inline-table', }} />
             <br />
@@ -424,6 +424,20 @@ Daily News Language Center.
     <ModalConsumer>
       {({ showModal }) => (
         <Fragment>
+
+
+           <Grid
+              container
+              justify="center"
+              alignItems="center"
+              spacing={15}
+            >
+              <Grid
+                item
+                xs={12}
+                sm={4}
+              >
+
           <button style={box} onClick={() => showModal(Modal1)}>
 			  
 			 <img src={AssetStore.get('assets/images/headshots/DerlinChao.jpg') }
@@ -432,11 +446,33 @@ Daily News Language Center.
 				</button>
 				
 		<br></br>
+
             <StyledText>
               <strong>Der-lin Chao</strong>
               <br />
               PI, Project Director and Site Director
             </StyledText>
+            </Grid>
+            <Grid
+                item
+                xs={12}
+                sm={4}
+              >
+
+			<button style={box} onClick={() => showModal(Modal11)}>
+          <img
+			src={AssetStore.get('assets/images/headshots/MingYingLi.jpg') }
+			style={{ height: 150, width: 150,}} ></img></button>
+       
+                <StyledText>
+                  <strong>
+                    Ming-Ying Li
+                  </strong>
+                  <br />
+                  Assistant Project Director and Site Director
+                </StyledText>
+              </Grid>
+              </Grid>
             <br/>
             <br/>
             <StyledTableTitle>
@@ -567,25 +603,7 @@ Daily News Language Center.
                   Placements, Assessments, and Certificates
                 </StyledText>
               </Grid>
-              <Grid
-                item
-                xs={12}
-                sm={4}
-              >
-
-			<button style={box} onClick={() => showModal(Modal11)}>
-          <img
-			src={AssetStore.get('assets/images/headshots/MingYingLi.jpg') }
-			style={{ height: 150, width: 150,}} ></img></button>
-       
-                <StyledText>
-                  <strong>
-                    Ming-Ying Li
-                  </strong>
-                  <br />
-                  Assistant Project Director and Site Director
-                </StyledText>
-              </Grid>
+            
            
 			<Grid
                 item
@@ -605,12 +623,17 @@ Daily News Language Center.
                   <br />
                   Student Life Advisor
                 </StyledText>
-              </Grid>			
-				 <Grid
+              </Grid>	
+              <Grid
                 item
                 xs={12}
                 sm={4}
-					 > </Grid>
+              ></Grid>
+              <Grid
+                item
+                xs={12}
+                sm={4}
+              ></Grid>		
     </Grid>
           
             <br />
