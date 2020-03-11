@@ -360,10 +360,41 @@ President for Global Affairs. Please read about his wealth of experience in fore
              
 </p>
 
+<button  onClick={onRequestClose}>close</button>
        
       
     </Modal> 	
       );  
+
+
+      const Modal22 = ({ onRequestClose,  ...otherProps }) => (
+        <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+         
+          <h1>Lisa Kuo, Resident Director </h1>
+                 
+                  <p>
+                  Lisa Kuo is the resident director of the Chinese overseas flagship in Taiwan. Before joining the
+program, she was a Mandarin Chinese instructor for such institutes and universities as the
+Orange County Lingual Institute (Costa Mesa, California) and the California State University
+International Program (National Taiwan Chengchi University, Taiwan). Prior, she also worked as
+a music manager for classical and jazz musicians; she facilitated negotiations with international
+music labels (Sony Music, Yamaha Music) and organized world tours and cross-cultural
+collaborations with such organizations as the Taiwan Taoyuan Cultural Bureau. She also has
+twenty years of experience in healthcare administration as a clinical office director.
+                 
+    </p>
+    
+    <p>
+    Ms. Kuo holds a Bachelor of Liberal Arts from National Taiwan University, a Masters in
+Healthcare Administration from the University of La Verne, California, and a Certification in
+Mandarin Chinese Teaching from the World Chinese Language Association and the Mandarin
+Daily News Language Center.
+    </p>
+           
+    <button  onClick={onRequestClose}>close</button>
+          
+        </Modal> 	
+          );  
 
 	  	  
 //end new
@@ -446,9 +477,9 @@ President for Global Affairs. Please read about his wealth of experience in fore
                 sm={4}
               >
 
-				<button style={box} >
+				<button style={box} onClick={() => showModal(Modal22)} >
           <img
-			src={AssetStore.get('assets/images/headshots/default.jpg') }
+			src={AssetStore.get('assets/images/headshots/lisa_kuo.jpg') }
 			style={{ height: 150, width: 150,}} ></img></button>
 				  
        
