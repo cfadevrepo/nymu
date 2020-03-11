@@ -63,27 +63,33 @@ export default class AcademicsIntroduction extends React.PureComponent {
               Semester 1
             </StyledTitle>
             <StyledText2>
-              During the first semester at the Taiwan Overseas Center, students will take four courses, each worth 3
+              During the first semester at the Taiwan Overseas Center, students will take five courses, each worth 1-3
               credits, for a total of 12 credits including:
             </StyledText2>
            
            
-		<StyledTableTitle>
-         Intercultural Communication in Greater China
+            <StyledTableTitle>
+         Intercultural Communication in Greater China (3 credits)
             </StyledTableTitle>
 			  
            
             <StyledTableTitle>
-				  Media in Contemporary Chinese Societies
+				  Media in Contemporary Chinese Societies (3 credits)
             </StyledTableTitle>
             
             <StyledTableTitle>
-             Domain Studies in Chinese (Direct Enrollment) -- <a target="blank" href={AssetStore.get('assets/NYMU-Courses.pdf')}> Click here to see the list of possible NYMU Direct Enrollment classes </a>
+             Domain Research in Chinese (3 credits)
             </StyledTableTitle>
             
             <StyledTableTitle>
-             Domain Research Independent Project in Chinese
+            Advanced Domain Studies in Chinese (1 credit)
             </StyledTableTitle>
+            
+            <StyledTableTitle>
+             Direct Enrollment (2 credits) -- <a target="blank" href={AssetStore.get('assets/NYMU-Courses.pdf')}> Click here to see the list of possible NYMU Direct Enrollment classes </a>
+            </StyledTableTitle>
+            
+           
             
             <StyledTitle
               style={{
@@ -107,7 +113,7 @@ export default class AcademicsIntroduction extends React.PureComponent {
 			    
            
             <StyledTableTitle>
-              Superior-Level Chinese Language Practicum (3 credits)
+              Social and Political Affairs Studies in Chinese (3 credits)
             </StyledTableTitle>
            
 			</div>
