@@ -11,7 +11,7 @@ class SubNavMenu extends React.Component {
       links,
       normalLink = false,
       opened = false,
-      newpage = false
+      newpage = true
     } = this.props;
 
     if (!opened) {
