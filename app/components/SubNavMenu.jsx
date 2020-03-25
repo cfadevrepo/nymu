@@ -26,7 +26,7 @@ class SubNavMenu extends React.Component {
             className="side-menu-list-item"
           >
             {normalLink ? (
-              newpage ? (  <a
+              newpage ? ( <a
                 href={to}
                 target="_blank"
                 className="side-menu-nav-link sub-nav-link"
@@ -40,6 +40,16 @@ class SubNavMenu extends React.Component {
                 {label}
               </a>
             ) : (
+              newpage ? 
+              ( <NavLink
+                to={to}
+                exact
+                target={"_blank"}
+                className="side-menu-nav-link sub-nav-link"
+              >
+                {label}
+              </NavLink>)
+              : (
               <NavLink
                 to={to}
                 exact
@@ -47,7 +57,7 @@ class SubNavMenu extends React.Component {
               >
                 {label}
               </NavLink>
-            )}
+              ))}
           </li>
         ))}
       </ul>
