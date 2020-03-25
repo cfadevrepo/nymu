@@ -21,12 +21,10 @@ class SubNavMenu extends React.Component {
     if (!opened) {
       return null;
     }
-    console.log("newpage:");
-    console.log(this.props);
-    console.log(this.props.newpage);
+
     return (
       <ul className="side-menu-sublist">
-        {links.map(({ to, label }) => (
+        {links.map(({ to, label, newpage }) => (
           <li
             key={to}
             className="side-menu-list-item"
