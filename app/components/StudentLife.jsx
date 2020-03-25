@@ -23,6 +23,7 @@ import {
 import AssetStore from '../../lib/AssetStore';
 import LearnMore from './LearnMore';
 
+
 export default class StudentLife extends React.PureComponent {
   render() {
     const {
@@ -210,8 +211,8 @@ export default class StudentLife extends React.PureComponent {
               <StyledGuideLabel>Program Handbook</StyledGuideLabel>
               <p>
                 <StyledLink
-                  
-                  href="#"
+                  target = "_blank"
+                  href={AssetStore.get('assets/resources/program-handbook.pdf')}
                 >
                   DOWNLOAD
                 </StyledLink>

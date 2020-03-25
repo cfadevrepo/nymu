@@ -262,7 +262,7 @@ class SideNavBar extends React.Component {
                   },
                   {
                     label: 'PROGRAM HANDBOOK',
-                    to: '#',
+                    to: '/assets/resources/program-handbook.pdf',
                     normalLink: true,
                   },
                   {

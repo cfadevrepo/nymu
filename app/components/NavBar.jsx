@@ -4,6 +4,7 @@ import {
   Link,
   withRouter,
 } from 'react-router-dom';
+import AssetStore from '../../lib/AssetStore';
 
 class NavBar extends React.Component {
   render() {
@@ -86,8 +87,8 @@ class NavBar extends React.Component {
                 INTRODUCTION
               </Link>
               <a
-                            
-                href="#"
+                target="_blank"      
+                href={AssetStore.get('assets/resources/program-handbook.pdf')}
               >
                 PROGRAM HANDBOOK
               </a>
