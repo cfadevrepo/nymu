@@ -11,7 +11,7 @@ class SubNavMenu extends React.Component {
       links,
       normalLink = false,
       opened = false,
-      newpage 
+      newpage, 
     } = this.props;
 
     if (!opened) {
@@ -44,7 +44,7 @@ class SubNavMenu extends React.Component {
               ( <NavLink
                 to={to}
                 exact
-                target={"_blank"}
+                target="_blank"
                 className="side-menu-nav-link sub-nav-link"
               >
                 {label}
