@@ -22,6 +22,7 @@ class SubNavMenu extends React.Component {
       return null;
     }
     console.log("newpage:");
+    console.log(this.props);
     console.log(this.props.newpage);
     return (
       <ul className="side-menu-sublist">
