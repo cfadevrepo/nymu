@@ -404,8 +404,7 @@ Daily News Language Center.
                      
                       <p>
                       Liu Laoshi has an M.A. in Teaching Mandarin as Foreign Language from National
-Tsing Hua University. Her thesis focused on the understanding of Chinese 4
-characters idioms. While she was obtaining her M.A., Liu Laoshi interned at the
+Tsing Hua University. Her thesis focused on the understanding of Chinese 4-character idioms. While she was obtaining her M.A., Liu Laoshi interned at the
 Chinese Flagship program at Western Kentucky University (2016-2017). After
 receiving her M.A., she went to Russia as a full-time undergraduate Chinese
 instructor at the Samara Branch of Moscow City Pedagogical University for two
