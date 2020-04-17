@@ -367,7 +367,7 @@ President for Global Affairs. Please read about his wealth of experience in fore
       );  
 
 
-      const Modal22 = ({ onRequestClose,  ...otherProps }) => (
+const Modal22 = ({ onRequestClose,  ...otherProps }) => (
         <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
          
           <h1>Lisa Kuo, Resident Director </h1>
@@ -396,7 +396,55 @@ Daily News Language Center.
         </Modal> 	
           );  
 
-	  	  
+      
+  const Modal23 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>Yen-Ting Liu, Teacher </h1>
+                     
+                      <p>
+                      Liu Laoshi has an M.A. in Teaching Mandarin as Foreign Language from National
+Tsing Hua University. Her thesis focused on the understanding of Chinese 4
+characters idioms. While she was obtaining her M.A., Liu Laoshi interned at the
+Chinese Flagship program at Western Kentucky University (2016-2017). After
+receiving her M.A., she went to Russia as a full-time undergraduate Chinese
+instructor at the Samara Branch of Moscow City Pedagogical University for two
+years. She also has experience working at intensive summer programs, like CLS and
+TISLP in Tainan in 2018, and Princeton in Beijing in 2019.
+        </p>
+        
+               
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              );  
+
+              
+      const Modal24 = ({ onRequestClose,  ...otherProps }) => (
+        <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+         
+          <h1>Shan-yu Guo, Teacher </h1>
+                 
+                  <p>
+                  Guo Laoshi has an M.A. in Teaching Chinese as a Second Language from Chinese
+Culture University. She was a Lecturer in the Department of Sinology at Charles
+University in Prague (2016-2020). Before she was hired by Charles University, she
+was employed at National Chengchi University (2008-2016) and CIEE Taiwan (2010-
+2016). At that time, Guo Laoshi was in charge of Chinese and Business Chinese
+classes, teaching students from the beginner to the advanced level. At the same
+time, she worked for the International Han Institute (2012-2016) as a tutor,
+providing prospective Chinese teachers with specialized professional training in
+Teaching Chinese as a Second Language.
+    </p>
+    
+           
+    <button  onClick={onRequestClose}>close</button>
+          
+        </Modal> 	
+          );  
+
+          
+
 //end new
   return (
       <div className="home-section-info" style={{ textAlign: 'center',}} >
@@ -525,6 +573,57 @@ Daily News Language Center.
                   </strong>
                   <br />
                   Resident Director
+                </StyledText>
+              </Grid>
+
+              </Grid>
+
+              <Grid
+              container
+              justify="center"
+              alignItems="center"
+              spacing={15} >
+
+
+              <Grid
+                item
+                xs={12}
+                sm={4}
+              >
+
+				<button style={box} onClick={() => showModal(Modal23)}>
+          <img
+			src={AssetStore.get('assets/images/headshots/Yen-Ting_Liu.jpg') }
+			style={{ height: 150, width: 150,}} ></img></button>
+				  
+       
+                <StyledText>
+                  <strong>
+                    Yen-Ting Liu
+                  </strong>
+                  <br />
+                
+                </StyledText>
+              </Grid>
+
+              <Grid
+                item
+                xs={12}
+                sm={4}
+              >
+
+				<button style={box} onClick={() => showModal(Modal24)} >
+          <img
+			src={AssetStore.get('assets/images/headshots/Shan-yu_Guo.jpg') }
+			style={{ height: 150, width: 150,}} ></img></button>
+				  
+       
+                <StyledText>
+                  <strong>
+                  Shan-yu Guo
+                  </strong>
+                  <br />
+                 
                 </StyledText>
               </Grid>
 
