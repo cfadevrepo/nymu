@@ -373,7 +373,7 @@ const Modal22 = ({ onRequestClose,  ...otherProps }) => (
           <h1>Lisa Kuo, Resident Director </h1>
                  
                   <p>
-                  Lisa Kuo is the resident director of the Chinese overseas flagship in Taiwan. Before joining the
+                  Lisa Kuo is the resident director of the Chinese Overseas Flagship in Taiwan. Before joining the
 program, she was a Mandarin Chinese instructor for such institutes and universities as the
 Orange County Lingual Institute (Costa Mesa, California) and the California State University
 International Program (National Taiwan Chengchi University, Taiwan). Prior, she also worked as
