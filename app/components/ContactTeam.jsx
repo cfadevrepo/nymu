@@ -400,7 +400,7 @@ Daily News Language Center.
   const Modal23 = ({ onRequestClose,  ...otherProps }) => (
             <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
              
-              <h1>Yen-Ting Liu, Teacher </h1>
+              <h1>Yen-Ting Liu, Full-time Faculty </h1>
                      
                       <p>
                       Liu Laoshi has an M.A. in Teaching Mandarin as Foreign Language from National
@@ -423,7 +423,7 @@ TISLP in Tainan in 2018, and Princeton in Beijing in 2019.
       const Modal24 = ({ onRequestClose,  ...otherProps }) => (
         <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
          
-          <h1>Shan-yu Guo, Teacher </h1>
+          <h1>Shan-yu Guo, Full-time Faculty </h1>
                  
                   <p>
                   Guo Laoshi has an M.A. in Teaching Chinese as a Second Language from Chinese
@@ -602,7 +602,7 @@ Teaching Chinese as a Second Language.
                     Yen-Ting Liu
                   </strong>
                   <br />
-                
+                  Full-time Faculty
                 </StyledText>
               </Grid>
 
@@ -623,7 +623,7 @@ Teaching Chinese as a Second Language.
                   Shan-yu Guo
                   </strong>
                   <br />
-                 
+                  Full-time Faculty
                 </StyledText>
               </Grid>
 
