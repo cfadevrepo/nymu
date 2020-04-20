@@ -442,6 +442,33 @@ Teaching Chinese as a Second Language.
         </Modal> 	
           );  
 
+
+
+  const Modal25 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>April Liu, Internship Coordinator </h1>
+                     
+                      <p>
+                      Liu Laoshi has an M.A. in Drama and Theatre Education from the University of Warwick, and she received her B.A. in Teaching Chinese as a Second Language from Chuong Yuan University. She holds a 2009 Certification of Proficiency in Teaching Chinese as a Second Language, and also in 2007 obtained Certification of Putonghua Proficiency.     
+        </p>
+        
+        <p>
+        After Liu Laoshi completed her graduate degree, she undertook editing the achievement test for students at National Taiwan Normal University in the Mandarin Training Center, and then worked for six years at the Ministry of Education. At the Ministry, she was responsible for the support, administration, and organization of a wide variety of tasks for the overseas Mandarin education department, such as helping schools looking for cooperation opportunities, formulating a cooperation contract between schools, and implementing key performance metrics at work, and more. 
+
+        </p>
+
+
+        <p>
+        From her professional experiences, Liu Laoshi is now equipped with a strong teaching background and insight into the policies behind the Taiwanese educational system. She is familiar with labor regulations and the job market in Taiwan. Combining her background knowledge with her teaching and work experience, she will effectively coordinate official, university, and business resources in Taiwan, in order to best assist Capstone students to obtain well-matched internships.    
+          
+          </p> 
+
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              );  
+
           
 
 //end new
@@ -574,6 +601,29 @@ Teaching Chinese as a Second Language.
                   Resident Director
                 </StyledText>
               </Grid>
+
+              <Grid
+                item
+                xs={12}
+                sm={4}
+              >
+
+				<button style={box} onClick={() => showModal(Modal25)}>
+          <img
+			src={AssetStore.get('assets/images/headshots/April_Liu.png') }
+			style={{ height: 150, width: 150,}} ></img></button>
+				  
+       
+                <StyledText>
+                  <strong>
+                    April Liu
+                  </strong>
+                  <br />
+                  Internship Coordinator
+                </StyledText>
+              </Grid>
+
+
 
               </Grid>
 
