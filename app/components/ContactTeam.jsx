@@ -753,26 +753,7 @@ Teaching Chinese as a Second Language.
               </Grid>
             
            
-			<Grid
-                item
-                xs={12}
-                sm={4}
-              >
-
-			<button style={box} onClick={() => showModal(Modal16)}>
-          <img
-			src={AssetStore.get('assets/images/headshots/ChungYiPeng.jpg') }
-			style={{ height: 150, width: 150,}} ></img></button>
-       
-                <StyledText>
-                  <strong>
-                    Chun-Yi Peng 
-                  </strong>
-                  <br />
-                  Student Life Advisor
-                </StyledText>
-              </Grid>	
-  		
+			
     </Grid>
           
             <br />
