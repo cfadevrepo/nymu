@@ -229,7 +229,7 @@ class SideNavBar extends React.Component {
                   },
  		  {
                     label: 'INTERNSHIP HANDBOOK',
-                    to: '#',
+                    to: '/assets/Internship-Handbook.pdf',
                     normalLink: true,
                   },
 
