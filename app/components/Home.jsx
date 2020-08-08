@@ -40,7 +40,7 @@ export default class Home extends React.PureComponent {
                  Join us in Taipei and change your life!
                   </div>
                   <p>
-                    The Chinese Overseas Flagship in Taiwan Program believes that a change of location can change perspective, and change your life.
+                  Chinese Flagship Overseas Capstone Program in Taiwan believes that a change of location can change perspective, and change your life.
                     The Taiwan Capstone Year provides immersive
                     training in Chinese language and culture.
                   </p>
@@ -165,7 +165,7 @@ export default class Home extends React.PureComponent {
                     </div>
                     <p>
                       Students who have dual citizenship for both
-                      Taiwan and the U.S. are ineligible to participate in the Chinese Overseas Flagship in Taiwan program.
+                      Taiwan and the U.S. are ineligible to participate in the Chinese Flagship Overseas Capstone Program in Taiwan.
 					
 					  Students attending the Capstone Year must be enrolled in one of the U.S. Chinese Flagship Programs.	
 						
@@ -195,7 +195,7 @@ export default class Home extends React.PureComponent {
                 About Us
               </p>
               <p className="home-about-us-subtext text-center">
-                The Chinese Overseas Flagship in Taiwan Program is funded by
+               The Chinese Flagship Overseas Capstone Program in Taiwan is funded by
                 <br />
                 The National Security Education Program and administered by the Hunter College Chinese Flagship Program.
               </p>

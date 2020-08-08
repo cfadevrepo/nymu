@@ -72,7 +72,7 @@ class LogoBar extends React.PureComponent {
               md={4}
               className="language-flagship-logo-text"
             >
-             The Chinese Overseas Flagship in Taiwan 
+            The Chinese Flagship Overseas Capstone Program in Taiwan
             </Grid>
             <Grid
               item

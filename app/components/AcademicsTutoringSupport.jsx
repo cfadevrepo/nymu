@@ -19,7 +19,7 @@ export default class AcademicsTutoringSupport extends React.PureComponent {
               Tutoring Support
             </StyledTitle>
             <StyledText2>
-              Tutoring support is an important feature of the Taipei Capstone year where students can make important
+              Tutoring support is an important feature of the Taiwan Capstone Year where students can make important
               linguistic breakthroughs in this highly individualized instructional format. Among other things, students
               can learn four character idioms, discover the appropriate way to draft a research paper, and ask questions
               about the topics most important to them. There will be one hour of one-on-one tutoring

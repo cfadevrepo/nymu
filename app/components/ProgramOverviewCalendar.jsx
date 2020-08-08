@@ -77,7 +77,7 @@ export default class ProgramOverviewCalendar extends React.PureComponent {
             <br />
             <p>
               In addition to the dates outlined above, the following regular activities will be offered to both
-              cohorts by the Taipei Flagship Overseas Center:
+              cohorts by the Taiwan Flagship Overseas Center:
             </p>
             <ul>
               <StyledListItem>

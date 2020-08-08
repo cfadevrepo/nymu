@@ -20,7 +20,7 @@ export default class AcademicsCreditsTranscript extends React.PureComponent {
               Credits
             </StyledTitle>
             <StyledText2>
-              The Capstone Year Program at the Chinese Overseas Flagship in Taiwan is designed so students who complete
+              The Capstone Year Program at The Chinese Flagship Overseas Capstone Program in Taiwan is designed so students who complete
               all aspects of the program will earn 24 credits. The credits are broken down as follows:
             </StyledText2>
             
@@ -96,7 +96,7 @@ export default class AcademicsCreditsTranscript extends React.PureComponent {
               Transcripts
             </StyledTitle>
             <StyledText>
-              Transcripts for the Capstone Year Program at the Chinese Overseas Flagship in Taiwan Program can be issued in two
+              Transcripts for the Chinese Flagship Overseas Capstone Program in Taiwan can be issued in two
               ways.
             </StyledText>
             <StyledText>

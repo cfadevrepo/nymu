@@ -32,7 +32,7 @@ export default class HTML extends React.Component {
       <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>The Chinese Overseas Flagship in Taiwan</title>
+        <title>The Chinese Flagship Overseas Capstone Program in Taiwan</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
         <style id="jss-server-side">
