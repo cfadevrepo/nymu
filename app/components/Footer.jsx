@@ -120,7 +120,7 @@ export default class Footer extends React.Component {
 			
             <hr className="spacer" />
             <p className="footer-copyright">
-              © Copyright 2019 “The Chinese Flagship Overseas Capstone Program in Taiwan”
+              © Copyright 2019 The Chinese Flagship Overseas Capstone Program in Taiwan
             </p>
 			  
 		   <p className="footer-copyright">
