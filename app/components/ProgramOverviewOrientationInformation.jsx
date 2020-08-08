@@ -66,20 +66,20 @@ export default class ProgramOverviewOrientationInformation extends React.PureCom
               In-Country Orientation
             </StyledTableTitle>
             <StyledText>
-              The Chinese Overseas Flagship in Taiwan Program students will arrive in Taipei excited about their year abroad and eager to begin life in a
+              Taiwan Program students will arrive in Taipei excited about their year abroad and eager to begin life in a
               different country and culture. But adjusting to such a new and different place can be difficult.
               Everything -- the food, the money, the transportation system, the teaching style of the professors, the
               interactions in marketplaces, and so much more -- is different than it is back home in the U.S.
             </StyledText>
             <StyledText>
-              To help students as they transition to the culture and city that will be their home for a year, the Taipei
+              To help students as they transition to the culture and city that will be their home for a year, the Taiwan
               Center staff will run a week-long orientation program. There will be presentations and an opportunity for questions and answers, and students will be taken on walking tours of the National Yang-Ming University (NYMU) campus
               and surrounding neighborhoods. There may be a group trip to a nearby historic site or an outing to a
               popular restaurant, and there will be other events to welcome the students to Taipei.
             </StyledText>
             <StyledText>
-              The In-Country Orientation is an opportunity for students to get to know the staff and advisors at the Taipei Center
-              and their fellow participants in the Chinese Overseas Flagship in Taiwan Program. There will be a Language
+              The In-Country Orientation is an opportunity for students to get to know the staff and advisors at the Taiwan Center
+              and their fellow participants in the Taiwan Program. There will be a Language
               Pledge, where students sign a pledge to speak only Mandarin Chinese for the duration of the program. 
 				
 			  Students will pay their tuition
