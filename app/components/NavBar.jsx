@@ -48,6 +48,9 @@ class NavBar extends React.Component {
               <Link to="/academics/tutoring-support">
                 TUTORING SUPPORT
               </Link>
+              <Link to="/academics/educational-excursions">
+                EDUCATIONAL EXCURSIONS
+              </Link>
               <Link to="/academics/certifications">
                 CERTIFICATIONS
               </Link>
@@ -70,9 +73,9 @@ class NavBar extends React.Component {
               <Link to="/internship/placement">
                 PLACEMENT
               </Link>
-              <a
-                target="_blank"
-                href={AssetStore.get('assets/Internship-Handbook.pdf')}
+<a
+               target = "_blank"
+             
               >
                 INTERNSHIP HANDBOOK
               </a>

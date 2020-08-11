@@ -1,6 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import AssetStore from '../../lib/AssetStore';
+import ReactPlayer from 'react-player'
 
 export default class AcademicsEducationalExcursions extends React.PureComponent {
   render() {
@@ -47,39 +48,12 @@ export default class AcademicsEducationalExcursions extends React.PureComponent 
                 className="home-eligible-container"
                 justify="center"
               >
-                <Grid
-                  item
-                  xs={12}
-                  lg={6}
-                  className="home-eligible-text"
-                >
-                  <div
-                    className="home-eligible-wrapper"
-                    style={{
-                      marginTop: '200px',
-                    }}
-                  >
-                    <div className="home-join-us-title">
-                    Behold a Unique Ancient Ritual
-                    </div>
-                    <p>
-                    During the second semester, students will visit a town in the south of Taiwan, Beigang, and witness the traditional Dajia Mazu Pilgrimage, a religious and cultural procession with rituals that are unique to the Chinese traditional religion, and which has been preserved only in Taiwan.
-                    </p>
-                  </div>
+              <div className="home-join-us-title">
+                To see what the Taiwan Program first cohort's aboriginal excursion was like, please watch this video of their trip.
+              </div>
+              <iframe src="https://drive.google.com/file/d/1b1y7GeBJKTEOanpwCWIolJQbS-cdtoYk/preview" width="100%" height="600px"></iframe>
                 </Grid>
-                <Grid
-                  item
-                  xs={12}
-                  lg={6}
-                >
-                  <img
-                    alt="activity"
-                    src={AssetStore.get('assets/images/excursion-content.jpg')}
-                    style={{ width:'600px', height:'550px',}}
-                    className="excursions-img"
-/>
-                </Grid>
-              </Grid>
+            
             </div>
           </div>
         </div>

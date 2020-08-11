@@ -185,6 +185,10 @@ class SideNavBar extends React.Component {
                     label: 'TUTORING SUPPORT',
                   },
                   {
+                  to: '/academics/educational-excursions',
+                  label: 'EDUCATIONAL EXCURSIONS',
+                  },
+                  {
                     to: '/academics/certifications',
                     label: 'CERTIFICATIONS',
                   },
@@ -229,9 +233,8 @@ class SideNavBar extends React.Component {
                   },
  		  {
                     label: 'INTERNSHIP HANDBOOK',
-                    to: '/assets/Internship-Handbook.pdf',
-                    newpage: true,
-		    normalLink: true,
+                    to: '#',
+                    normalLink: true,
                   },
 
                 ]}
