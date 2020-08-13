@@ -9,6 +9,7 @@ import {
 } from '../actions/sidemenuActions';
 
 import AssetStore from '../../lib/AssetStore';
+import { Z_BLOCK } from 'zlib';
 
 class LogoBar extends React.PureComponent {
   render() {
@@ -72,7 +73,9 @@ class LogoBar extends React.PureComponent {
               md={4}
               className="language-flagship-logo-text"
             >
-            The Chinese Flagship Overseas Capstone Program in Taiwan
+             <div style={{textAlign: "center"}}>
+            The Chinese Flagship Overseas <br/> Capstone Program in Taiwan
+            </div>
             </Grid>
             <Grid
               item
