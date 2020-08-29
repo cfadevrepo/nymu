@@ -1,4 +1,4 @@
-import React, {Component, Fragment}  from 'react';
+import React, {Fragment}  from 'react';
 import {
   Link,
 } from 'react-router-dom';
@@ -12,7 +12,6 @@ import {
   StyledLinkText,
 } from './program.styles';
 
-import { render } from 'react-dom';
 import Modal from 'react-modal';
 import { ModalProvider, ModalConsumer } from './ModalContext';
 import ModalRoot from './ModalRoot';
@@ -370,27 +369,21 @@ President for Global Affairs. Please read about his wealth of experience in fore
 const Modal22 = ({ onRequestClose,  ...otherProps }) => (
         <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
          
-          <h1>Lisa Kuo, Resident Director </h1>
-                 
-                  <p>
-                  Lisa Kuo is the resident director of the Chinese Overseas Flagship in Taiwan. Before joining the
-program, she was a Mandarin Chinese instructor for such institutes and universities as the
-Orange County Lingual Institute (Costa Mesa, California) and the California State University
-International Program (National Taiwan Chengchi University, Taiwan). Prior, she also worked as
-a music manager for classical and jazz musicians; she facilitated negotiations with international
-music labels (Sony Music, Yamaha Music) and organized world tours and cross-cultural
-collaborations with such organizations as the Taiwan Taoyuan Cultural Bureau. She also has
-twenty years of experience in healthcare administration as a clinical office director.
-                 
-    </p>
-    
-    <p>
-    Ms. Kuo holds a Bachelor of Liberal Arts from National Taiwan University, a Masters in
-Healthcare Administration from the University of La Verne, California, and a Certification in
-Mandarin Chinese Teaching from the World Chinese Language Association and the Mandarin
-Daily News Language Center.
-    </p>
-           
+          <h1>April Liu, Resident Director </h1>     
+                     <p>
+                     Liu Laoshi has an M.A. in Drama and Theatre Education from the University of Warwick, and she received her B.A. in Teaching Chinese as a Second Language from Chuong Yuan University. She holds a 2009 Certification of Proficiency in Teaching Chinese as a Second Language, and also in 2007 obtained Certification of Putonghua Proficiency.     
+       </p>
+       
+       <p>
+       After Liu Laoshi completed her graduate degree, she undertook editing the achievement test for students at National Taiwan Normal University in the Mandarin Training Center, and then worked for six years at the Ministry of Education. At the Ministry, she was responsible for the support, administration, and organization of a wide variety of tasks for the overseas Mandarin education department, such as helping schools looking for cooperation opportunities, formulating a cooperation contract between schools, and implementing key performance metrics at work, and more. 
+
+       </p>
+
+
+       <p>
+       From her professional experiences, Liu Laoshi is now equipped with a strong teaching background and insight into the policies behind the Taiwanese educational system. She is familiar with labor regulations and the job market in Taiwan. Combining her background knowledge with her teaching and work experience, she will effectively coordinate official, university, and business resources in Taiwan, in order to best assist Capstone students to obtain well-matched internships.    
+         
+         </p> 
     <button  onClick={onRequestClose}>close</button>
           
         </Modal> 	
@@ -447,23 +440,16 @@ Teaching Chinese as a Second Language.
   const Modal25 = ({ onRequestClose,  ...otherProps }) => (
             <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
              
-              <h1>April Liu, Internship Coordinator </h1>
+              <h1>Zhi-Shiang Yang, Internship Coordinator </h1>
                      
                       <p>
-                      Liu Laoshi has an M.A. in Drama and Theatre Education from the University of Warwick, and she received her B.A. in Teaching Chinese as a Second Language from Chuong Yuan University. She holds a 2009 Certification of Proficiency in Teaching Chinese as a Second Language, and also in 2007 obtained Certification of Putonghua Proficiency.     
+                      Mr. Yang graduated from the Department of Chemistry and has an M.A. of Science in Life Sciences from Tamkang University.
         </p>
         
         <p>
         After Liu Laoshi completed her graduate degree, she undertook editing the achievement test for students at National Taiwan Normal University in the Mandarin Training Center, and then worked for six years at the Ministry of Education. At the Ministry, she was responsible for the support, administration, and organization of a wide variety of tasks for the overseas Mandarin education department, such as helping schools looking for cooperation opportunities, formulating a cooperation contract between schools, and implementing key performance metrics at work, and more. 
 
         </p>
-
-
-        <p>
-        From her professional experiences, Liu Laoshi is now equipped with a strong teaching background and insight into the policies behind the Taiwanese educational system. She is familiar with labor regulations and the job market in Taiwan. Combining her background knowledge with her teaching and work experience, she will effectively coordinate official, university, and business resources in Taiwan, in order to best assist Capstone students to obtain well-matched internships.    
-          
-          </p> 
-
         <button  onClick={onRequestClose}>close</button>
               
             </Modal> 	
@@ -589,13 +575,13 @@ Teaching Chinese as a Second Language.
 
 				<button style={box} onClick={() => showModal(Modal22)} >
           <img
-			src={AssetStore.get('assets/images/headshots/lisa_kuo.jpg') }
+			src={AssetStore.get('assets/images/headshots/April_Liu.png') }
 			style={{ height: 150, width: 150,}} ></img></button>
 				  
        
                 <StyledText>
                   <strong>
-                  Lisa Kuo
+                  April Liu
                   </strong>
                   <br />
                   Resident Director
@@ -610,13 +596,13 @@ Teaching Chinese as a Second Language.
 
 				<button style={box} onClick={() => showModal(Modal25)}>
           <img
-			src={AssetStore.get('assets/images/headshots/April_Liu.png') }
+			src={AssetStore.get('assets/images/headshots/zhi-shiang.jpg') }
 			style={{ height: 150, width: 150,}} ></img></button>
 				  
        
                 <StyledText>
                   <strong>
-                    April Liu
+                    Zhi-Shiang Yang
                   </strong>
                   <br />
                   Internship Coordinator
