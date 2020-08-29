@@ -447,9 +447,15 @@ Teaching Chinese as a Second Language.
         </p>
         
         <p>
-        After Liu Laoshi completed her graduate degree, she undertook editing the achievement test for students at National Taiwan Normal University in the Mandarin Training Center, and then worked for six years at the Ministry of Education. At the Ministry, she was responsible for the support, administration, and organization of a wide variety of tasks for the overseas Mandarin education department, such as helping schools looking for cooperation opportunities, formulating a cooperation contract between schools, and implementing key performance metrics at work, and more. 
-
-        </p>
+                  Mr. Yang’s first job was as an Environmental Engineering Consultant at the Environmental
+          Protection Administration Executive Yuan (EPA), where he was responsible for implementing
+          various projects. In addition to writing reports, he also executed reports and assisted the EPA to
+          supervise factories. His next position was as a Project Specialist in an emerging industry: Plant
+          Factories. His main responsibilities involved factory establishment, including management of setting
+          up a new office, as well as brand marketing and application of agricultural products. He has also
+          helped friends to start a new business, a soymilk store, where he worked on the execution and
+          planning in the areas of marketing, administration, and human resources.
+                  </p>
         <button  onClick={onRequestClose}>close</button>
               
             </Modal> 	
