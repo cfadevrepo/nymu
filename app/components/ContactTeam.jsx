@@ -381,8 +381,7 @@ const Modal22 = ({ onRequestClose,  ...otherProps }) => (
 
 
        <p>
-       From her professional experiences, Liu Laoshi is now equipped with a strong teaching background and insight into the policies behind the Taiwanese educational system. She is familiar with labor regulations and the job market in Taiwan. Combining her background knowledge with her teaching and work experience, she will effectively coordinate official, university, and business resources in Taiwan, in order to best assist Capstone students to obtain well-matched internships.    
-         
+       From her professional experiences, Liu Laoshi is now equipped with a strong teaching background and insight into the policies behind the Taiwanese educational system. She is familiar with labor regulations and the job market in Taiwan. Combining her background knowledge with her teaching and work experience, she will be an effective Resident Director, capable of helping Capstone students with any issues that might arise.   
          </p> 
     <button  onClick={onRequestClose}>close</button>
           
@@ -454,7 +453,7 @@ Teaching Chinese as a Second Language.
           Factories. His main responsibilities involved factory establishment, including management of setting
           up a new office, as well as brand marketing and application of agricultural products. He has also
           helped friends to start a new business, a soymilk store, where he worked on the execution and
-          planning in the areas of marketing, administration, and human resources.
+          planning in the areas of marketing, administration, and human resources. Mr. Yang's broad range of experience and ability to think outside of the box will  help him to coordinate official, university, and business resources in Taiwan, in order to best assist Capstone students to obtain well-matched internships.
                   </p>
         <button  onClick={onRequestClose}>close</button>
               
