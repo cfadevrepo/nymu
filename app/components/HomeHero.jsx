@@ -32,7 +32,7 @@ class HomeHero extends React.Component {
               marginBottom: '25px',
             }}
           >
-            THE CHINESE OVERSEAS FLAGSHIP IN 
+            THE CHINESE FLAGSHIP OVERSEAS CAPSTONE PROGRAM IN
           </div>
           <div
             style={{
