@@ -42,7 +42,7 @@ export default class ProgramOverviewOrientationInformation extends React.PureCom
               Pre-Departure Orientation webinar:
             </StyledTableTitle>
             <StyledText>
-              This webinar covers all aspects of the Chinese Overseas Flagship in Taiwan Program, including:
+              This webinar covers all aspects of the Chinese Flagship Overseas Capstone Program in Taiwan, including:
             </StyledText>
             <ul>
               <StyledListItem>
