@@ -15,7 +15,7 @@ class SubNavMenu extends React.Component {
       links,
       normalLink = false,
       opened = false,
-      newpage, 
+      newPage, 
     } = this.props;
 
     if (!opened) {
@@ -24,13 +24,13 @@ class SubNavMenu extends React.Component {
 
     return (
       <ul className="side-menu-sublist">
-        {links.map(({ to, label, newpage }) => (
+        {links.map(({ to, label, newPage }) => (
           <li
             key={to}
             className="side-menu-list-item"
           >
             {normalLink ? (
-              newpage ? ( <a
+              newPage ? ( <a
                 href={to}
                 target="_blank"
                 className="side-menu-nav-link sub-nav-link"
@@ -44,7 +44,7 @@ class SubNavMenu extends React.Component {
                 {label}
               </a>
             ) : (
-              newpage ? 
+              newPage ? 
               ( <NavLink
                 to={to}
                 exact
