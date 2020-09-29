@@ -82,7 +82,7 @@ export default class InternshipIntroduction extends React.PureComponent {
               <p>
                 <StyledLink
                   target="_blank"
-                  href="#"
+                  href={AssetStore.get('assets/Internship-Handbook.pdf')}
                 >
                   DOWNLOAD
                 </StyledLink>
