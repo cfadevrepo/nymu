@@ -35,11 +35,11 @@ export default class AcademicsCertifications extends React.PureComponent {
             <StyledText2>
               <ul>
                 <StyledListItem>
-                  Students who meet the minimum levels (speaking, IRL level 3; listening, IRL level 2+; reading, IRL
+                  Students who meet the minimum levels (speaking, ILR level 3; listening, ILR level 2+; reading, ILR
                   level 2+) will receive Flagship Certification
                 </StyledListItem>
                 <StyledListItem>
-                  Students who have achieved IRL level 3 in speaking, listening, and reading will receive the Flagship
+                  Students who have achieved ILR level 3 in speaking, listening, and reading will receive the Flagship
                   Certification with Distinction
                 </StyledListItem>
               </ul>
