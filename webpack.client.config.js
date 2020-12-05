@@ -8,7 +8,7 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    publicPath: 'http://localhost:3001/dist'
+    publicPath: 'http://localhost:4001/dist'
   },
   module: {
     rules: [
@@ -70,7 +70,7 @@ module.exports = {
       'Access-Control-Allow-Headers': 'X-Requested-With, content-type, Authorization',
     },
     proxy: {
-      "/assets": "http://localhost:3001/public",
+      "/assets": "http://localhost:4001/public",
     },
   },
 };
