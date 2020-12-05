@@ -2,8 +2,9 @@ import React from 'react';
 import {
   Link,
 } from 'react-router-dom';
-
+import AssetStore from '../../lib/AssetStore';
 import LazyBackgroundHome from './LazyBackgroundHome'
+
 
 class HomeHero extends React.Component {
   render() {
@@ -12,7 +13,7 @@ class HomeHero extends React.Component {
     } = this.props;
 
     return (
-	<LazyBackgroundHome placeholder='/overseasintaipeifall2020/assets/images/home-hero-temp.png' src='/overseasintaipeifall2020/assets/images/home-hero.png' >
+	<LazyBackgroundHome placeholder={AssetStore.get('assets/images/home-hero-temp.jpg')} src={AssetStore.get('assets/images/home-hero.png')} >
 	
         <div
           style={{
