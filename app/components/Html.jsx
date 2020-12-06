@@ -44,7 +44,7 @@ export default class HTML extends React.Component {
       <body>
       <div id="app" dangerouslySetInnerHTML={renderApp(app)}></div>
       <script type="text/javascript" dangerouslySetInnerHTML={renderState(context)}></script>
-      <script type="text/babel" src={AssetStore.get('dist/app.js')}></script>
+      <script type="text/javascript" src={AssetStore.get('dist/app.js')}></script>
       </body>
       </html>
     );
