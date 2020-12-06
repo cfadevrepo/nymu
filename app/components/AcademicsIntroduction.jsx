@@ -55,6 +55,12 @@ export default class AcademicsIntroduction extends React.PureComponent {
             <br />
             <br />
             <br />
+			  
+            <StyledText2 style={{color: 'red'}}>
+              The semester outlines below are for a typical year. Due to the Covid-19 pandemic, please see our revised Spring 2021 semester programming <a target="_blank" href={AssetStore.get('assets/semester-fs2021.pdf')}> here</a> for our Fall 2020-Spring 2021 cohort, and <a target="_blank" href={AssetStore.get('assets/semester-sf2021.pdf')}> here</a> for our Spring-Fall 2021 cohort.
+            </StyledText2>			  
+			  
+			  
             <StyledTitle
               style={{
                 textAlign: 'left',
