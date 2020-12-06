@@ -11,6 +11,10 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
     return (
       <div className="home-section-info">
         <div className="home-section-info-wrapper">
+			
+			
+		  <div style={{color: 'black', fontSize:'20px'}}> The estimated costs below are for planning purposes for a typical year. During the Fall 2020 and Spring 2021 semesters, please contact the project coordinator, Ms. Sam Maser, at taipeicapstone@hunter.cuny.edu, regarding the cost of attendance. </div>
+			
           <div className="section-container">
             <StyledTableTitle>
               1. Tuition and Academic Expenses
