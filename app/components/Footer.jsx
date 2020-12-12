@@ -71,13 +71,13 @@ export default class Footer extends React.Component {
                     The Language Flagship 
 		    </a>		    
                     <br />
-                    <a target="_blank" href={"https://www.thelanguageflagship.org/content/chinese/"}
+                    <a target="_blank" href={"https://www.thelanguageflagship.org/chinese"}
                       style={{
                         color: 'white',
                         textDecoration: 'none',
                       }}
                     >
-                      The Twelve Chinese Flagships
+                      The Thirteen Chinese Flagship
                     </a>
                   </p>
                 </div>
