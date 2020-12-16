@@ -39,7 +39,7 @@ export default class HTML extends React.Component {
           {styles}
           {css}
         </style>
-        <link rel="stylesheet" type="text/css" href='http://chineseflagship.hunter.cuny.edu/overseasintaipeifall2020/dist/styles.css'/>
+        <link rel="stylesheet" type="text/css" href='http://chineseflagship.hunter.cuny.edu/TaipeiCapstone/dist/styles.css'/>
       </head>
       <body>
       <div id="app" dangerouslySetInnerHTML={renderApp(app)}></div>

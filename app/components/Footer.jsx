@@ -16,22 +16,22 @@ export default class Footer extends React.Component {
                 <p className="footer-menu-title">MENU</p>
                 <div className="footer-menu-links">
                   <p>
-                    <a href="/overseasintaipeifall2020/program-overview/introduction">
+                    <a href="/TaipeiCapstone/program-overview/introduction">
                       Program Overview
 					  </a>
                   </p>
                   <p>
-                    <a  href="/overseasintaipeifall2020fall2020/academics/introduction">
+                    <a  href="/TaipeiCapstonefall2020/academics/introduction">
                       Academics
                     </a>
                   </p>
                   <p>
-                    <a  href="/overseasintaipeifall2020/internship/introduction">
+                    <a  href="/TaipeiCapstone/internship/introduction">
                       Internship
                     </a>
                   </p>
                   <p>
-                    <a href="/overseasintaipeifall2020/student-life">
+                    <a href="/TaipeiCapstone/student-life">
                       Student Life
                     </a>
                   </p>

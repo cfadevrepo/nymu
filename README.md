@@ -56,5 +56,5 @@ Once the application starts, you will be provided the port number the server is 
 - Enable the modules "mod_proxy" and "mod_proxy_http" within the Apache config.
   - Uncomment the line "LoadModule proxy_module lib/httpd/modules/mod_proxy.so"
   - Uncomment the line "LoadModule proxy_http_module lib/httpd/modules/mod_proxy_http.so"
-  - Add the line "ProxyPass /overseasintaipeifall2020 http://localhost:4000/overseasintaipeifall2020"
-  - Add the line "ProxyPassReverse /overseasintaipeifall2020 http://localhost:4000/overseasintaipeifall2020"
+  - Add the line "ProxyPass /TaipeiCapstone http://localhost:4000/TaipeiCapstone"
+  - Add the line "ProxyPassReverse /TaipeiCapstone http://localhost:4000/TaipeiCapstone"
