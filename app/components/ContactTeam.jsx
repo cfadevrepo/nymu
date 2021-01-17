@@ -458,8 +458,23 @@ Teaching Chinese as a Second Language.
         <button  onClick={onRequestClose}>close</button>
               
             </Modal> 	
-              );  
+              ); 
+	
+  const Modal26 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>Yun-Wen Su, Full-time Faculty </h1>
+                     
+        
+        <p>
+                  Su Laoshi has an M.A. in Teaching Chinese as a Second Language from National Taiwan Normal University. She was a Mandarin teacher at National Taipei University of Technology (2020), and Singapore National Academy in Surabaya Indonesia (2018-2019). Su Laoshi holds the Certification of Proficiency in Teaching Chinese as a Second Language and the teacher certificate for Scouting education and History education. She also has experience teaching children, teenagers, adults and in online teaching. She has taught in Taipei Municipal Dong-Hu Junior High School (2016-2018), and did teaching internships at Kang Chiao International School (2020), Taipei European School (2018), Taipei American School (2017-2018), and University of Texas at Arlington (2014).
+                  </p>
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              ); 	
 
+  
           
 
 //end new
@@ -666,6 +681,27 @@ Teaching Chinese as a Second Language.
                   Full-time Faculty
                 </StyledText>
               </Grid>
+				  
+              <Grid
+                item
+                xs={12}
+                sm={4}
+              >
+
+				<button style={box} onClick={() => showModal(Modal24)} >
+          <img
+			src={AssetStore.get('assets/images/headshots/YunWenSu.jpg') }
+			style={{ height: 150, width: 150,}} ></img></button>
+				  
+       
+                <StyledText>
+                  <strong>
+                  Yun-Wen Su
+                  </strong>
+                  <br />
+                  Full-time Faculty
+                </StyledText>
+              </Grid>
 
 
 				</Grid>
@@ -767,26 +803,6 @@ Teaching Chinese as a Second Language.
               >
 
 
-			<button style={box} onClick={() => showModal(Modal12)}>
-          <img
-			src={AssetStore.get('assets/images/headshots/Catterson-ChiHsuan-Web-125x168.jpg') }
-			style={{ height: 170, width: 150,}} ></img></button>
-		
-                <StyledText>
-                  <strong>
-                    Chi-hsuan Catterson
-                  </strong>
-                  <br />
-                  University of North Georgia
-                </StyledText>
-              </Grid>
-              <Grid
-                item
-                xs={12}
-                sm={4}
-              >
-
-
 		<button style={box} onClick={() => showModal(Modal13)}>
           <img
 			src={AssetStore.get('assets/images/headshots/chen-yea-fen.jpg') }
@@ -820,24 +836,7 @@ Teaching Chinese as a Second Language.
                   San Francisco State University
                 </StyledText>
               </Grid>
-              <Grid
-                item
-                xs={12}
-                sm={4}
-              >
-		<button style={box} onClick={() => showModal(Modal15)}>
-          <img
-			src={AssetStore.get('assets/images/headshots/mspring.jpg') }
-			style={{ height: 150, width: 150,}} ></img></button>
-        
-				  <StyledText>
-                  <strong>
-                    Madeline Spring
-                  </strong>
-                  <br />
-                  University of Hawaii at Manoa
-                </StyledText>
-              </Grid>
+
 	
 				
 				</Grid>
