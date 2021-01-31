@@ -474,7 +474,19 @@ Teaching Chinese as a Second Language.
             </Modal> 	
               ); 	
 
-  
+    const Modal27 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>Po-Chung Lin, Student Housing Coordinator </h1>
+                     
+        
+        <p>
+                  Mr. Lin has an M.A. in linguistics from National Chengchi University. His thesis research was on Chinese near-synonyms. He has been teaching English as a Foreign Language at Chinese Culture University, National Taiwan Normal University, National Taiwan University, and Tamkang University. Mr. Lin is also a Chinese/English translator. From 2016 to 2019, he was on the editorial board for the Bilingual Vocabulary Translation Council at the National Academy for Educational Research. Mr. Lin’s main duty at the Taiwan Center is to oversee students’ housing issues, including developing a host family program. In addition, the Center will draw on Mr. Lin’s expertise in Chinese/English translation and language teaching skills. 
+                  </p>
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              ); 
           
 
 //end new
@@ -586,7 +598,15 @@ Teaching Chinese as a Second Language.
                   Director of NYMU Flagship Project
                 </StyledText>
               </Grid>
+			  </Grid>
 
+			<Grid
+              container
+              justify="center"
+              alignItems="center"
+              spacing={15}
+            >	
+				
               <Grid
                 item
                 xs={12}
@@ -629,10 +649,33 @@ Teaching Chinese as a Second Language.
                 </StyledText>
               </Grid>
 
+  
+									
+				
+              <Grid
+                item
+                xs={12}
+                sm={4}
+              >
 
-
+				<button style={box} onClick={() => showModal(Modal27)}>
+          <img
+			src={AssetStore.get('assets/images/headshots/PoChungLin.jpg') }
+			style={{ height: 150, width: 150,}} ></img></button>
+				  
+       
+                <StyledText>
+                  <strong>
+                    Po-Chung Lin
+                  </strong>
+                  <br />
+                  Student Housing Coordinator
+                </StyledText>
               </Grid>
-
+			  
+			  </Grid>
+				
+				
               <Grid
               container
               justify="center"
