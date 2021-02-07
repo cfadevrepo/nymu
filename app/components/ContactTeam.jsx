@@ -487,7 +487,34 @@ Teaching Chinese as a Second Language.
               
             </Modal> 	
               ); 
-          
+	  
+    const Modal28 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>Jianling Lian, Arizona State University </h1>
+                     
+        
+        <p>
+                  Jianling Liao is the Director of the Chinese Language Flagship Program at Arizona State University (ASU). She received her PhD in Second Language Acquisition from the University of Iowa. Her publications focus on L2 Chinese development manifested in both written and spoken modalities, as well as the mediation roles of digital tools in L2 learning. She has also published a book on Chinese language curriculum design and another book on language testing and assessment. At ASU, she teaches second language methodologies, applied linguistics, and Chinese language courses at various levels. Previously she had worked for the CIEE Shanghai Study Center and therefore understands firsthand the opportunities and challenges that study abroad presents to students.
+                  </p>
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              ); 
+ 
+    const Modal29 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>Zhuo Jing-Schmidt, University of Oregon </h1>
+                     
+        
+        <p>
+                  Zhuo Jing-Schmidt is Professor of Chinese Linguistics in the Department of East Asian Languages and Literatures at the University of Oregon where she also serves as the director of the Chinese Flagship Program. Dr. Jing-Schmidt researches and teaches at the interface of language structure, discourse pragmatics, emotion, language and gender, and Chinese second language learning. She publishes in three languages – English, Chinese, and German, and has placed her work in leading international journals including Cognitive Linguistics, Journal of Pragmatics, Language in Society, and the Modern Language Journal. She is Executive Editor of Chinese Language and Discourse. 
+                  </p>
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              ); 
 
 //end new
   return (
@@ -879,10 +906,82 @@ Teaching Chinese as a Second Language.
                   San Francisco State University
                 </StyledText>
               </Grid>
-
-	
 				
+				<Grid
+                item
+                xs={12}
+                sm={4}
+              >
+
+		<button style={box} onClick={() => showModal(Modal29)}>
+          <img
+			src={AssetStore.get('assets/images/headshots/ZhuoJing-Schmidt.jpg') }
+			style={{ height: 175, width: 150,}} ></img></button>
+      
+
+                <StyledText>
+                  <strong>
+                    Zhuo Jing-Schmidt
+                  </strong>
+                  <br />
+                  University of Oregon
+                </StyledText>
+              </Grid>
+	
 				</Grid>
+				
+            <Grid
+              container
+              justify="center"
+              alignItems="center"
+              spacing={15}
+            >
+              <Grid
+                item
+                xs={12}
+                sm={4}
+              >
+
+
+		<button style={box} onClick={() => showModal(Modal28)}>
+          <img
+			src={AssetStore.get('assets/images/headshots/LiaoJianling.jpg') }
+			style={{ height: 150, width: 150,}} ></img></button>
+         
+                <StyledText>
+                  <strong>
+                    Jianling Liao
+                  </strong>
+                  <br />
+                  Arizona State University
+                </StyledText>
+              </Grid>
+				
+				
+              <Grid
+                item
+                xs={12}
+                sm={4}
+              >
+
+
+		<button style={box} onClick={() => showModal(Modal15)}>
+          <img
+			src={AssetStore.get('assets/images/headshots/mspring.jpg') }
+			style={{ height: 150, width: 150,}} ></img></button>
+         
+                <StyledText>
+                  <strong>
+                    Madeline Spring
+                  </strong>
+                  <br />
+                  University of Hawaii
+                </StyledText>
+              </Grid>
+				
+
+			</Grid>	
+				
             <br />
             <br />
 
