@@ -163,10 +163,7 @@ export default class Home extends React.PureComponent {
                     <div className="home-join-us-title">
                       Who’s eligible to apply?
                     </div>
-                    <p>
-                      Students who have dual citizenship for both
-                      Taiwan and the U.S. are ineligible to participate in the Chinese Flagship Overseas Capstone Program in Taiwan.
-					
+                    <p>					
 					  Students attending the Capstone Year must be enrolled in one of the U.S. Chinese Flagship Programs.	
 						
                       Other qualification criteria include: academic performance, linguistic
