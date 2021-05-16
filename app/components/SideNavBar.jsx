@@ -289,7 +289,7 @@ class SideNavBar extends React.Component {
               >
                 <Grid item xs={10} className="side-menu-list-item-expandable">
                   <div className="side-menu-nav-link label">
-                    NATIONAL YANG-MING UNIVERSITY
+                    NATIONAL YANG MING CHIAO TUNG UNIVERSITY
                   </div>
                 </Grid>
                 <Grid item>

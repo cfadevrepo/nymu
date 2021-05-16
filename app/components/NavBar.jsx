@@ -106,7 +106,7 @@ class NavBar extends React.Component {
           </div>
           <div className="dropdown">
             <div className="dropbtn">
-              NATIONAL YANG-MING UNIVERSITY
+              NATIONAL YANG MING CHIAO TUNG UNIVERSITY
             </div>
             <div className="dropdown-content">
               <Link to="/yang-ming-university/introduction">
