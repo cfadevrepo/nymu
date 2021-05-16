@@ -26,7 +26,7 @@ export default class YangMingUniversityHousingOptions extends React.PureComponen
               All Flagship Students Will Live on Campus
             </StyledTableTitle>
             <StyledText>
-            The Chinese Flagship Overseas Capstone Program in Taiwan Program has coordinated with the Office of Student Affairs at NYMU to provide Capstone Program students excellent accommodations in Dormitory #5.
+            The Chinese Flagship Overseas Capstone Program in Taiwan Program has coordinated with the Office of Student Affairs at NYCU to provide Capstone Program students excellent accommodations in Dormitory #5.
             </StyledText>
             <StyledText>
             Dormitory #5 -- with one building for male students and one for female students -- is conveniently located on campus and provides quick accessibility to classes.
@@ -58,7 +58,7 @@ export default class YangMingUniversityHousingOptions extends React.PureComponen
             </StyledText>
             <ul>
               <StyledListItem>
-                Bed Frame (there is no mattress; one can be purchased at NYMU or elsewhere)
+                Bed Frame (there is no mattress; one can be purchased at NYCU or elsewhere)
               </StyledListItem>
               <StyledListItem>
                 Desk and chair

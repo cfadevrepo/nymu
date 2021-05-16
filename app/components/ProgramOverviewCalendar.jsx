@@ -40,11 +40,11 @@ export default class ProgramOverviewCalendar extends React.PureComponent {
                 },
                 {
                   label: 'September 14, 2020',
-                  value: 'NYMU Semester 1 begins',
+                  value: 'NYCU Semester 1 begins',
                 },
                 {
                   label: 'January 15, 2021',
-                  value: 'NYMU Semester 1 ends',
+                  value: 'NYCU Semester 1 ends',
                 },
   
                 {
@@ -54,12 +54,12 @@ export default class ProgramOverviewCalendar extends React.PureComponent {
           
                 {
                   label: 'February 22, 2021',
-                  value: 'NYMU Semester 2 begins',
+                  value: 'NYCU Semester 2 begins',
                 },
 					  
                 {
                   label: 'June 25, 2021',
-                  value: 'NYMU Semester 2 ends',
+                  value: 'NYCU Semester 2 ends',
                 },
                 {
                   label: 'Early to Mid-July, 2021',
@@ -87,7 +87,7 @@ export default class ProgramOverviewCalendar extends React.PureComponent {
                 Students to explore Taipei on weekends with local friends.
               </StyledListItem>
               <StyledListItem>
-                Students are required to join at least one NYMU club.
+                Students are required to join at least one NYCU club.
               </StyledListItem>
               <StyledListItem>
                 The Resident Director will host a monthly meeting to discuss life in Taipei.
@@ -100,7 +100,7 @@ export default class ProgramOverviewCalendar extends React.PureComponent {
                 don’t conflict with classes or activities.
               </StyledListItem>
               <StyledListItem>
-                During their free time, students are encouraged to join all events organized by NYMU.
+                During their free time, students are encouraged to join all events organized by NYCU.
               </StyledListItem>
             </ul>
           </div>

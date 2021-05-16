@@ -45,7 +45,7 @@ export default class Home extends React.PureComponent {
                     training in Chinese language and culture.
                   </p>
                   <p>
-                    As a part of this program, students will attend classes alongside Chinese peers at National Yang-Ming University,
+                    As a part of this program, students will attend classes alongside Chinese peers at National Yang Ming Chiao Tung University,
                     and develop professional expertise in their field of study. This opportunity provides a chance to make lasting
                     friendships and gain the skills necessary to become a global
                     professional!

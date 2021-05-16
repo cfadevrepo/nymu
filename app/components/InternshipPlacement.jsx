@@ -25,8 +25,8 @@ export default class InternshipPlacement extends React.PureComponent {
             Finding an internship in a foreign country can feel daunting to students. The Taiwan Internship
             Coordinator will assist by creating connections and developing relationships in all areas of Taipei’s bustling
             economy: finance, the arts, information technology, medical research companies, marketing, hospitality,
-            manufacturing, and more. The Coordinator will also be working with the Office of Alumni at National Yang-Ming
-            University (NYMU), to seek out well-situated NYMU graduates who are open to having a U.S. intern placed
+            manufacturing, and more. The Coordinator will also be working with the Office of Alumni at National Yang Ming Chiao Tung 
+            University (NYCU), to seek out well-situated NYCU graduates who are open to having a U.S. intern placed
             in their office.
           </StyledText2>
           <StyledText2>
