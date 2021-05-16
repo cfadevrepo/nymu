@@ -69,7 +69,7 @@ export default class ProgramOverviewIntroduction extends React.PureComponent {
                       Located in Taipei, Taiwan
                     </div>
                     <p>
-                          This year-long Capstone Program in Taipei, Taiwan at National Yang-Ming University offers unparalleled and unique opportunities for Capstone students to immerse themselves in academic and professional environments. The Capstone Year in Taipei helps students become impressive global professionals. The Chinese Flagship Overseas Capstone Program in Taiwan was established in 2019. In addition, there is a Chinese Overseas Flagship in Nanjing, China.	
+                          This year-long Capstone Program in Taipei, Taiwan at National Yang Ming Chiao Tung University offers unparalleled and unique opportunities for Capstone students to immerse themselves in academic and professional environments. The Capstone Year in Taipei helps students become impressive global professionals. The Chinese Flagship Overseas Capstone Program in Taiwan was established in 2019. In addition, there is a Chinese Overseas Flagship in Nanjing, China.	
                     </p>
                   </div>
                 </Grid>

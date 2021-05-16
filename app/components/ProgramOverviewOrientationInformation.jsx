@@ -73,7 +73,7 @@ export default class ProgramOverviewOrientationInformation extends React.PureCom
             </StyledText>
             <StyledText>
               To help students as they transition to the culture and city that will be their home for a year, the Taiwan
-              Center staff will run a week-long orientation program. There will be presentations and an opportunity for questions and answers, and students will be taken on walking tours of the National Yang-Ming University (NYMU) campus
+              Center staff will run a week-long orientation program. There will be presentations and an opportunity for questions and answers, and students will be taken on walking tours of the National Yang Ming Chiao University (NYCU) campus
               and surrounding neighborhoods. There may be a group trip to a nearby historic site or an outing to a
               popular restaurant, and there will be other events to welcome the students to Taipei.
             </StyledText>
@@ -83,8 +83,8 @@ export default class ProgramOverviewOrientationInformation extends React.PureCom
               Pledge, where students sign a pledge to speak only Mandarin Chinese for the duration of the program. 
 				
 			  Students will pay their tuition
-              and fees to NYMU, settle into their dorm rooms, obtain their Alien Resident Certificate (ARC) cards, set up bank accounts, buy supplies, and ready
-              themselves for a demanding year of study and immersion in the new environment of Taipei and NYMU.
+              and fees to NYCU, settle into their dorm rooms, obtain their Alien Resident Certificate (ARC) cards, set up bank accounts, buy supplies, and ready
+              themselves for a demanding year of study and immersion in the new environment of Taipei and NYCU.
             </StyledText>
           </div>
         </div>

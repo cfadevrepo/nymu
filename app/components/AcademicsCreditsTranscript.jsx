@@ -41,7 +41,7 @@ export default class AcademicsCreditsTranscript extends React.PureComponent {
                   Course 2: Media in Contemporary Chinese Societies -- 3 credits
                 </StyledListItem>
                 <StyledListItem>
-                  Course 3: NYMU Direct Enrollment Class -- 3 credits
+                  Course 3: NYCU Direct Enrollment Class -- 3 credits
                 </StyledListItem>
                 <StyledListItem>
                   Course 4: Domain Research Independent Project in Chinese -- 3 credits
@@ -101,13 +101,13 @@ export default class AcademicsCreditsTranscript extends React.PureComponent {
             </StyledText>
             <StyledText>
               If a student’s home university will accept a transcript from a foreign university, the student can receive
-              a transcript directly from NYMU. At this time, there is no known timeline for delivery of the transcript. Please coordinate with program staff for an update.
+              a transcript directly from NYCU. At this time, there is no known timeline for delivery of the transcript. Please coordinate with program staff for an update.
             </StyledText>
             <StyledText>
               If a student’s home university requires a transcript from a U.S. institution, Hunter College will
-              process the NYMU transcript and issue one from Hunter College. Students who have a transcript receipt deadline in
+              process the NYCU transcript and issue one from Hunter College. Students who have a transcript receipt deadline in
               order to graduate by a certain time should note: that it may take Hunter College as long as three months to
-              process the NYMU transcript.
+              process the NYCU transcript.
             </StyledText>
             <StyledText>
               <span style={{ color: 'red' }}>PLEASE NOTE:</span> Different universities have different rules about
