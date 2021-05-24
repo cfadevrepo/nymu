@@ -37,7 +37,7 @@ export default class InternshipApplicationProcess extends React.PureComponent {
                 </StyledListItem>
                 <StyledListItem>
                   An internship must be located within a distance that allows the student to attend the Friday
-                  weekly class meetings on the National Yang Ming Chiao Tung University campus.
+                  weekly class meetings on the National Yang Ming Chiao Tung University Yangming Campus.
                 </StyledListItem>
               </ul>
             </StyledText2>

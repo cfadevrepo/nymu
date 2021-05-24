@@ -99,8 +99,7 @@ export default class StudentLife extends React.PureComponent {
                 Perhaps most important for students whose goal is to raise their Chinese language skills to a superior
                 level, the Taiwanese people are friendly, open, and happy to speak with foreign students and
                 visitors. While in the program, students will have innumerable opportunities to meet and
-                socialize with their Chinese peers, as well as with younger and older people, both on and off the NYCU
-                campus. Student life at NYCU and in Taipei is rich with chances to learn and have fun!
+                socialize with their Chinese peers, as well as with younger and older people, both on and off the NYCU Yangming Campus. Student life at NYCU and in Taipei is rich with chances to learn and have fun!
               </StyledSKinnyDescription>
             </StyledSkinnyText>
           </Grid>
@@ -125,7 +124,7 @@ export default class StudentLife extends React.PureComponent {
               <StyledSKinnyDescription>
                 Students who live in Taipei can closely experience many aspects of Taiwanese culture and lifestyle. From
                 shopping the night markets to visiting cultural sites to hiking mountains or spending time at the beach,
-                most of these activities can be reached from NYCU within an hour or less, which makes it easy for
+                most of these activities can be reached from the NYCU Yangming Campus within an hour or less, which makes it easy for
                 Flagship Capstone students to immerse themselves in Taiwanese culture.
               </StyledSKinnyDescription>
             </StyledSkinnyText>

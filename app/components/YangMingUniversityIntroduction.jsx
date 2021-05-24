@@ -47,18 +47,22 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
                   <StyledSkinnyTitle>
                     National Yang Ming Chiao Tung University
                   </StyledSkinnyTitle>
-                  <p>
+                  {/* <p>
                   Founded in 1975, <a href="https://nymu-e.ym.edu.tw/bin/home.php"> National Yang Ming Chiao Tung University</a>  (NYCU) is a top public university which includes seven different colleges, including the School of Biomedical Science and Engineering, the School of Life Sciences, and the School of Humanities and Social Sciences. In addition, NYCU has more than 20 research centers with an emphasis on cancer and immunology, brain research, biophotonics, aging and health, and biomedical engineering. 
+                  </p> */}
+                  <p>
+                  On February 1, 2021, after twenty years of planning, National Yang-Ming University merged with National Chiao Tung University, becoming National Yang Ming Chiao Tung University, known by the acronym NYCU. The merger greatly benefits both institutions -- and their students -- as they will be able to broaden their academic disciplines and share resources, giving the newly combined university a competitive edge. Further, by uniting their areas of expertise – for NYMU it has been medicine and biotechnology, and for NCTU it has been electrical engineering and computer science – NYCU will be strongly aligned with Taiwan’s goal of becoming known globally for its smart healthcare and biomedical industries, while still having access to top notch courses in the humanities and social sciences.
                   </p>
                   <p>
-                  The School of Humanities and Social Sciences offers a wide range of general education courses: politics, economics, social studies, history, philosophy, art, psychology, and more. The central aim of these courses is to ensure that NYCU students acquire a firm grounding in a wide range of academic areas. With innovative and advanced education and training methods, one of the university’s goals  that every student must graduate having gained independent critical thinking skills, enhanced intellectual skills, and an international worldview. NYCU’s global outlook for its students resonates with The Language Flagship’s mission to educate global professionals.
-                  </p>
-                  <p>
-                  While located in Taipei, the biggest city in Taiwan, the NYCU campus sits at the foothill of Yang Ming mountain and offers students both a beautiful campus and easy access to the city. As Taipei is the political and economic hub of Taiwan, NYCU students are easily able to make academic and professional connections in both Taiwanese society and with global communities and companies that have a base in Taipei.
+                  The Yangming Campus is located in northern Taipei, in the Beitou district, and is where the Taiwan Center is based. This campus offers students both a beautiful location and easy access to the city. The Yangming Campus includes seven different colleges, including the School of Biomedical Science and Engineering, the School of Life Sciences, and the School of Humanities and Social Sciences, and has more than 20 research centers with an emphasis on cancer and immunology, brain research, biophotonics, aging and health, and biomedical engineering.
                   </p>
                     <p>
-                    NYCU’s Office of International Affairs (OIA) administers the university’s international initiatives and work toward globalization, while also providing services in admission, orientation, counseling, as well as assistance to all international students and scholars. Staff members at OIA are committed to helping international students transition into the new environment and culture during their educational journey.
+                    The Chiaotung Campus is in Hsinchu, a city south of Taipei and the hub of Taiwan’s semi-conductor industry, about an hour’s drive from Taipei. 
                     </p>
+					<p>
+					As Taipei is the political and economic center of Taiwan, Flagship students are easily able to make academic and professional connections in both Taiwanese society and with global communities and companies that have a base in Taipei. 
+					</p>
+					
                 </div>
               </Grid>
               <Grid
@@ -74,6 +78,8 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
             </Grid>
           </div>
         </div>
+			
+		{/* 
         <Grid
           container
           alignItems="center"
@@ -198,6 +204,9 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
             </StyledLargeNumber>
           </Grid>
         </Grid>
+			*/}
+			
+			
         <Grid
           container
           alignItems="center"
@@ -226,7 +235,12 @@ export default class YangMingUniversityIntroduction extends React.PureComponent 
               Students can choose a direct enrollment course from more than 80 excellent interdisciplinary course
 offerings at NYCU, all taught in Chinese. Each course has no more than 30 students to facilitate teacher
 and student discussions. Students will be guided to enroll in a course of choice before they depart for
-Taiwan. Students can add or drop during the first two weeks of the semester. Please check out the courses offered during the 2019-2020 academic year <a href="https://docs.google.com/spreadsheets/d/1RoLxiYgpjLLRrwf4F6LzDAVSBqPlah579dCECkvKWCQ/edit?urp=gmail_link"> here </a>.
+Taiwan. Students can add or drop during the first two weeks of the semester. 
+				  
+				  {/* 
+				  Please check out the courses offered during the 2019-2020 academic year <a href="https://docs.google.com/spreadsheets/d/1RoLxiYgpjLLRrwf4F6LzDAVSBqPlah579dCECkvKWCQ/edit?urp=gmail_link"> here </a>.
+				  */}
+				  
 				</StyledSKinnyDescription>
             </StyledSkinnyText>
           </Grid>
@@ -249,12 +263,7 @@ Taiwan. Students can add or drop during the first two weeks of the semester. Ple
               </StyledSkinnyTitle>
               <StyledShortUnderline />
               <StyledSKinnyDescription>
-              NYCU provides plenty of facilities on campus, including a comprehensive sports center (which includes
-a swimming pool), a computer center, the library and many other resources, and a wide variety of
-student clubs and groups that Capstone Program participants can — and are encouraged to — join.
-Some facilities do require a fee. Flagship students will be paying the same rate as NYCU students. The
-NYCU campus is very close (just a few subway stops away) to the most famous Shi Lin Night Market, as
-well as relaxing hot springs and many other sightseeing spots.
+              NYCU provides plenty of facilities on campus, including a comprehensive sports center (which includes a swimming pool), a computer center, the library and many other resources, and a wide variety of student clubs and groups that Capstone Program participants can — and are encouraged to — join. Some facilities do require a fee. Flagship students will be paying the same rate as NYCU students. The NYCU campus is very close (just a few subway stops away) to the most famous Shi Lin Night Market, National Palace Museum, as well as relaxing hot springs and many other sightseeing spots.
               </StyledSKinnyDescription>
             </StyledSkinnyText>
             </Grid>
@@ -296,7 +305,7 @@ well as relaxing hot springs and many other sightseeing spots.
               margin: 'auto',
             }}
           />
-          <br/><br/>
+          <br/>
           
             <Grid item>
               <ul
@@ -305,6 +314,8 @@ well as relaxing hot springs and many other sightseeing spots.
                   textAlign: 'center',
                 }}
               >
+				  
+				{/* 
                 <StyledListItem>
                   <LearnMore
                     text="National Yang Ming Chiao Tung University (NYCU)"
@@ -325,9 +336,11 @@ well as relaxing hot springs and many other sightseeing spots.
                     }}
                   />
                 </StyledListItem>
+				*/}
+				  
                 <StyledListItem>
                   <LearnMore
-                    text="NYCU Campus Map"
+                    text="Yang Ming Campus Map"
                     center={false}
 					href ="https://web.ym.edu.tw/ezfiles/133/1133/img/1538/20190718map.png"
                     style={{
@@ -337,7 +350,7 @@ well as relaxing hot springs and many other sightseeing spots.
                 </StyledListItem>
                 <StyledListItem>
                   <LearnMore
-                    text="National Yang Ming Chiao Tung University Library"
+                    text="Yang Ming Campus Library"
                     center={false}
 					 href="https://libweb-e.ym.edu.tw/files/11-1174-17-1.php"
                     style={{
@@ -347,7 +360,7 @@ well as relaxing hot springs and many other sightseeing spots.
                 </StyledListItem>
                 <StyledListItem>
                   <LearnMore
-                    text="NYCU International"
+                    text="NYCU International Affairs Office"
                     center={false}
 					href = "https://oia.ym.edu.tw/index.php/en-gb/"
                     style={{
@@ -357,7 +370,7 @@ well as relaxing hot springs and many other sightseeing spots.
                 </StyledListItem>
                 <StyledListItem>
                   <LearnMore
-                    text="NYCU Dormitory Photos"
+                    text="Yang Ming Campus Dormitory Photos"
                     center={false}
 					
 					href= "https://dorm.ym.edu.tw/files/15-1208-28051,c31-1.php"
