@@ -32,10 +32,10 @@ export default class YangMingUniversityHousingOptions extends React.PureComponen
             Dormitory #5 -- with one building for male students and one for female students -- is conveniently located on campus and provides quick accessibility to classes.
             </StyledText>
             <StyledText>
-            Students will have two dorm options. One option is a double room, with a bathroom shared by two. The other option is a quad room, with four students sharing a large bedroom and a bathroom. Dormitory #5 also has common spaces, including very basic kitchens, laundry rooms, lounges, and study and workout spaces. Electricity, cable, and internet are not included in rent and must be paid separately.
+            Students will live in double rooms with a Taiwanese roommate. Dormitory #5 also has common spaces, including very basic kitchens, laundry rooms, lounges, and study and workout spaces. Electricity, cable, and internet are not included in rent and must be paid separately.
             </StyledText>
             <StyledText>
-            Whether in a double or quad room, all Flagship students will be rooming with Taiwanese students, which is an excellent way for students to increase their target language fluency, and gain firsthand cultural understanding.
+            All Flagship students will be rooming with Taiwanese students, which is an excellent way for students to increase their target language fluency, and gain firsthand cultural understanding.
             </StyledText>
             </Grid>
 
@@ -70,7 +70,7 @@ export default class YangMingUniversityHousingOptions extends React.PureComponen
                 Bureau
               </StyledListItem>
               <StyledListItem>
-               Bathroom (either private, shared with one other, or with three others)
+               Bathroom (shared with your roommate)
               </StyledListItem>
               <StyledListItem>
               Access to basic kitchen, laundry room, common lounges, study area, workout room
