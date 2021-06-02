@@ -50,6 +50,16 @@ export default class Home extends React.PureComponent {
                     friendships and gain the skills necessary to become a global
                     professional!
                   </p>
+				  <p>Please watch <a
+                          href="https://drive.google.com/file/d/1E84oTbEGzaM5rcge4PVL-NfF1P_jNd3s/view"
+                          target="_blank"
+                          style={{
+                            color: 'black',
+                            textDecoration: 'underline black',
+                          }}
+									  >this video</a> for details about the Capstone Year in Taiwan.
+					</p>	
+					
                 </Grid>
               </Grid>
             </div>
