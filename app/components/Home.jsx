@@ -50,21 +50,29 @@ export default class Home extends React.PureComponent {
                     friendships and gain the skills necessary to become a global
                     professional!
                   </p>
-				  <p>Please watch <a
-                          href="https://drive.google.com/file/d/1E84oTbEGzaM5rcge4PVL-NfF1P_jNd3s/view"
-                          target="_blank"
-                          style={{
-                            color: 'black',
-                            textDecoration: 'underline black',
-                          }}
-									  >this video</a> for details about the Capstone Year in Taiwan.
-					</p>	
+					
 					
                 </Grid>
               </Grid>
+				
+				<Grid
+                  container
+                  className="home-eligible-container"
+                  justify="center"
+                >
+				<div className="home-join-us-title">Please watch this video for details about the Capstone Year in Taiwan.</div>
+					
+				<iframe src="https://drive.google.com/file/d/1E84oTbEGzaM5rcge4PVL-NfF1P_jNd3s/preview" width="640" height="480"></iframe>
+					
+				</Grid>	
+				
             </div>
           </div>
         </div>
+			
+			
+			
+			
         <div className="home-section-info section-why-list">
           <div className="home-section-info-wrapper">
             <div className="section-container">
