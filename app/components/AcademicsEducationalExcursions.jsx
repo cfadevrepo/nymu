@@ -51,7 +51,18 @@ export default class AcademicsEducationalExcursions extends React.PureComponent 
               <div className="home-join-us-title">
                 To see what the Taiwan Program first cohort's aboriginal excursion was like, please watch this video of their trip.
               </div>
-              <iframe src="https://drive.google.com/file/d/1b1y7GeBJKTEOanpwCWIolJQbS-cdtoYk/preview" width="80%" height="600px"></iframe>
+				  
+				  
+			  <div className='player-wrapper'>
+                 <ReactPlayer
+                   url='https://youtu.be/UpjRp1UdtDE'
+              /> </div>	  
+              
+				  {/* 
+				  <iframe src="https://drive.google.com/file/d/1b1y7GeBJKTEOanpwCWIolJQbS-cdtoYk/preview" width="80%" height="600px"></iframe>
+				  */}
+				  
+				  
                 </Grid>
             
             </div>

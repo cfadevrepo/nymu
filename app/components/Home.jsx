@@ -65,7 +65,7 @@ export default class Home extends React.PureComponent {
 					
         <div className='player-wrapper'>
         <ReactPlayer
-          url='https://www.youtube.com/watch?v=VJYBHv3dzzQ'
+          url='https://youtu.be/qnJdzzNalgI'
         /> </div>
 					
 				</Grid>	
