@@ -18,11 +18,12 @@ export default class ProgramOverviewCalendar extends React.PureComponent {
             </StyledTitle>
             <StyledSubtext>
               Below you will find a preliminary calendar of Tentative
-              Dates for the Fall 2020-Spring 2021 cohort. (These timelines are subject to change.) 
+              Dates for the Fall 2021-Spring 2022 cohort. <br />
+			  (These timelines are subject to change.) 
             </StyledSubtext>
             <br />
             <StyledTableTitle>
-              Tentative Dates for 2020-2021 Fall - Spring Cohort:
+              Tentative Dates for 2021-2022 Fall - Spring Cohort:
             </StyledTableTitle>
             <Table
               title={[
@@ -31,46 +32,54 @@ export default class ProgramOverviewCalendar extends React.PureComponent {
               ]}
               rows={[
                 {
-                  label: 'September 6, 2020',
-                  value: 'Students arrive in Taiwan',
-                },
-                {
-                  label: 'September 7 through 11, 2020',
+                  label: 'September 2 through 10, 2021',
                   value: 'In-country orientation',
                 },
                 {
-                  label: 'September 14, 2020',
+                  label: 'September 13, 2021',
                   value: 'NYCU Semester 1 begins',
                 },
                 {
-                  label: 'January 15, 2021',
-                  value: 'NYCU Semester 1 ends',
+                  label: 'December 27-30, 2021',
+                  value: 'NYCU Semester 1 Final Exams',
+                },
+                {
+                  label: 'January 3-7, 2022',
+                  value: 'End of Semester Oral Presentations on January 3; Mid-Year Proficiency Tests January 4-7',
                 },
   
                 {
-                  label: 'January 16 to February 21, 2021',
-                  value: 'Winter Break (Chinese New Year, February 11 to 16, 2021)',
+                  label: 'January 8 to February 13, 2022',
+                  value: 'Winter Break (Chinese New Year, February 1-6)',
                 },
           
                 {
-                  label: 'February 22, 2021',
+                  label: 'February 14, 2022',
                   value: 'NYCU Semester 2 begins',
                 },
 					  
                 {
-                  label: 'June 25, 2021',
-                  value: 'NYCU Semester 2 ends',
+                  label: 'May 30-June 3, 2022',
+                  value: 'NYCU Semester 2 Final Exams',
                 },
                 {
-                  label: 'Early to Mid-July, 2021',
-                  value: 'Flagship students return to U.S.',
+                  label: 'June 6-17, 2022',
+                  value: 'Soperior-Level Language Practicum',
+                },
+                {
+                  label: 'June 20-24, 2022',
+                  value: 'Exit Proficiency Tests',
+                },
+                {
+                  label: 'June 30, 2022',
+                  value: 'Flagship students return to U.S. on or before June 30',
                 },
               ]}
             />
             <br />
             <br />
             <StyledTableTitle>
-              Key Dates for 2021 Spring - Fall Cohort (to be determined)
+              Key Dates for 2022 Spring - Fall Cohort to be determined
             </StyledTableTitle>
           
             <br />
