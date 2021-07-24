@@ -515,6 +515,37 @@ Teaching Chinese as a Second Language.
               
             </Modal> 	
               ); 
+	  
+	  
+    const Modal30 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>Yu-Ting Chiu, Full-time Faculty </h1>
+                     
+        
+        <p>
+                  Chiu Laoshi (Ms. Yu-Ting Chiu) has an M.A. in teaching Chinese as a Second Language from National Taiwan Normal University. Her thesis focused on language use in social media. She has taught at Chien Hsin University of Science and Technology (2021), Williams College (2018-2019), and in an intensive Chinese program at Middlebury College (2019). She majored in English literature at the National University of Kaohsiung, and worked for a Taiwanese technology company for a few years before she started her career as a teacher.  Chiu Laoshi received a Certificate of Qualification to teach Mandarin from the Taiwan Ministry of Education in 2014. In addition, she has experience in teaching children, teenagers, adults, and online classes.
+                  </p>
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              ); 
+	  
+	  
+    const Modal31 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>Ying-Ju Chen, Full-time Faculty </h1>
+                     
+        
+        <p>
+                  Chen Laoshi (Ms. Ying-Ju Chen) has an M.A. in teaching Chinese as a second language from National Taiwan University, and she received her B.A. in Chinese literature from National Chengchi University. Her research interests include Chinese literature, culture, and intercultural teaching. Chen Laoshi also has a Certification of Proficiency in teaching Chinese as a second language, and a teaching certificate for secondary school. She was a lead instructor for advanced students at the 2021 NYCU summer program, and from 2019-2020, she was a teaching assistant and associate instructor for the Chinese Flagship Program at Indiana University, Bloomington. 
+                  </p>
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              ); 
+	  
 
 //end new
   return (
@@ -775,6 +806,58 @@ Teaching Chinese as a Second Language.
 
 
 				</Grid>
+				
+              <Grid
+              container
+              justify="center"
+              alignItems="center"
+              spacing={15} >
+
+
+              <Grid
+                item
+                xs={12}
+                sm={4}
+              >
+
+				<button style={box} onClick={() => showModal(Modal30)}>
+          <img
+			src={AssetStore.get('assets/images/headshots/Yu-Ting Chiu.jpg') }
+			style={{ height: 150, width: 150,}} ></img></button>
+				  
+       
+                <StyledText>
+                  <strong>
+                    Yu-Ting Chiu
+                  </strong>
+                  <br />
+                  Full-time Faculty
+                </StyledText>
+              </Grid>
+
+              <Grid
+                item
+                xs={12}
+                sm={4}
+              >
+
+				<button style={box} onClick={() => showModal(Modal31)} >
+          <img
+			src={AssetStore.get('assets/images/headshots/Ying-Ju Chen.jpg') }
+			style={{ height: 150, width: 150,}} ></img></button>
+				  
+       
+                <StyledText>
+                  <strong>
+                  Ying-Ju Chen
+                  </strong>
+                  <br />
+                  Full-time Faculty
+                </StyledText>
+              </Grid>
+		  
+				</Grid>							
+				
             <br />
             <br />
             <StyledTableTitle>
