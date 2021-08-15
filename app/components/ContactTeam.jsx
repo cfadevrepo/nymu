@@ -369,7 +369,7 @@ President for Global Affairs. Please read about his wealth of experience in fore
 const Modal22 = ({ onRequestClose,  ...otherProps }) => (
         <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
          
-          <h1>April Liu, Resident Director </h1>     
+          <h1>April Liu, Resident Coordinator </h1>     
                      <p>
                      Liu Laoshi has an M.A. in Drama and Theatre Education from the University of Warwick, and she received her B.A. in Teaching Chinese as a Second Language from Chuong Yuan University. She holds a 2009 Certification of Proficiency in Teaching Chinese as a Second Language, and also in 2007 obtained Certification of Putonghua Proficiency.     
        </p>
@@ -381,7 +381,7 @@ const Modal22 = ({ onRequestClose,  ...otherProps }) => (
 
 
        <p>
-       From her professional experiences, Liu Laoshi is now equipped with a strong teaching background and insight into the policies behind the Taiwanese educational system. She is familiar with labor regulations and the job market in Taiwan. Combining her background knowledge with her teaching and work experience, she will be an effective Resident Director, capable of helping Capstone students with any issues that might arise.   
+       From her professional experiences, Liu Laoshi is now equipped with a strong teaching background and insight into the policies behind the Taiwanese educational system. She is familiar with labor regulations and the job market in Taiwan. Combining her background knowledge with her teaching and work experience, she will be an effective Resident Coordinator, capable of helping Capstone students with any issues that might arise.   
          </p> 
     <button  onClick={onRequestClose}>close</button>
           
@@ -545,8 +545,37 @@ Teaching Chinese as a Second Language.
               
             </Modal> 	
               ); 
-	  
 
+	  
+    const Modal32 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>Ting-Ting Lu, Office Assistant </h1>
+                     
+        
+        <p>
+                  Ting-Ting Lu graduated from Tamkang University in 2021, with a major in Education Technology and minor in Information and Communication. From 2018 to 2019 she was an exchange student at Indiana University of Pennsylvania. From 2019 to 2020, Ms. Lu was a Chinese language teaching administrative assistant for the Overseas Community Affairs Council and the Tamkang University Chinese Language Center, providing all key administrative functions. While working at the Athlete Village’s during the 2017 Taiwan Universiade (an international multi-sport event), Ms. Lu provided foreign athletes with tourist guides and other information about Taipei. Additionally, while she was at Tamkang University, she served as a swimming coach to other students. Through all of her work, Ms. Lu has learned to communicate effectively with students and people from different cultures, and to better understand how different approaches are required for different personalities. Ms. Lu truly enjoys interacting with people from around the world, perhaps partially because she lived in Kansas City, Kansas, for over a year when she was a child. 
+                  </p>
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              ); 	  
+	  
+    const Modal33 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>Audrey Moore, Administrative Assistant </h1>
+                     
+        
+        <p>
+                  Audrey Moore is the administrative assistant for the Chinese Flagship Overseas Capstone Program in Taiwan, as well as for the Hunter College Chinese Flagship domestic program. Her duties include English-Chinese translation and revisions, hosting and participating in information sessions, and student guidance and relations. She is a Flagship alumna, having graduated from the Flagship program in the spring of 2021 and has become Flagship Certified. She has participated in and completed study abroad programs in both Taiwan (ICLP) and Beijing (PIB), and was awarded the Gilman scholarship, a Panda Cares scholarship, and the Huayu Enrichment scholarship. She graduated from Queensborough Community College (QCC) with an A.A in Liberal Arts for the Humanities, and also graduated summa cum laude from Hunter College with a B.A in Chinese language and History, along with a minor in Japanese language. In addition, she has worked as an English tutor for ESL students at the QCC writing center, where she also hosted ESL test preparation workshops. She later moved on to working as an English tutor for all students at QCC.
+                  </p>
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              ); 
+	  
+	  
 //end new
   return (
       <div className="home-section-info" style={{ textAlign: 'center',}} >
@@ -682,7 +711,7 @@ Teaching Chinese as a Second Language.
                   April Liu
                   </strong>
                   <br />
-                  Resident Director
+                  Resident Coordinator
                 </StyledText>
               </Grid>
 
@@ -740,6 +769,27 @@ Teaching Chinese as a Second Language.
               alignItems="center"
               spacing={15} >
 
+              <Grid
+                item
+                xs={12}
+                sm={4}
+              >
+
+				<button style={box} onClick={() => showModal(Modal32)} >
+          <img
+			src={AssetStore.get('assets/images/headshots/TingTing_Lu.jpeg') }
+			style={{ height: 150, width: 150,}} ></img></button>
+				  
+       
+                <StyledText>
+                  <strong>
+                  Ting-Ting Lu
+                  </strong>
+                  <br />
+                  Office Assistant
+                </StyledText>
+              </Grid>			  
+				  
 
               <Grid
                 item
@@ -783,6 +833,18 @@ Teaching Chinese as a Second Language.
                 </StyledText>
               </Grid>
 				  
+
+
+
+				</Grid>
+				
+              <Grid
+              container
+              justify="center"
+              alignItems="center"
+              spacing={15} >
+
+				  
               <Grid
                 item
                 xs={12}
@@ -803,17 +865,7 @@ Teaching Chinese as a Second Language.
                   Full-time Faculty
                 </StyledText>
               </Grid>
-
-
-				</Grid>
-				
-              <Grid
-              container
-              justify="center"
-              alignItems="center"
-              spacing={15} >
-
-
+				  
               <Grid
                 item
                 xs={12}
@@ -929,6 +981,28 @@ Teaching Chinese as a Second Language.
                   </strong>
                   <br />
                   Placements, Assessments, and Certificates
+                </StyledText>
+              </Grid>
+				
+				
+              <Grid
+                item
+                xs={12}
+                sm={4}
+              >
+
+				<button style={box} onClick={() => showModal(Modal33)} >
+          <img
+			src={AssetStore.get('assets/images/headshots/Audrey_Moore.png') }
+			style={{ height: 150, width: 150,}} ></img></button>
+				  
+       
+                <StyledText>
+                  <strong>
+                  Audrey Moore
+                  </strong>
+                  <br />
+                  Administrative Assistant
                 </StyledText>
               </Grid>
             
