@@ -96,8 +96,9 @@ class NavBar extends React.Component {
                 PROGRAM HANDBOOK
               </a>
               <a
-              
-                href="#"
+                target="_blank"      
+                href={AssetStore.get('assets/resources/student-guidebook.pdf')}
+                
               >
                 STUDENT LIFE GUIDEBOOK
               </a>

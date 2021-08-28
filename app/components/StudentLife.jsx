@@ -234,8 +234,8 @@ export default class StudentLife extends React.PureComponent {
               <StyledGuideLabel>Student Life Guidebook</StyledGuideLabel>
               <p>
                 <StyledLink
-                  
-                  href="#"
+                  target = "_blank"
+                  href={AssetStore.get('assets/resources/student-guidebook.pdf')}
                 >
                   DOWNLOAD
                 </StyledLink>
