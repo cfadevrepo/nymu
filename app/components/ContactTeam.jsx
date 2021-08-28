@@ -574,7 +574,21 @@ Teaching Chinese as a Second Language.
               
             </Modal> 	
               ); 
-	  
+
+    const Modal34 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>Shun-Hua Wei, Director of NYCU Flagship Project </h1>
+                     
+        
+        <p>
+                  Dr. Wei became Vice President of National Yang Ming Chiao Tung University in August 2021. Prior to this, he served in the Office of International Affairs, National Yang Ming University. Dr. Wei has held several professorships and directorships in both Canada and Taiwan, and holds a Ph.D from the University of Iowa. He has won a number of prestigious awards, including most recently, in 2020, Taiwan’s National Innovation Award. Please read more about Dr. Wei’s background <a href="https://www.nycu.edu.tw/wei-senior-vice-president/"> here.</a>
+                  </p>
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              ); 
+
 	  
 //end new
   return (
@@ -671,15 +685,15 @@ Teaching Chinese as a Second Language.
                 sm={4}
               >
 
-				<button style={box} onClick={() => showModal(Modal21)}>
+				<button style={box} onClick={() => showModal(Modal34)}>
           <img
-			src={AssetStore.get('assets/images/headshots/william_stanton.png') }
+			src={AssetStore.get('assets/images/headshots/Shun-Hua_Wei.jpg') }
 			style={{ height: 150, width: 150,}} ></img></button>
 				  
        
                 <StyledText>
                   <strong>
-                    William A. Stanton
+                    Shun-Hua Wei
                   </strong>
                   <br />
                   Director of NYMU Flagship Project
