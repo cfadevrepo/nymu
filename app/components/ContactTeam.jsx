@@ -696,7 +696,7 @@ Teaching Chinese as a Second Language.
                     Shun-Hua Wei
                   </strong>
                   <br />
-                  Director of NYMU Flagship Project
+                  Director of NYCU Flagship Project
                 </StyledText>
               </Grid>
 			  </Grid>
