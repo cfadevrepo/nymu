@@ -13,7 +13,7 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
         <div className="home-section-info-wrapper">
 			
 			
-		  <div style={{color: 'black', fontSize:'20px'}}> The estimated costs below are for planning purposes for a typical year. During the Fall 2020 and Spring 2021 semesters, please contact the project coordinator, Ms. Sam Maser, at taipeicapstone@hunter.cuny.edu, regarding the cost of attendance. </div>
+		  <div style={{color: 'black', fontSize:'20px'}}> The estimated costs below are for planning purposes for a typical year. </div>
 			
           <div className="section-container">
             <StyledTableTitle>
@@ -28,7 +28,11 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
                 },
                 {
                   label: 'ADMINISTRATIVE FEES',
-                  value: '$800',
+                  value: '$1,600',
+                },
+		        {
+                  label: 'BOOKS AND SUPPLIES',
+                  value: '$100',
                 },
               ]}
             />
@@ -67,8 +71,8 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
               width="75%"
               rows={[
                 {
-                  label: 'NYMU DORMITORY',
-                  value: '$2,200',
+                  label: 'NYCU DORMITORY',
+                  value: '$2,250',
                 },
                 {
                   label: 'MATTRESS, BEDDING, PILLOW',
@@ -76,11 +80,11 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
                 },
                 {
                   label: 'INTERNET',
-                  value: '$500',
+                  value: '$100',
                 },
                 {
                   label: 'UTILITIES',
-                  value: '$500',
+                  value: '$750',
                 },
               ]}
             />
@@ -101,10 +105,6 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
                   value: '$1,000',
                 },
                 {
-                  label: 'BOOKS AND SUPPLIES',
-                  value: '$200',
-                },
-                {
                   label: 'FOOD/MEALS/INCIDENTALS',
                   value: '$8,500',
                 },
@@ -119,11 +119,15 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
               ]}
               lastRow={{
                 label: 'Grand Total',
-                value: '$18,495',
+                value: '$19,095',
               }}
             />
           </div>
 
+          <div style={{color: 'black', fontSize:'20px'}}> Due to the ongoing pandemic, there may be additional quarantine costs. Please speak with your domestic program coordinator. </div>
+			
+		  <br />
+			
           <div style={{color: 'red', fontSize:'20px', textDecoration:'underline'}}> PLEASE NOTE: Students who wish to travel independently during weekends/school breaks should budget at least an additional <b>$1,500</b> of personal finances for this purpose. </div>
          
         </div>
