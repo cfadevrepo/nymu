@@ -352,7 +352,7 @@ Taiwan. Students can add or drop during the first two weeks of the semester.
                   <LearnMore
                     text="Yang Ming Campus Library"
                     center={false}
-					 href="https://libweb-e.ym.edu.tw/files/11-1174-17-1.php"
+					 href="https://www.ym.edu.tw/lib/Floor/floor.html"
                     style={{
                       fontSize: '14px',
                     }}
@@ -362,7 +362,7 @@ Taiwan. Students can add or drop during the first two weeks of the semester.
                   <LearnMore
                     text="NYCU International Affairs Office"
                     center={false}
-					href = "https://oia.ym.edu.tw/index.php/en-gb/"
+					href = "https://oia.nycu.edu.tw/"
                     style={{
                       fontSize: '14px',
                     }}
@@ -373,7 +373,7 @@ Taiwan. Students can add or drop during the first two weeks of the semester.
                     text="Yang Ming Campus Dormitory Photos"
                     center={false}
 					
-					href= "https://dorm.ym.edu.tw/files/15-1208-28051,c31-1.php"
+					href= "https://dorm.sa.nycu.edu.tw/files/13-1208-28051.php"
                     style={{
                       fontSize: '14px',
                     }}

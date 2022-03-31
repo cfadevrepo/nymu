@@ -50,10 +50,10 @@ export default class ContactTeam extends React.PureComponent {
                 </StyledText>
                 <br /><br />
                 <strong>
-                  Ms. Sam Maser
+                  Audrey Moore
                 </strong>
                 <StyledText>
-                  U.S. Project Coordinator<br />
+                  Administrative Assistant<br />
                   taipeicapstone@hunter.cuny.edu<br />
                   (212) 772-5163<br />
                 </StyledText>

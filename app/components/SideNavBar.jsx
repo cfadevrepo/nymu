@@ -305,7 +305,7 @@ class SideNavBar extends React.Component {
                   },
                   {
                     label: 'HOUSING',
-                    to: 'yang-ming-university/housing-options',
+                    to: '/yang-ming-university/housing-options',
                   },
                 ]}
               />

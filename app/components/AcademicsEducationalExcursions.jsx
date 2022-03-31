@@ -32,7 +32,7 @@ export default class AcademicsEducationalExcursions extends React.PureComponent 
                   Exploring Taiwanese Aboriginal Culture
                   </div>
                   <p>
-                  During the first semester, students will visit the aboriginal Atayal Tribe community near Taipei. 
+                  Students will visit the aboriginal Atayal Tribe community near Taipei. 
                   Students will work with the community to design a plan to connect the Taiwanese aboriginal culture with the world. Students will use their professional knowledge from their different academic majors to contribute to this project. 
                   </p>
                 </Grid>

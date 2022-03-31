@@ -47,7 +47,7 @@ const HERO_DATA = {
     src: 'assets/images/excursions.jpg',
 	placeholder: 'assets/images/excursions.jpg',
     text: 'Educational Excursions',
-    subtext: 'Students participate in educational and cultural learning excursions once per semester.',
+    subtext: 'Students participate in educational and cultural learning excursions.',
   },
   '/academics/certifications': {
     src: 'assets/images/certifications.jpg',

@@ -274,7 +274,7 @@ export default class Home extends React.PureComponent {
                     Hunter College
                   </p>
                   <p>
-                    One of twelve Chinese Flagships in the U.S., Hunter College Chinese Flagship
+                    One of thirteen Chinese Flagships in the U.S., Hunter College Chinese Flagship
                     is a rigorous honors program designed for outstanding undergraduates who seek
                     to attain superior proficiency in Mandarin, while pursuing an academic major
                     of their choice.

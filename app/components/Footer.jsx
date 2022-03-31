@@ -21,7 +21,7 @@ export default class Footer extends React.Component {
 					  </a>
                   </p>
                   <p>
-                    <a  href="/TaipeiCapstonefall2020/academics/introduction">
+                    <a  href="/TaipeiCapstone/academics/introduction">
                       Academics
                     </a>
                   </p>
@@ -36,12 +36,12 @@ export default class Footer extends React.Component {
                     </a>
                   </p>
                   <p>
-                    <a href="https://nymu-e.ym.edu.tw/bin/home.php">
+                    <a href="https://www.nycu.edu.tw/">
                       National Yang Ming Chiao Tung University
                     </a>
                   </p>
                   <p>
-                    <a href="http://overseas.chineseforall.org/contact/form">
+                    <a href="/TaipeiCapstone/contact/form">
                       Contact Us
                     </a>
                   </p>
@@ -51,9 +51,8 @@ export default class Footer extends React.Component {
                 <p className="footer-menu-title">CONTACT US</p>
                 <div className="footer-contact-us">
                   <p>
-                    Hunter College
-                    <br />
-                    chineseflagship@hunter.cuny.edu
+                   
+                    taipeicapstone@hunter.cuny.edu
                     <br />
                     212-396-6595
                   </p>
