@@ -22,8 +22,8 @@ export default class AcademicsTutoringSupport extends React.PureComponent {
               Tutoring support is an important feature of the Taiwan Capstone Year where students can make important
               linguistic breakthroughs in this highly individualized instructional format. Among other things, students
               can learn four character idioms, discover the appropriate way to draft a research paper, and ask questions
-              about the topics most important to them. There will be one hour of one-on-one tutoring
-per day, to be scheduled with language tutors (3 hours) and domain tutors (2 hours).
+              about the topics most important to them. There will be four hours of one-on-one tutoring
+per week, to be scheduled with language tutors (3 hours) and domain tutors (1 hour).
             </StyledText2>
             <br />
             <StyledTableTitle>
@@ -43,7 +43,7 @@ interfere with their internship hours) to practice language used in a profession
             <p>
 
             To give Capstone students the support they need to build academic and professional-level proficiency,
-during the first semester, students will receive two hours of domain tutoring each week. Domain tutors
+during the first semester, students will receive one hour of domain tutoring each week. Domain tutors
 will help students read and comprehend their direct enrollment class materials, and help students
 acquire domain terminologies. The goal of domain tutoring during the first semester is to help students
 to dive more deeply into their domain studies and be successful in their direct enrollment classes.

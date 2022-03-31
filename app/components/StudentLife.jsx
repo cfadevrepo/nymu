@@ -335,7 +335,7 @@ export default class StudentLife extends React.PureComponent {
                     style={{
                       fontSize: '14px',
                     }}
-                    href="https://www.railway.gov.tw/en/index.aspx"
+                    href="https://www.railway.gov.tw/tra-tip-web/tip"
                   />
                 </StyledListItem>
                 <StyledListItem>
@@ -355,7 +355,7 @@ export default class StudentLife extends React.PureComponent {
                     style={{
                       fontSize: '14px',
                     }}
-                    href="https://www.artsticket.com.tw/CKSCC2005/Home/Home00/index.aspx"
+                    href="https://npac-ntch.org/"
                   />
                 </StyledListItem>
               </ul>

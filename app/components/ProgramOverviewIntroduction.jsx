@@ -32,7 +32,7 @@ export default class ProgramOverviewIntroduction extends React.PureComponent {
                   <p>
                     Combining intensive language instruction and cultural immersion, The Language Flagship is a leader
                     in educating U.S. undergraduate students in languages critical to U.S. National Security.
-                    Capstone students are outstanding American undergraduates, from 12 universities across the U.S.,
+                    Capstone students are outstanding American undergraduates, from 13 universities across the U.S.,
                     who excel in in Mandarin, and who are often double majoring in Chinese and another academic domain.
                   </p>
                   <p>
@@ -69,7 +69,7 @@ export default class ProgramOverviewIntroduction extends React.PureComponent {
                       Located in Taipei, Taiwan
                     </div>
                     <p>
-                          This year-long Capstone Program in Taipei, Taiwan at National Yang Ming Chiao Tung University offers unparalleled and unique opportunities for Capstone students to immerse themselves in academic and professional environments. The Capstone Year in Taipei helps students become impressive global professionals. The Chinese Flagship Overseas Capstone Program in Taiwan was established in 2019. In addition, there is a Chinese Overseas Flagship in Nanjing, China.	
+                          This year-long Capstone Program in Taipei, Taiwan at National Yang Ming Chiao Tung University offers unparalleled and unique opportunities for Capstone students to immerse themselves in academic and professional environments. The Capstone Year in Taipei helps students become impressive global professionals.	
                     </p>
                   </div>
                 </Grid>

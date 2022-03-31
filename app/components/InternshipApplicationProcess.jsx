@@ -25,8 +25,7 @@ export default class InternshipApplicationProcess extends React.PureComponent {
               </strong>
               <ul>
                 <StyledListItem>
-                  Students are required to work full time (40 hours a week, including the two-and-a-half-hour weekly class time) for
-                  four months.
+                  Students are required to work part time, 3 days per week, 240 hours in total.
                 </StyledListItem>
                 <StyledListItem>
                   In order to get the most out of the internship, Mandarin must be used a minimum of 85 percent of the time in

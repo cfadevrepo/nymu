@@ -56,7 +56,7 @@ export default class InternshipIntroduction extends React.PureComponent {
                   outside the classroom in a workplace setting.
                 </StyledText2>
                 <StyledText2>
-                  To this end, the first four months of the second semester of the Capstone Year in Taipei is dedicated
+                  To this end, part of the second semester of the Capstone Year in Taipei is dedicated
                   to a mandatory in-service internship.
 					<br></br>
                 </StyledText2>
