@@ -15,114 +15,48 @@ export default class ProgramOverviewEstimatedCosts extends React.PureComponent {
 			
 		  <div style={{color: 'black', fontSize:'20px'}}> The estimated costs below are for planning purposes for a typical year. </div>
 			
+		  <br />
+			
+		  <div style={{color: 'black', fontSize:'20px'}}> Estimated additional expenses are included for planning purposes only. </div>
+			
           <div className="section-container">
-            <StyledTableTitle>
-              1. Tuition and Academic Expenses
-            </StyledTableTitle>
             <Table
               width="75%"
               rows={[
                 {
-                  label: 'TUITION TO OVERSEAS INSTITUTION',
-                  value: '$500',
+                  label: 'I. Academic Expenses (Administrative Fees, Tuition, and Learning Materials): ',
+                  value: '$2,200',
                 },
                 {
-                  label: 'ADMINISTRATIVE FEES',
-                  value: '$1,600',
+                  label: 'II. International Travel (Visa, Visa Health Certificate Certification, Required COVID-19 testing, Resident Visa, Resident Visa Health Check-Up, Alien Resident Certificate/ARC Card, NYCU New Students Health Examination Form, and Insurance):',
+                  value: '$1,840',
                 },
 		        {
-                  label: 'BOOKS AND SUPPLIES',
-                  value: '$100',
+                  label: 'III. Lodging (NYCU Dormitory, Mattress, Bedding, Pillow, Internet, and Utilities):',
+                  value: '$4,662',
+                },
+			    {
+                  label: 'IV. Estimated Additional Expenses (Airfare, Local Transportation, Food/Meals/Incidentals, Mobile Phone, and Checked Bags): ',
+                  value: '$12,500',
+                },
+				{
+                  label: 'V. Estimated Quarantine Related Expenses (Accommodation for the first quarantine hotel, Accommodation for the second quarantine hotel, Meals when staying at the second quarantine hotel, Quarantine-Required Rented Taiwanese Cell Phone, Quarantine Transportation, and Wi-Fi Booster Rental): ',
+                  value: '$2,222',
                 },
               ]}
-            />
-            <br />
-            <br />
-            <StyledTableTitle>
-              2. International Travel
-            </StyledTableTitle>
-            <Table
-              width="75%"
-              rows={[
-                {
-                  label: 'VISA',
-                  value: '$160',
-                },
-                {
-                  label: 'VISA HEALTH CERTIFICATE CERTIFICATION',
-                  value: '$15',
-                },
-                {
-                  label: 'ALIEN RESIDENT CERTIFICATE (ARC) CARD',
-                  value: '$50',
-                },
-                {
-                  label: 'INSURANCE',
-                  value: '$620',
-                },
-              ]}
-            />
-            <br />
-            <br />
-            <StyledTableTitle>
-              3. Lodging
-            </StyledTableTitle>
-            <Table
-              width="75%"
-              rows={[
-                {
-                  label: 'NYCU DORMITORY',
-                  value: '$2,250',
-                },
-                {
-                  label: 'MATTRESS, BEDDING, PILLOW',
-                  value: '$250',
-                },
-                {
-                  label: 'INTERNET',
-                  value: '$100',
-                },
-                {
-                  label: 'UTILITIES',
-                  value: '$750',
-                },
-              ]}
-            />
-            <br />
-            <br />
-            <StyledTableTitle>
-              4. Estimated Additional Expenses
-            </StyledTableTitle>
-            <Table
-              width="75%"
-              rows={[
-                {
-                  label: 'AIRFARE',
-                  value: '$2,500',
-                },
-                {
-                  label: 'LOCAL TRANSPORTATION',
-                  value: '$1,000',
-                },
-                {
-                  label: 'FOOD/MEALS/INCIDENTALS',
-                  value: '$8,500',
-                },
-                {
-                  label: 'MOBILE PHONE',
-                  value: '$500',
-                },
-                {
-                  label: 'CHECKED BAGS',
-                  value: '$200',
-                },
-              ]}
-              lastRow={{
-                label: 'Grand Total',
-                value: '$19,095',
+			  lastRow={{
+                label: 'ESTIMATED GRAND TOTAL: ',
+                value: '$23,424',
               }}
+			  
             />
+
+
           </div>
+			
+          <div style={{color: 'black', fontSize:'20px'}}> The amounts on this worksheet are subject to change, and are for estimation purposes only. All amounts are in US$.</div>
+			
+		  <br />
 
           <div style={{color: 'black', fontSize:'20px'}}> Due to the ongoing pandemic, there may be additional quarantine costs. Please speak with your domestic program coordinator. </div>
 			

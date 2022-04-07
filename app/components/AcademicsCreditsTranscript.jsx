@@ -47,7 +47,7 @@ export default class AcademicsCreditsTranscript extends React.PureComponent {
                   Course 4: Domain Research Independent Project in Chinese -- 3 credits
                 </StyledListItem>
               </ul>
-              Total credits for First Semester: 12
+             
             </StyledText2>
             
             <StyledText2
@@ -70,15 +70,13 @@ export default class AcademicsCreditsTranscript extends React.PureComponent {
                   Social and Political Affairs Studies in Chinese -- 3 credits
                 </StyledListItem>
               </ul>
-              Total credits for Second Semester: 12
-              <br />
-              <br />
-              Total credits for Capstone Year program: 24
+             
+              
             </StyledText2>
             <StyledText>
                A student may not need all 24 credits in order to graduate. In this instance,
               the student can choose to only transfer the fall semester credits to their home institution. The student is required to
-              take the three 12 credit spring classes, but they don't have to transfer over
+              take 12 credits in the spring semester, but they don't have to transfer over
               the credits if the credits are unnecessary.
             </StyledText>
             <StyledText>
