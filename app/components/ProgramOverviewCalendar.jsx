@@ -1,4 +1,5 @@
 import React from 'react';
+import AssetStore from '../../lib/AssetStore';
 import {
   StyledTitle,
   StyledSubtext,
@@ -23,67 +24,17 @@ export default class ProgramOverviewCalendar extends React.PureComponent {
             </StyledSubtext>
             <br />
             <StyledTableTitle>
-              Tentative Dates for 2021-2022 Fall - Spring Cohort:
+              Tentative Dates for 2021-2022 Fall - Spring Cohort: <a target="blank" href={AssetStore.get('assets/CFall2021Spring2022.pdf')}>Link </a>
             </StyledTableTitle>
-            <Table
-              title={[
-                'Date',
-                'Event',
-              ]}
-              rows={[
-                {
-                  label: 'September 2 through 10, 2021',
-                  value: 'In-country orientation',
-                },
-                {
-                  label: 'September 13, 2021',
-                  value: 'NYCU Semester 1 begins',
-                },
-                {
-                  label: 'December 27-30, 2021',
-                  value: 'NYCU Semester 1 Final Exams',
-                },
-                {
-                  label: 'January 3-7, 2022',
-                  value: 'End of Semester Oral Presentations on January 3; Mid-Year Proficiency Tests January 4-7',
-                },
-  
-                {
-                  label: 'January 8 to February 13, 2022',
-                  value: 'Winter Break (Chinese New Year, February 1-6)',
-                },
-          
-                {
-                  label: 'February 14, 2022',
-                  value: 'NYCU Semester 2 begins',
-                },
-					  
-                {
-                  label: 'May 30-June 3, 2022',
-                  value: 'NYCU Semester 2 Final Exams',
-                },
-                {
-                  label: 'June 6-17, 2022',
-                  value: 'Soperior-Level Language Practicum',
-                },
-                {
-                  label: 'June 20-24, 2022',
-                  value: 'Exit Proficiency Tests',
-                },
-                {
-                  label: 'June 30, 2022',
-                  value: 'Flagship students return to U.S. on or before June 30',
-                },
-              ]}
-            />
-            <br />
-            <br />
-            <StyledTableTitle>
-              Key Dates for 2022 Spring - Fall Cohort to be determined
-            </StyledTableTitle>
-          
-            <br />
-            <br />
+              
+			<StyledTableTitle>
+              Tentative Dates for 2022 Spring - Fall Cohort: <a target="blank" href={AssetStore.get('assets/CSpringFall2022.pdf')}>Link </a>
+            </StyledTableTitle>  
+			
+			<StyledTableTitle>
+              Tentative Dates for 2022-2023 Fall - Spring Cohort: <a target="blank" href={AssetStore.get('assets/CFall2022Spring2023G1.pdf')}>Link 1</a>, <a target="blank" href={AssetStore.get('assets/CFall2022Spring2023G2.pdf')}>Link 2</a>
+            </StyledTableTitle>  			  
+
             <p>
               In addition to the dates outlined above, the following regular activities will be offered to both
               cohorts by the Taiwan Flagship Overseas Center:

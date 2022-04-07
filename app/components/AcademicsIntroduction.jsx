@@ -55,12 +55,7 @@ export default class AcademicsIntroduction extends React.PureComponent {
             <br />
             <br />
             <br />
-			  
-            <StyledText2 style={{color: 'red'}}>
-              The semester outlines below are for a typical year. Due to the Covid-19 pandemic, please see our revised Spring 2021 semester programming <a target="_blank" href={AssetStore.get('assets/semester-fs2021.pdf')}> here</a> for our Fall 2020-Spring 2021 cohort, and <a target="_blank" href={AssetStore.get('assets/semester-sf2021.pdf')}> here</a> for our Spring-Fall 2021 cohort.
-            </StyledText2>			  
-			  
-			  
+			  		  				  
             <StyledTitle
               style={{
                 textAlign: 'left',
@@ -68,11 +63,6 @@ export default class AcademicsIntroduction extends React.PureComponent {
             >
               Semester 1
             </StyledTitle>
-            <StyledText2>
-              During the first semester at the Taiwan Overseas Center, students will take five courses, each worth 1-3
-              credits, for a total of 12 credits including:
-            </StyledText2>
-           
            
             <StyledTableTitle>
          Intercultural Communication in Greater China (3 credits)
@@ -94,21 +84,15 @@ export default class AcademicsIntroduction extends React.PureComponent {
             <StyledTableTitle>
              Direct Enrollment (2 credits) -- <a target="blank" href={AssetStore.get('assets/NYMU-Courses.pdf')}> Click here to see the list of possible NYMU Direct Enrollment classes </a>
             </StyledTableTitle>
-            
-           
-            
-            <StyledTitle
+               
+			<StyledTitle
               style={{
                 textAlign: 'left',
               }}
             >
               Semester 2
             </StyledTitle>
-            <StyledText2>
-              The second semester in Taipei is comprised of the following courses, one worth 6 credits, and two worth 3 credits, for a total of 12 credits:
-            </StyledText2>
 			  
-			
             <StyledTableTitle>
              In-Service Internship (6 credits)
 			</StyledTableTitle>
