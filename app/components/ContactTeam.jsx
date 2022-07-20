@@ -589,6 +589,130 @@ Teaching Chinese as a Second Language.
             </Modal> 	
               ); 
 
+    const Modal35 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>Pinfeng Lin, Student Housing Coordinator </h1>
+                     
+        
+        <p>
+                  Lin Pinfeng graduated from Ming Chuan University with an M.S. in Tourism. He used to work as a front desk receptionist at The Sherwood Taipei Hotel, and at the humanresources department of Schneider Electric Taiwan where he was responsible for talent recruitment, administrative management, environmental safety and hygiene. During his tenure as an English-speaking tour guide, he often led international exchange students to travel around Taiwan and experience Taiwanese cultural exchange activities, which were well received by teachers and students. His life motto: “Taste life, enrich life.”
+                  </p>
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              ); 
+	  
+	  
+    const Modal36 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>Yu-Ting Hung , Student Housing Assistant </h1>
+                     
+        
+        <p>
+                  Yu-Ting Hung graduated from the Foreign Language Teaching Department of Providence University with a minor in Chinese language teaching. She has years of experience in school administration and activities. Her main responsibilities are taking care of student accommodation issues and local cultural learning activities such as homestays and language learning partners.
+                  </p>
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              ); 
+	  
+	  
+    const Modal37 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>Chiou-Jye Jang, Internship Assistant </h1>
+                     
+        
+        <p>
+                  Chiou-Jye, Jang graduated from the Department of Chinese Literature of Soochow University. After graduation, she studied fashion design at the University of the Arts London. After returning to Taiwan, she founded her own clothing brand, actively participated in the "Made in Taiwan" policy promoted by the Taiwan government, and participated in many international fashion weeks. She was selected for the Taipei Emerging Designer Award for two consecutive years (2013-2014) after which she joined American Business TaskUs Co., Ltd. where she served as professional customer service staff in both Chinese and English, assisting in handling confidential documents and unexpected problems, and giving correct solutions in a short time. </p>
+			
+			
+		<p>
+			In addition to having more than 10 years of experience as a professional fashion designer, Chiou-Jye has long cooperated with local industrial and commercial groups in Taiwan. She is currently the presiding secretary general of the Chinese Hanfu Cultural and Creative Development Association, a full member of the Taipei Small and Medium Enterprise Development Association, and an 8-year senior member of the Taiwan Changxing Branch of the BNI International Business Exchange Association. She hopes to use her rich social network experience to assist students so that they can quickly integrate into the internship program in Taiwan.
+                  </p>
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              ); 
+	  
+	  
+    const Modal38 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>Sun-Li Chi, Full-time Faculty </h1>
+                     
+        
+        <p>
+                  Chi Laoshi (Mr. Sun-Li Chi) has an M.A. in teaching Chinese as a Second Language from National Taiwan Normal University. His thesis focused on persuasive strategies in Chinese academic writing. He has taught in the Critical Language Scholarship and Taiwan Intensive Summer Language Program at National Cheng Kung University (2017-2018), the regular Chinese language program at Tamkang University (2018), and the regular and intensive program at the Mandarin Training Center at National Taiwan Normal University (2018-2021). Chi Laoshi received a Certificate of Qualification to teach Mandarin from the Taiwan Ministry of Education in 2016. He has experience in teaching teenagers, adults and online classes.
+                  </p>
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              ); 
+	  
+	  
+    const Modal39 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>Tian-Yin Lee, Full-time Faculty </h1>
+                     
+        
+        <p>
+                  Ms. Lee (Tian-Yin Lee) has an M.A. in Teaching Chinese as a Second Language from Wenzao Ursuline University of Languages (WZU). Her research interests include writing assessment and instructional design. She holds the Certification of Proficiency in Teaching Chinese as a Second Language, a golden certification in the TOEIC test and JLPT N1 certification. She started her career as a language teacher while attending WZU (2017-2020), and has experience in teaching teenagers, adults, Chinese heritage students, and international students. She also worked as a teacher in the U.S. Department of State’s National Security Language Initiative for Youth (NSLI-Y) program (2018-2020).
+                  </p>
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              ); 
+	  
+	  
+    const Modal40 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>Shaowei Liao, Full-time Faculty </h1>
+                     
+        
+        <p>
+                  Mr. Liao has an M.A. in Teaching Chinese as a Second Language from National Taiwan Normal University, and a Certification of Proficiency in teaching Chinese as a second language. His master’s thesis focused on teaching Chinese for specific purposes and corpus analysis. He has taught at National Taiwan Normal University OCAC Language Study Program (2021), and Shih Chien University OCAC Language Study Program (2018). Prior to that, Mr. Liao studied at the Department of Chinese Literature and did teaching internships at National Cheng Kung University (2017). While obtaining his B.A., Mr. Liao taught in the Taiwan-United States Sister Relations Alliance program (2016), and at the Nanzan University Chinese Language and Culture Immersion Program (2016) as a one-on-one tutor.
+                  </p>
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              ); 
+	  
+	  
+    const Modal41 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>I Chuan Wei, Full-time Faculty </h1>
+                     
+        
+        <p>
+                  I Chuan Wei is a master’s degree student in the teaching Chinese as a second/foreign language department at National Taipei University of Education. Her master’s thesis is about how to improve Chinese language learners’ colloquial expressions during discourse. She also possesses a certificate from the Ministry of Education in teaching Chinese to non-native speakers. She has participated in several intensive summer programs such as Mississippi University’s flagship program (2021), National Cheng Kung University’s CLS & TISLP programs (2019), and National Taiwan University’s ICLP summer flagship program (2018). Aside from teaching adults she also has experience teaching teenagers and children, having taught a Chinese language summer camp for teenagers, a European-American cultural research group, and a class of transnational children.
+                  </p>
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              ); 
+	  
+	  
+    const Modal42 = ({ onRequestClose,  ...otherProps }) => (
+            <Modal isOpen onRequestClose={onRequestClose} {...otherProps} style={resetModalStyle}>
+             
+              <h1>David Solomon, Project Coordinator </h1>
+                     
+        
+        <p>
+                  David Solomon holds a master’s degree in TESOL and Chinese foreign language education from New York University. He has taught English as a foreign language at public schools in Taiwan for almost a decade and has also worked in Japan teaching at an International Baccalaureate school. He recently completed intensive graduate coursework in translation and interpretation at Fu Jen Catholic University. In addition to being fluent in Mandarin, David is also fluent in Japanese.
+                  </p>
+        <button  onClick={onRequestClose}>close</button>
+              
+            </Modal> 	
+              ); 	  
+
+	  
 	  
 //end new
   return (
@@ -759,15 +883,15 @@ Teaching Chinese as a Second Language.
                 sm={4}
               >
 
-				<button style={box} onClick={() => showModal(Modal27)}>
+				<button style={box} onClick={() => showModal(Modal35)}>
           <img
-			src={AssetStore.get('assets/images/headshots/PoChungLin.jpg') }
+			src={AssetStore.get('assets/images/headshots/Lin_Pinfeng.jpg') }
 			style={{ height: 150, width: 150,}} ></img></button>
 				  
        
                 <StyledText>
                   <strong>
-                    Po-Chung Lin
+                    Pinfeng Lin
                   </strong>
                   <br />
                   Student Housing Coordinator
@@ -789,18 +913,18 @@ Teaching Chinese as a Second Language.
                 sm={4}
               >
 
-				<button style={box} onClick={() => showModal(Modal32)} >
+				<button style={box} onClick={() => showModal(Modal36)} >
           <img
-			src={AssetStore.get('assets/images/headshots/TingTing_Lu.jpeg') }
+			src={AssetStore.get('assets/images/headshots/Hung_Yu-Ting.jpg') }
 			style={{ height: 150, width: 150,}} ></img></button>
 				  
        
                 <StyledText>
                   <strong>
-                  Ting-Ting Lu
+                  Yu-Ting Hung
                   </strong>
                   <br />
-                  Office Assistant
+                  Student Housing Assistant
                 </StyledText>
               </Grid>			  
 				  
@@ -811,18 +935,18 @@ Teaching Chinese as a Second Language.
                 sm={4}
               >
 
-				<button style={box} onClick={() => showModal(Modal23)}>
+				<button style={box} onClick={() => showModal(Modal37)}>
           <img
-			src={AssetStore.get('assets/images/headshots/Yen-Ting_Liu.jpg') }
+			src={AssetStore.get('assets/images/headshots/Jang_Chiou-Jye.PNG') }
 			style={{ height: 150, width: 150,}} ></img></button>
 				  
        
                 <StyledText>
                   <strong>
-                    Yen-Ting Liu
+                    Chiou-Jye Jang
                   </strong>
                   <br />
-                  Full-time Faculty
+                  Internship Assistant
                 </StyledText>
               </Grid>
 
@@ -865,15 +989,15 @@ Teaching Chinese as a Second Language.
                 sm={4}
               >
 
-				<button style={box} onClick={() => showModal(Modal26)} >
+				<button style={box} onClick={() => showModal(Modal23)} >
           <img
-			src={AssetStore.get('assets/images/headshots/YunWenSu.jpg') }
+			src={AssetStore.get('assets/images/headshots/Yen-Ting_Liu.jpg') }
 			style={{ height: 150, width: 150,}} ></img></button>
 				  
        
                 <StyledText>
                   <strong>
-                  Yun-Wen Su
+                  Yen-Ting Liu
                   </strong>
                   <br />
                   Full-time Faculty
@@ -886,15 +1010,15 @@ Teaching Chinese as a Second Language.
                 sm={4}
               >
 
-				<button style={box} onClick={() => showModal(Modal30)}>
+				<button style={box} onClick={() => showModal(Modal38)}>
           <img
-			src={AssetStore.get('assets/images/headshots/Yu-Ting Chiu.jpg') }
+			src={AssetStore.get('assets/images/headshots/Chi_Sunli.jpg') }
 			style={{ height: 150, width: 150,}} ></img></button>
 				  
        
                 <StyledText>
                   <strong>
-                    Yu-Ting Chiu
+                    Sun-Li Chi
                   </strong>
                   <br />
                   Full-time Faculty
@@ -907,22 +1031,74 @@ Teaching Chinese as a Second Language.
                 sm={4}
               >
 
-				<button style={box} onClick={() => showModal(Modal31)} >
+				<button style={box} onClick={() => showModal(Modal39)} >
           <img
-			src={AssetStore.get('assets/images/headshots/Ying-Ju Chen.jpg') }
+			src={AssetStore.get('assets/images/headshots/Lee_Tian-Yin.jpg') }
 			style={{ height: 150, width: 150,}} ></img></button>
 				  
        
                 <StyledText>
                   <strong>
-                  Ying-Ju Chen
+                  Tian-Yin Lee
                   </strong>
                   <br />
                   Full-time Faculty
                 </StyledText>
               </Grid>
 		  
-				</Grid>							
+				</Grid>	
+				
+              <Grid
+              container
+              justify="center"
+              alignItems="center"
+              spacing={15} >
+
+				  
+              <Grid
+                item
+                xs={12}
+                sm={4}
+              >
+
+				<button style={box} onClick={() => showModal(Modal40)} >
+          <img
+			src={AssetStore.get('assets/images/headshots/Liao_Shaowei.jpg') }
+			style={{ height: 150, width: 150,}} ></img></button>
+				  
+       
+                <StyledText>
+                  <strong>
+                  Shaowei Liao
+                  </strong>
+                  <br />
+                  Full-time Faculty
+                </StyledText>
+              </Grid>
+				  
+              <Grid
+                item
+                xs={12}
+                sm={4}
+              >
+
+				<button style={box} onClick={() => showModal(Modal41)}>
+          <img
+			src={AssetStore.get('assets/images/headshots/Wei_I_Chuan.jpg') }
+			style={{ height: 150, width: 150,}} ></img></button>
+				  
+       
+                <StyledText>
+                  <strong>
+                     I Chuan Wei 
+                  </strong>
+                  <br />
+                  Full-time Faculty
+                </StyledText>
+              </Grid>
+		  
+				</Grid>	
+				
 				
             <br />
             <br />
@@ -943,15 +1119,15 @@ Teaching Chinese as a Second Language.
                 sm={4}
               >
 
-				<button style={box} onClick={() => showModal(Modal8)}>
+				<button style={box} onClick={() => showModal(Modal42)}>
           <img
-			src={AssetStore.get('assets/images/headshots/SamMaser.png') }
+			src={AssetStore.get('assets/images/headshots/default.jpg') }
 			style={{ height: 150, width: 150,}} ></img></button>
 				  
        
                 <StyledText>
                   <strong>
-                    Sam Maser
+                    David Solomon
                   </strong>
                   <br />
                   Project Coordinator
@@ -998,27 +1174,7 @@ Teaching Chinese as a Second Language.
                 </StyledText>
               </Grid>
 				
-				
-              <Grid
-                item
-                xs={12}
-                sm={4}
-              >
-
-				<button style={box} onClick={() => showModal(Modal33)} >
-          <img
-			src={AssetStore.get('assets/images/headshots/Audrey_Moore.png') }
-			style={{ height: 150, width: 150,}} ></img></button>
-				  
-       
-                <StyledText>
-                  <strong>
-                  Audrey Moore
-                  </strong>
-                  <br />
-                  Administrative Assistant
-                </StyledText>
-              </Grid>
+			
             
            
 			
@@ -1128,27 +1284,6 @@ Teaching Chinese as a Second Language.
                 </StyledText>
               </Grid>
 				
-				
-              <Grid
-                item
-                xs={12}
-                sm={4}
-              >
-
-
-		<button style={box} onClick={() => showModal(Modal15)}>
-          <img
-			src={AssetStore.get('assets/images/headshots/mspring.jpg') }
-			style={{ height: 150, width: 150,}} ></img></button>
-         
-                <StyledText>
-                  <strong>
-                    Madeline Spring
-                  </strong>
-                  <br />
-                  University of Hawaii
-                </StyledText>
-              </Grid>
 				
 
 			</Grid>	
