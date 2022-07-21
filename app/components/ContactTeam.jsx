@@ -1121,7 +1121,7 @@ Teaching Chinese as a Second Language.
 
 				<button style={box} onClick={() => showModal(Modal42)}>
           <img
-			src={AssetStore.get('assets/images/headshots/default.jpg') }
+			src={AssetStore.get('assets/images/headshots/Solomon_David.jpg') }
 			style={{ height: 150, width: 150,}} ></img></button>
 				  
        
